@@ -1,0 +1,92 @@
+.formidable {
+  .formidable_message {
+    &.error,
+    &.success {
+      padding: 10px 20px;
+    }
+    &.error {
+      background: $color-red;
+    }
+    &.success {
+      background: green;
+    }
+    div {
+      line-height: 20px;
+      color: $color-white;
+      font-size: $body-font-size-medium;
+    }
+  }
+  .element {
+    margin-bottom: 20px;
+    position: relative;
+    label {
+      position: absolute;
+      top: 12px;
+      left: 0;
+      pointer-events: none;
+      padding: 0;
+      line-height: 20px;
+      font-weight: 400;
+      margin: 0;
+      color: $color-black-50;
+      font-size: $body-font-size;
+      @include transition(
+        font-size 0.3s $transitionEffect,
+        top 0.3s $transitionEffect
+      );
+      @include breakpoint(640) {
+        font-size: 13px;
+        line-height: 22px;
+      }
+      &.focus {
+        top: -7px;
+        font-size: 13px;
+        line-height: 22px;
+        @include breakpoint(640) {
+          font-size: $body-font-size-small;
+        }
+      }
+      .required {
+        color: $color-red;
+      }
+    }
+    input,
+    textarea {
+      width: 100%;
+      border: 0;
+      padding: 10px 0;
+      margin: 0;
+      border-radius: 0;
+      box-shadow: none;
+      color: $color-black-50;
+      border-bottom: 2px solid $color-black;
+    }
+    textarea {
+      min-height: 120px;
+      max-height: 150px;
+      min-width: 100%;
+      max-width: 100%;
+    }
+    .buttons {
+      padding-top: 15px;
+      input {
+        width: auto;
+        background: none;
+        border-radius: 25px;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        opacity: 1;
+        width: 50%;
+        text-align: center;
+        letter-spacing: 2px;
+        color: $color-black-50;
+        font-size: $body-font-size-small;
+        border: 1px solid $color-black;
+        &:hover {
+          background: $color-black-50;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}

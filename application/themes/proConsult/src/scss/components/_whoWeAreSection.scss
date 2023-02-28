@@ -1,0 +1,52 @@
+.whoWeAre{
+    .above-sec{
+        h2{
+            margin-bottom: 20px;
+        }
+        p{
+            width: 53%;
+            @include breakpoint(1024){
+                width: 100%;
+            }
+        }
+    }
+    .below-sec{
+        display: flex;
+        margin-top: 50px;
+        @include breakpoint(1024){
+            flex-direction: column-reverse;
+        }
+        p{
+            padding-right: 11%;
+            width: 50%;
+            @include breakpoint(1024){
+                padding-right: 0px;
+                width: 100%;
+            }
+        }
+        .whoWeAreImage{
+            width: 50%;
+            @include breakpoint(1024){
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 50px;
+            }
+            img{
+                height: auto;
+                width: auto;
+                @include breakpoint(1024){
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    p{
+        font-size: 22px;
+        line-height: 150%;
+        @include breakpoint(767){
+            font-size: 16px;
+        }
+    }
+}

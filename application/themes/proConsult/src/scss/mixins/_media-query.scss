@@ -1,0 +1,41 @@
+// example @include breakpoint(940) { width:80%; }
+
+// Desktop first development
+@mixin breakpoint($size) {
+  @media only screen and (max-width: $size + px) {
+    @content;
+  }
+}
+
+@mixin heightBreakpoint($size) {
+  @media only screen and (max-height: $size + px) {
+    @content;
+  }
+}
+
+@mixin widthHeightBreakpoint($wSize, $hSize) {
+  @media screen and (max-width: $wSize + px),
+    screen and (max-height: $hSize + px) {
+    @content;
+  }
+}
+
+// Mobile first development
+@mixin min-breakpoint($size) {
+  @media only screen and (min-width: $size + px) {
+    @content;
+  }
+}
+
+@mixin min-heightBreakpoint($size) {
+  @media only screen and (min-height: $size + px) {
+    @content;
+  }
+}
+
+// landscape
+@mixin landscape {
+  @media only screen and (max-device-width: 700px) and (orientation: landscape){
+    @content;
+  }
+}

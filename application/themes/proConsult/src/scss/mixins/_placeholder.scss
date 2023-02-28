@@ -1,0 +1,48 @@
+// ----------------------------------------------------------------------
+
+  // Change placeholder text color
+
+// ----------------------------------------------------------------------
+
+// example: @include placeholder(#333);
+
+@mixin placeholder($color, $size: null, $family: null, $transform: null) {
+  &.placeholder {
+    color: $color;
+    font-family: $family;
+    font-size: $size;
+    text-transform: $transform;
+  }
+
+  :-moz-placeholder {
+    color: $color;
+    font-family: $family;
+    font-size: $size;
+    text-transform: $transform;
+
+  }
+
+  ::-moz-placeholder {
+    color: $color;
+    font-family: $family;
+    font-size: $size;
+    text-transform: $transform;
+
+  }
+
+  ::-webkit-input-placeholder {
+    color: $color;
+    font-family: $family;
+    font-size: $size;
+    text-transform: $transform;
+
+  }
+
+  :-ms-input-placeholder {
+    color: $color;
+    font-family: $family;
+    font-size: $size;
+    text-transform: $transform;
+
+  }
+}

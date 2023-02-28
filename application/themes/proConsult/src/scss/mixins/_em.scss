@@ -1,0 +1,17 @@
+// For font sizes
+$browser-context: 16;
+// font-size: em(16px)
+// font-size: em(16)
+@function em($pixels, $context: $browser-context) {
+  @return #{strip-unit($pixels)/$context}em;
+}
+
+$pxToRem: 0.0625; //1px to rem
+
+@function rem($px) {
+  @return #{strip-unit($px) * $pxToRem}rem;
+}
+
+@function lh($fontSize, $lineHeight) {
+  @return #{strip-unit($lineHeight) / strip-unit($fontSize)};
+}

@@ -1,0 +1,69 @@
+#tbl-files td, #tbl-files th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#tbl-files .thumb {
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #8c8c8c;
+}
+
+#tbl-files .thumb a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#tbl-files .reduction {
+    font-weight: bold;
+}
+
+#tbl-files .path {
+    max-width: 300px;
+    margin-top: 10px;
+    font-size: 9px;
+}
+
+#tbl-files .path a {
+    color: #8c8c8c;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+#tbl-files .fa-check,
+#tbl-files .fa-info-circle,
+#tbl-files .fa-refresh {
+    font-size: 22px;
+}
+
+#tbl-files .reset-one {
+    display: inline-block;
+    text-decoration: none;
+    transition: .15s ease-in-out;
+}
+
+#tbl-files .reset-one:hover {
+    transform: rotate(30deg);
+}
+
+#tbl-files .fa-refresh {
+    color: #dc503f;
+}
+
+#tbl-files .fa-refresh:hover {
+    color: #dc503f;
+}
+
+#tbl-files .fa-check {
+    color: #14b037;
+}
+
+#tbl-files .fa-info-circle {
+    color: #0087dd;
+}

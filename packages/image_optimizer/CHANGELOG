@@ -1,0 +1,250 @@
+3.2.11
+- Use finfo fallback if the mime_content_type function is not available.
+
+3.2.10
+- Let's not use the server side optimizers in case TinyPNG is configured and enabled.
+- Add additional logging in case a thumbnail type cannot be found.
+
+3.2.9
+- Fix 'useLogger() on null' error, caused by unprocessed
+queue messages from an earlier version of the add-on.
+
+3.2.8
+- Fix link to marketplace page to leave a review.
+
+3.2.7
+- Fix BC break of a core Logger class.
+
+3.2.6
+- Make sure PNGs are not skipped anymore if concrete5 version is >= 8.5.0a2.
+This is now fixed: https://github.com/concrete5/concrete5/issues/3999.
+
+3.2.5
+- Add a precheck to verify that either TinyPNG is configured
+or that the server optimizers are installed.
+- Remove pre-install checkbox.
+- Improve the post-install dialog.
+- Add tooltips to buttons on Settings pages.
+- Move TinyPNG settings to their own page.
+- Make sure TinyPNG credentials are checked before saving them.
+- Improve handling TinyPNG exceptions e.g. in case the server couldn't
+be reached or the credentials are invalid.
+
+3.2.4
+- Cache results of Optimized Images page in order to load the page faster.
+- UI improvements; make optimized column more salient. Improve icons and tooltips.
+- Limit number of files in datatable to 2000.
+- Show number of files that are optimized on top of the page.
+
+3.2.3
+- Correctly remove cache files from optimized files table, in case the cache is flushed.
+
+3.2.2
+- Prevent having to reprocess thumbnails. Run the "Fill thumbnail database table" automated job first, to get the best results.
+- Skip files that are empty or that don't exist anymore.
+- Show the various skip reasons in the (i) icon.
+- Fix bug that certain thumbnails were not optimized.
+- Exclude files that are too big to process (configurable).
+- Fix redundant code to determine the computed path.
+- Store the 'type' of a processed file in the database.
+- Refactor the handlers, to prevent duplicate code.
+- Improve logging during processing.
+
+3.2.1
+- Fix SplFileInfo::isDot error in pkg upgrade.
+- Make number of optimizations per month TinyPNG specific.
+- Show if the limit is reached on the Automated Jobs page.
+- Fix bug with legacy cache thumbnails.
+
+3.2.0
+- Add Date column to Optimized Images page.
+- Add support for multiple local file storage locations.
+- Store the thumbnailTypeHandle in the database.
+- Use new package::config notation (and migrate old usage).
+- Do not refresh thumbnails after optimizing an original file.
+- Automatically remove entries in Optimized Images when a file is removed.
+- Various code improvements (although still room for improvement...)
+
+3.1.0
+- Show number of TinyPNG compressions in the current month if the service is enabled and an API key is provided.
+
+3.0.4
+- Fix query error when clearing the cache and 'Clear cached thumbnails' is checked on.
+
+3.0.3
+- Code improvements.
+
+3.0.2
+- Improve query to get a list of files that need to be optimized. (huge performance win)
+- Fix bug if job stopped unexpectedly and progressbar wasn't set on next run.
+
+3.0.1
+- Fix 'Call to a member function advance() on null' error when running the job manually.
+
+3.0.0
+- Bump minimum version required to 8.3.1 to improve the CLI mode of the automated job.
+- Remove the 'image-optimizer-optimize' CLI command in favor of the 'c5:job image_optimizer' command.
+- Add progress bar to automated job, when executed via CLI.
+- Add $jSupportsQueue property for improved display on Automated Jobs page.
+- Remove version compare condition in ThumbnailFileList.
+- When flushing the cache, the cached images need to be deleted from the ImageOptimizerProcessedFiles table. There was a bug in the LIKE statement.
+
+2.5.0
+- Add an 'image-optimizer-optimize' CLI command with progress bar.
+
+2.4.1
+- Fix 'touch' bug that was creating temp files.
+
+2.4.0
+- Save original file size in database, because it'd be missing for thumbnails otherwise.
+- Improve truncating / resetting all files.
+
+Note: please do the add-on upgrade, otherwise the database columns won't be added.
+Also, you might see some files that are now 0KB (original file size), this is only the case for
+existing files. Please reset all files if you want the statistics to be renewed.
+
+2.3.6
+- Add 'Former' and 'Current' file size to Optimized Images page.
+- Translation fixes.
+
+2.3.5
+- Show thumbs on Optimized Images page.
+
+2.3.4
+- Hook into thumbnail delete event. This will make sure that if thumbnails are deleted
+the associated statistics are also removed. This e.g. applies to a thumbnail 'Rescan'.
+The on_thumbnail_delete event will be available in the next 8.4.0 release.
+
+2.3.3
+- Improve speed for thumbnails and cache images. This will lead to smaller queues.
+
+2.3.2
+- Show total gained file size on Optimized Images page.
+- Add "Automated Jobs" button to Optimized Images page.
+- Link from Automated Job to Optimized Images page.
+
+2.3.1
+- Add review notification.
+
+2.3.0
+- Get rid of ImageOptimizerProcessedCachedFiles table.
+- Combine entities and repositories for simplicity.
+- Make sure path for static files is consistently stored.
+- Skip PNG files if TinyPNG service is used, because concrete5 / Imagine
+has a bug with transparent PNG-8 images.
+- Add info column to optimized images table and display why files are skipped.
+- Add install notes.
+
+Note: This will flush statistics for all thumbnail and cache images.
+This might lead to extra costs when you are using TinyPNG.
+
+2.2.1
+- Fix bug with cache images. The getThumbnail method also uses the modification date of a file.
+We'll now reset the modification time after optimization, to prevent the creation of a new cache file.
+
+2.2.0
+- Move pages to Dashboard > Files > Image Optimizer.
+- Make sure old page is deleted (if it exists).
+- Improve settings page with better tooltips / styling.
+- Fix compatibility issue with `isBuilt` column on 8.3.0 and lower.
+- Add install notes.
+
+2.1.0
+- Add setting to include thumbnail images. (default=ON)
+- Make sure images from /files/thumbnails are included.
+- Add tooltip help texts to setting page.
+
+2.0.9
+- Add an extra warning to inform site owners that they need to install
+or configure optimizers before running the job.
+
+2.0.8
+- Add link to FAQ when optimizer doesn't gain file size.
+
+2.0.7
+- Add "Don't optimize images bigger than ... KB" setting.
+
+2.0.6
+- Fix conditions for 'proc*' functions.
+
+2.0.5
+- Do not run local optimizers if 'proc_open' or 'proc_close' are not available.
+
+2.0.4
+- Fix 'Class log/exceptions does not exist' error on older v8 versions.
+
+2.0.3
+- Fix EventDispatcher issue on version 8.0. (the interface is not instantiable)
+
+2.0.2
+- Add 'Max number of optimizations per month' setting.
+- Improve translations.
+- Fix problem with Installer class.
+- Upgrade to Symfony Process 3..8 (coming from 3.3.8).
+
+2.0.1
+- Catch exceptions while Processing items.
+
+2.0
+- Add TinyPNG support.
+- Refactor code base.
+- Fix Psr6Cache issue.
+
+1.4.2
+- Update icon.
+
+1.4.1
+- Use truncate to prevent high auto increment number when cache is clear often.
+- Keep thumbnail records if 'thumbnails' are not removed during cache clear.
+- Change how the total saved file size is calculated.
+
+1.4
+- Fix processing cache images that reside is a sub directory.
+
+1.3
+- Fixed compatibility issue with concrete5 v8.0 and v8.1.
+- Fixed link in after_install dialog.
+
+1.2
+- Clear Flysystem cache during processing.
+
+1.1
+- Add 'post install' screen with links to settings and Automated Jobs.
+- Fix empty checkboxes issue after 'Clear log processed files'.
+
+1.0
+- Approved by PRB
+
+0.9.6
+- Remove check for number of storage locations upon installations.
+- Remove all dependencies except for Symfony Process.
+- Remove PHP 7.x requirement.
+- Add a check for a valid token on settings page.
+- Add a success message on settings page.
+- Add a check for the batch size to make sure it is at least 1.
+- Add a button on the settings page to "Automated Jobs".
+- Add a button to clear the log of processed files.
+- Fix default settings upon installation.
+- Fix total bytes of saved disk space bug.
+- Upgrade to Symfony Process 3.3.8 (coming from 3.0).
+- Retrieve total saved disk space from config value, because tables can be flushed.
+Note: thanks for @JohnTheFish for extensive review.
+
+0.9.5.1
+- Update icon.
+
+0.9.5
+- Code cleanup as part of PRB review.
+
+0.9.4
+- Remove 'final' from entity classes.
+
+0.9.3
+- Fix bug saving file size reduction for file manager files.
+
+0.9.2
+- Fix die statement on single page
+- Remove redundant closing label tag
+
+0.9.1
+- First submission

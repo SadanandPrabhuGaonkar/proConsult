@@ -1,0 +1,3425 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Formidable\n"
+"POT-Creation-Date: 2017-03-03 14:35+0100\n"
+"PO-Revision-Date: 2017-10-26 08:58+0100\n"
+"Last-Translator: Wim <wim@dewebmakers.nl>\n"
+"Language-Team: De Webmakers <wim@dewebmakers.nl>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;t\n"
+"X-Poedit-Basepath: Z:\\Concrete 5\\dev\\5.8\\\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: formidable_full\n"
+
+#: formidable_full/formidable_full/controller.php:42
+msgid "Create awesome forms with a few clicks!"
+msgstr "Maak geweldige formulieren met een paar klikken!"
+
+#: formidable_full/formidable_full/controller.php:46
+msgid "Formidable (Full Version)"
+msgstr "Formidable (Volledige versie)"
+
+#: formidable_full/formidable_full/controller.php:135
+msgid "Edit content"
+msgstr "Bewerken inhoud"
+
+#: formidable_full/formidable_full/controller.php:136
+msgid "Add content"
+msgstr "Inhoud toevoegen"
+
+#: formidable_full/formidable_full/controller.php:137
+msgid ""
+"You have made some changes to the Form Properties. Are you sure you want to "
+"discard these changes?"
+msgstr ""
+"U heeft een aantal wijzigingen in de Eigenschappen van formulier gemaakt. "
+"Weet u zeker dat u deze wijziging niet wilt opslaan?"
+
+#: formidable_full/formidable_full/controller.php:142
+msgid "Delete Formidable Form"
+msgstr "Verwijder formulier"
+
+#: formidable_full/formidable_full/controller.php:159
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:202
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:568
+#: formidable_full/formidable_full/views/dialogs/search/advanced_search.php:48
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:59
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:74
+msgid "Name"
+msgstr "Naam"
+
+#: formidable_full/formidable_full/controller.php:160
+msgid "E-mailaddress"
+msgstr "E-mailadres"
+
+#: formidable_full/formidable_full/controller.php:161
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:292
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:746
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:788
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:818
+msgid "Option"
+msgstr "Optie"
+
+#: formidable_full/formidable_full/controller.php:162
+msgid "Add element to Formidable Form"
+msgstr "Element toevoegen aan formulier"
+
+#: formidable_full/formidable_full/controller.php:163
+msgid "Edit element on Formidable Form"
+msgstr "Element bewerking"
+
+#: formidable_full/formidable_full/controller.php:164
+msgid "Delete element from Formidable Form"
+msgstr "Verwijdere element van formulier"
+
+#: formidable_full/formidable_full/controller.php:165
+msgid "Add layout on Formidable Form"
+msgstr "Lay-out toevoegen"
+
+#: formidable_full/formidable_full/controller.php:166
+msgid "Edit layout on Formidable Form"
+msgstr "Lay-out bewerking"
+
+#: formidable_full/formidable_full/controller.php:167
+msgid "Delete layout from Formidable Form"
+msgstr "Verwijder layout van formulier"
+
+#: formidable_full/formidable_full/controller.php:168
+msgid "Classname to toggle"
+msgstr "Classnaam"
+
+#: formidable_full/formidable_full/controller.php:169
+msgid "Value to set"
+msgstr "Waarde"
+
+#: formidable_full/formidable_full/controller.php:170
+msgid "Placeholder to set"
+msgstr "Placeholder"
+
+#: formidable_full/formidable_full/controller.php:171
+#: formidable_full/formidable_full/controller.php:196
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:137
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:123
+msgid "any value"
+msgstr "elke waarde"
+
+#: formidable_full/formidable_full/controller.php:171
+#: formidable_full/formidable_full/controller.php:196
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:138
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:124
+msgid "no value"
+msgstr "geen waarde"
+
+#: formidable_full/formidable_full/controller.php:172
+#: formidable_full/formidable_full/controller.php:197
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:56
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:130
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:760
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:798
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:834
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:850
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:66
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:93
+#: formidable_full/formidable_full/src/Formidable/Element/Integer.php:32
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:30
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:90
+#: formidable_full/formidable_full/src/Formidable/Element/Range.php:30
+msgid "Value"
+msgstr "Waarde"
+
+#: formidable_full/formidable_full/controller.php:173
+msgid "Delete dependency from Formidable Element"
+msgstr "Verwijder afhankelijkheid van element"
+
+#: formidable_full/formidable_full/controller.php:174
+#: formidable_full/formidable_full/controller.php:199
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:117
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:103
+msgid "is empty"
+msgstr "is leeg"
+
+#: formidable_full/formidable_full/controller.php:174
+#: formidable_full/formidable_full/controller.php:199
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:118
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:104
+msgid "is not empty"
+msgstr "is niet leeg"
+
+#: formidable_full/formidable_full/controller.php:174
+#: formidable_full/formidable_full/controller.php:199
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:145
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:131
+msgid "equals"
+msgstr "gelijk"
+
+#: formidable_full/formidable_full/controller.php:174
+#: formidable_full/formidable_full/controller.php:199
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:146
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:132
+msgid "not equal to"
+msgstr "niet gelijk"
+
+#: formidable_full/formidable_full/controller.php:174
+#: formidable_full/formidable_full/controller.php:199
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:147
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:133
+msgid "contains"
+msgstr "bevat"
+
+#: formidable_full/formidable_full/controller.php:174
+#: formidable_full/formidable_full/controller.php:199
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:148
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:134
+msgid "does not contain"
+msgstr "bevat niet"
+
+#: formidable_full/formidable_full/controller.php:190
+msgid "Choose an Element"
+msgstr "Kies een element"
+
+#: formidable_full/formidable_full/controller.php:191
+msgid "Choose an element"
+msgstr "Kies een element"
+
+#: formidable_full/formidable_full/controller.php:192
+msgid "Choose a page"
+msgstr "Kies een pagina"
+
+#: formidable_full/formidable_full/controller.php:193
+msgid "Add mailing to Formidable Form"
+msgstr "Voeg e-mail toe aan formulier"
+
+#: formidable_full/formidable_full/controller.php:194
+msgid "Edit mailing from Formidable Form"
+msgstr "E-mail bewerken"
+
+#: formidable_full/formidable_full/controller.php:195
+msgid "Delete mailing from Formidable Form"
+msgstr "Verwijder e-mail van formulier"
+
+#: formidable_full/formidable_full/controller.php:198
+msgid "Delete dependency from Formidable Mailing"
+msgstr "Verwijder afhankelijkheid van mailing"
+
+#: formidable_full/formidable_full/jobs/clean_formidable.php:11
+msgid "Clean Formidable"
+msgstr "Formidable opruimen"
+
+#: formidable_full/formidable_full/jobs/clean_formidable.php:15
+msgid "Removes temporary files."
+msgstr "Tijdelijke bestanden verwijderen."
+
+#: formidable_full/formidable_full/jobs/clean_formidable.php:22
+msgid "All temporary files deleted"
+msgstr ""
+
+#: formidable_full/formidable_full/elements/dashboard/uninstall.php:2
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:2
+#: formidable_full/formidable_full/elements/dashboard/form/nav.php:2
+#: formidable_full/formidable_full/single_pages/dashboard/reports/formidable.php:1
+#: formidable_full/formidable_full/single_pages/dashboard/formidable/view.php:1
+#: formidable_full/formidable_full/single_pages/dashboard/formidable/forms/elements.php:2
+#: formidable_full/formidable_full/single_pages/dashboard/formidable/forms/view.php:2
+#: formidable_full/formidable_full/single_pages/dashboard/formidable/forms/mailings.php:2
+#: formidable_full/formidable_full/blocks/formidable/add.php:1
+#: formidable_full/formidable_full/blocks/formidable/form_setup_html.php:1
+#: formidable_full/formidable_full/blocks/formidable/edit.php:1
+#: formidable_full/formidable_full/blocks/formidable/view.php:1
+#: formidable_full/formidable_full/blocks/formidable/templates/default/view.php:1
+#: formidable_full/formidable_full/blocks/formidable/templates/dashboard/view.php:2
+msgid "Access Denied."
+msgstr "Toegang geweigerd."
+
+#: formidable_full/formidable_full/elements/dashboard/uninstall.php:7
+msgid "Remove all content"
+msgstr "Alle content verwijderen"
+
+#: formidable_full/formidable_full/elements/dashboard/uninstall.php:11
+msgid "Remove all the content (forms and submissions)"
+msgstr "Verwijder alle content (formulieren en inzendingen)"
+
+#: formidable_full/formidable_full/elements/dashboard/uninstall.php:12
+msgid ""
+"When you upgrade to Formidable (full-version), make sure this option is "
+"disabled."
+msgstr ""
+"Zorg dat deze is uitgeschakeld wanneer er een upgrade plaatsvindt naar "
+"Formidable (full-version)."
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:16
+msgid "Form name"
+msgstr "Formuliernaam"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:18
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:56
+msgid "My Formidable Form"
+msgstr "Mijn Formidable Form"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:23
+msgid "After submission"
+msgstr "Na verzending"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:26
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:61
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:99
+msgid "Show message"
+msgstr "Toon bericht"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:26
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:61
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:99
+msgid "Redirect to page"
+msgstr "Leid naar pagina"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:30
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:65
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:103
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:32
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:171
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:142
+msgid "Message"
+msgstr "Bericht"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:38
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:73
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:111
+msgid "Select page"
+msgstr "Kies pagina"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:47
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:50
+msgid "Enable limits"
+msgstr "Limieten instellen"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:50
+msgid "No limits"
+msgstr "Geen limieten"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:54
+msgid "Set limits"
+msgstr "Limieten instellen"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:57
+msgid "Total submissions"
+msgstr "Totaal aantal inzendingen"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:57
+msgid "Per IP-address"
+msgstr "Per IP-adres"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:57
+msgid "Per user (guest-visitors excluded)"
+msgstr "Per gebruiker (gast-gebruikers uitgesloten)"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:83
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:86
+msgid "Enable scheduling"
+msgstr "Planning inschakelen"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:86
+msgid "No scheduling"
+msgstr "Inplannen"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:90
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:54
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:147
+msgid "From"
+msgstr "Van:"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:92
+msgid "To"
+msgstr "Aan"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:96
+msgid "When outside schedule"
+msgstr "Indien buiten planning"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:121
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:481
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:53
+msgid "CSS Classes"
+msgstr "CSS Classes"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:127
+msgid "Add classname(s) to customize your form. Example: myform"
+msgstr "Classnaam toe voegen aan formulier. Voorbeeld: MijnFormulier"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:134
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:619
+#: formidable_full/formidable_full/views/dialogs/search/customize.php:58
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:292
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:86
+msgid "Save"
+msgstr "Opslaan"
+
+#: formidable_full/formidable_full/elements/dashboard/form/edit.php:134
+#: formidable_full/formidable_full/views/dialogs/forms/form_list.php:47
+msgid "Form Properties"
+msgstr "Eigenschappen van formulier"
+
+#: formidable_full/formidable_full/elements/dashboard/form/nav.php:15
+#: formidable_full/formidable_full/elements/dashboard/result/search_header.php:35
+#: formidable_full/formidable_full/views/dialogs/forms/form_list.php:45
+msgid "Preview Form"
+msgstr "Voorvertoning"
+
+#: formidable_full/formidable_full/elements/dashboard/form/nav.php:15
+#: formidable_full/formidable_full/elements/dashboard/result/search_header.php:35
+#: formidable_full/formidable_full/views/dialogs/forms/form_list.php:45
+msgid "Preview"
+msgstr "Voorvertoning"
+
+#: formidable_full/formidable_full/elements/dashboard/form/nav.php:17
+#: formidable_full/formidable_full/single_pages/dashboard/formidable/results.php:64
+#: formidable_full/formidable_full/views/dialogs/forms/form_list.php:44
+msgid "Results"
+msgstr "Resultaten"
+
+#: formidable_full/formidable_full/elements/dashboard/form/nav.php:19
+msgid "Back to list"
+msgstr "Terug naar de lijst"
+
+#: formidable_full/formidable_full/elements/dashboard/form/nav.php:27
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:32
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:160
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:198
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:532
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:565
+msgid "Properties"
+msgstr "Eigenschappen"
+
+#: formidable_full/formidable_full/elements/dashboard/form/nav.php:32
+#: formidable_full/formidable_full/views/dialogs/forms/form_list.php:48
+msgid "Layout and elements"
+msgstr "Lay-out en Elementen"
+
+#: formidable_full/formidable_full/elements/dashboard/form/nav.php:37
+#: formidable_full/formidable_full/views/dialogs/forms/form_list.php:49
+msgid "Emails"
+msgstr "E-mails"
+
+#: formidable_full/formidable_full/elements/dashboard/result/search_header.php:24
+msgid "Reset Search"
+msgstr ""
+
+#: formidable_full/formidable_full/elements/dashboard/result/search_header.php:25
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: formidable_full/formidable_full/elements/dashboard/result/search_header.php:26
+#: formidable_full/formidable_full/views/dialogs/search/advanced_search.php:33
+msgid "Search"
+msgstr "Zoeken"
+
+#: formidable_full/formidable_full/elements/dashboard/result/search_header.php:36
+msgid "Edit form"
+msgstr "Formulieren bewerken"
+
+#: formidable_full/formidable_full/elements/dashboard/result/search_header.php:37
+msgid "Export to CSV"
+msgstr "Exporteer"
+
+#: formidable_full/formidable_full/elements/dashboard/result/search_header.php:39
+#: formidable_full/formidable_full/single_pages/dashboard/formidable/forms/view.php:53
+msgid "Add form"
+msgstr "Formulieren bewerken"
+
+#: formidable_full/formidable_full/single_pages/dashboard/formidable/results.php:69
+#: formidable_full/formidable_full/views/dialogs/forms/form_list.php:63
+msgid "No formidable forms created. Please create a form"
+msgstr "Geen formulieren aangemaakt. Maak een formulier"
+
+#: formidable_full/formidable_full/single_pages/dashboard/formidable/forms/elements.php:13
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:121
+msgid "Add row"
+msgstr "Voeg rij toe"
+
+#: formidable_full/formidable_full/single_pages/dashboard/formidable/forms/mailings.php:19
+msgid "Add mailing"
+msgstr "Mail toevoegen"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:55
+msgid "Can't upload file"
+msgstr "Kan het bestand niet uploaden"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:59
+msgid "File successfully deleted"
+msgstr "Bestand succesvol verwijderd"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:60
+msgid "Can't delete file"
+msgstr "Kan het bestand niet verwijderen"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:115
+msgid "Wrong form is loaded in the page, please try again"
+msgstr "Verkeerde vorm wordt in de pagina geladen, probeer het opnieuw"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:123
+msgid ""
+"Unable to complete action due to our spam policy. Please contact the "
+"administrator of this site for more information."
+msgstr ""
+"Niet in staat om actie te voltooien als gevolg van onze spam beleid. Neem "
+"contact op met de beheerder van deze site voor meer informatie."
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:206
+msgid "Can't save data! Please try again later"
+msgstr "Kan gegevens niet opslaan! Probeer het later opnieuw"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:235
+msgid ""
+"Submission is successfull. (In the front-end version the user will be "
+"redirected to a page.)"
+msgstr ""
+"Succesvol verzonden! (Aan de voorkant van de website wordt de gebruiker "
+"doorgestuurd naar een andere pagina)"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:256
+msgid "File size not allowed"
+msgstr "Bestandsgrootte niet toegestaan"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:257
+msgid "Invalid file extension"
+msgstr "Ongeldige bestandsextensie"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:258
+msgid "Max files number reached"
+msgstr "Maximaal aantal bestanden bereikt"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:259
+#, php-format
+msgid "Extension \\\"%s\\\" not allowed"
+msgstr "Bestandstype \\\"%s\\\" niet toegestaan"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:260
+msgid "Choose State/Province"
+msgstr "Kies Staat / Provincie"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:261
+msgid "Please wait..."
+msgstr "Moment geduld..."
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:262
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:362
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:126
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:131
+msgid "Allowed extensions"
+msgstr "Toegestane extensies"
+
+#: formidable_full/formidable_full/controllers/dialog/formidable.php:263
+msgid "Removing tag"
+msgstr "Verwijder label"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/tools.php:26
+#: formidable_full/formidable_full/controllers/dialog/dashboard/forms/tools.php:25
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/tools.php:25
+#: formidable_full/formidable_full/controllers/dialog/dashboard/layouts/tools.php:28
+#: formidable_full/formidable_full/controllers/dialog/dashboard/results/tools.php:33
+msgid "Access Denied"
+msgstr ""
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/tools.php:43
+#, php-format
+msgid "Error: \"%s\" can't be added or updated"
+msgstr "Fout: \"%s\" kan niet worden opgeslagen"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/tools.php:162
+#, php-format
+msgid "Field \"%s\" is successfully added or updated"
+msgstr "Element \"%s\" is succesvol opgeslagen"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/tools.php:176
+msgid "Error: Field can't be deleted"
+msgstr "Fout: Veld kan niet worden verwijderd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/tools.php:183
+msgid "Field successfully deleted"
+msgstr "Element succesvol verwijderd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/tools.php:196
+msgid "Error: Field can't be duplicated"
+msgstr "Fout: Element kan niet worden gedupliceerd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/tools.php:203
+msgid "Field successfully duplicated"
+msgstr "Element succesvol gedupliceerd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/tools.php:219
+msgid "Successfully moved element"
+msgstr "Element succesvol verplaatst"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/tools.php:231
+msgid "Error: Field can't be validated"
+msgstr "Fout: Element kan niet worden gevalideerd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:71
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:71
+msgid "Select behaviour"
+msgstr "Selecteer gedrag"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:72
+msgid "Show"
+msgstr "Toon"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:73
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:74
+msgid "Toggle classname"
+msgstr "Wissel classnaam"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:77
+msgid "Change placeholder to"
+msgstr "Verander placeholder"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:78
+msgid "Change value to"
+msgstr "Waarde wijzigen in"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:115
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:101
+msgid "is enabled"
+msgstr "is ingeschakeld"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:116
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:102
+msgid "is disabled"
+msgstr "is uitgeschakeld"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dependency.php:121
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:107
+msgid "Select an element"
+msgstr "Selecteer een element"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/elements/dialog.php:36
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:159
+msgid "Form can't be found!"
+msgstr "Formulier kan niet worden gevonden!"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/forms/element_list.php:36
+msgid "Form is empty or corrupt. Please remove form and create a new one."
+msgstr ""
+"Formulier is leeg of ongeldig. Verwijder dit formulier en creeer een nieuwe."
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/forms/tools.php:42
+msgid "Error: Form can't be duplicated"
+msgstr "Fout: Formulier kan niet worden gedupliceerd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/forms/tools.php:49
+msgid "Form successfully duplicated"
+msgstr "Element succesvol gedupliceerd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/forms/tools.php:62
+msgid "Error: Form can't be deleted"
+msgstr "Fout: Formulier kan niet worden verwijderd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/forms/tools.php:69
+msgid "Form is successfully deleted"
+msgstr "Layout succesvol verwijderd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/tools.php:42
+msgid "Error: Mailing can't be added or updated"
+msgstr "Fout: E-mail kan niet worden opgeslagen"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/tools.php:46
+msgid "Mailing is successfully added or updated"
+msgstr "E-mail is succesvol opgeslagen"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/tools.php:123
+msgid "Error: Mailing can't be deleted"
+msgstr "Fout: E-mail kan niet worden verwijderd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/tools.php:128
+msgid "Mailing is successfully deleted"
+msgstr "E-mail succesvol verwijderd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/tools.php:152
+msgid "Error: Mailing can't be duplicated"
+msgstr "Fout: E-mail kan niet worden gedupliceerd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/tools.php:157
+msgid "Mailing is successfully duplicated"
+msgstr "E-mail succesvol gedupliceerd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dependency.php:72
+msgid "Send"
+msgstr "Verzend"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dialog.php:58
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:33
+#, php-format
+msgid "%s submission"
+msgstr "%s inzending"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dialog.php:60
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:35
+#, php-format
+msgid "You successfully sent our %s on our Concrete5 website."
+msgstr ""
+"Uw gegevens op %s zijn succesvol verzonden vanaf onze Concrete5 website."
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dialog.php:61
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:36
+msgid "The following information was sent to us:"
+msgstr "De volgende informatie is naar ons verzonden:"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dialog.php:63
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:38
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:58
+msgid "Thank you!"
+msgstr "Dank u wel!"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dialog.php:64
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:39
+msgid "Regards,"
+msgstr "Met vriendelijke groeten,"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dialog.php:75
+#, php-format
+msgid "%s (%s)"
+msgstr ""
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dialog.php:79
+msgid "Send from custom sender:"
+msgstr "Verstuur vanaf afzender:"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dialog.php:80
+msgid "Use the \"From\"-details"
+msgstr "Gebruik de \"Aan\"-gegevens"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/mailings/dialog.php:80
+msgid "Use custom \"Reply to\"-details:"
+msgstr "Gebruik aangepaste \"Reply to\"-gegevens:"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/layouts/tools.php:55
+msgid "Error: Layout can't be added or updated"
+msgstr "Fout: Kan niet worden opgeslagen"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/layouts/tools.php:60
+msgid "Layout is successfully added or updated"
+msgstr "Lay-out is succesvol opgeslagen"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/layouts/tools.php:134
+msgid "Error: Layout can't be deleted"
+msgstr "Fout: Resultaat kan niet worden verwijderd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/layouts/tools.php:138
+msgid "Layout is successfully deleted"
+msgstr "Lay-out succesvol verwijderd"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/layouts/tools.php:149
+#: formidable_full/formidable_full/controllers/dialog/dashboard/layouts/tools.php:163
+#: formidable_full/formidable_full/controllers/dialog/dashboard/layouts/dialog.php:72
+#: formidable_full/formidable_full/controllers/dialog/dashboard/layouts/dialog.php:78
+msgid "Layout isn't empty and can't be deleted. Please move or delete elements"
+msgstr ""
+"Layout is niet leeg en kan niet worden verwijderd. Verwijder of verplaats de "
+"elementen in deze layout."
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/layouts/tools.php:203
+msgid "Successfully moved layout"
+msgstr "Layout succesvol verplaatst"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/layouts/dialog.php:44
+msgid "Div"
+msgstr "Div"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/layouts/dialog.php:45
+msgid "Fieldset (with legend, if label exists)"
+msgstr "Fieldset (met legende, als label bestaat)"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/results/tools.php:55
+msgid "Unable to delete one or more files."
+msgstr "Kan deze bestand(en) niet verwijderen"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/results/tools.php:72
+msgid "Can't find result"
+msgstr "Kan het resultaat niet vinden"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/results/tools.php:75
+msgid "Can't find form"
+msgstr "Kan het formulier niet vinden"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/results/tools.php:87
+msgid "Result successfully resend"
+msgstr "Resultaat succesvol opnieuw verzonden"
+
+#: formidable_full/formidable_full/controllers/dialog/dashboard/results/search.php:34
+#: formidable_full/formidable_full/src/Formidable/Search/Field/Manager.php:32
+msgid "Keywords"
+msgstr "Trefwoord"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:65
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:161
+msgid "Form saved successfully"
+msgstr "Formulier succesvol opgeslagen"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:85
+msgid "From name"
+msgstr "Afzender naam"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:85
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:86
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:87
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:88
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:89
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:92
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:93
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:94
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:99
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:100
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:170
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:85
+#: formidable_full/formidable_full/src/Formidable/Element/Captcha.php:56
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:83
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:34
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:39
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:44
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:49
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:54
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:68
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:72
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:76
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:80
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:85
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:90
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:95
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:126
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:138
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:142
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:147
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:151
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:152
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:155
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:158
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:159
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:173
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:177
+#, php-format
+msgid "Field \"%s\" is invalid"
+msgstr "Veld \"%s\" is ongeldig"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:86
+msgid "CSS value"
+msgstr "CSS naam"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:87
+msgid "Action after submission"
+msgstr "Na verzending"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:88
+msgid "Page (submission)"
+msgstr "Pagina (verzending)"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:89
+msgid "Message (submission)"
+msgstr "Bericht (verzending)"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:91
+msgid "Limit (value)"
+msgstr "Limiet (waarde)"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:91
+#, php-format
+msgid "Field \"%s\" is invalid number"
+msgstr "Veld \"%s\" is ongeldig nummer"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:92
+msgid "Limit (type)"
+msgstr "Limiet (type)"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:93
+msgid "Page (limits)"
+msgstr "Pagina (limieten)"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:94
+msgid "Message (limits)"
+msgstr "Bericht (limieten)"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:97
+msgid "Start date (schedule)"
+msgstr "Begindatum (planning)"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:97
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:98
+#, php-format
+msgid "Field \"%s\" is invalid date"
+msgstr "Veld \"%s\" in ongeldige datum"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:98
+msgid "End date (schedule)"
+msgstr "Einddatum (planning)"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:99
+msgid "Page (schedule)"
+msgstr "Pagina (planning)"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:100
+msgid "Message (schedule)"
+msgstr "Bericht (planning)"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:160
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms/elements.php:32
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms/mailings.php:27
+msgid "Oops, something went wrong!"
+msgstr "Oeps, er ging iets mis!"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms.php:162
+msgid "Form deleted successfully"
+msgstr "Formulier succesvol verwijderd"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms/elements.php:25
+msgid "Form created successfully! Please add layouts and elements to the form"
+msgstr ""
+"Formulier succesvol aangemaakt! Gelieve lay-outs en elementen toe te voegen "
+"aan het formulier"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms/elements.php:31
+msgid "Form or element can't be found!"
+msgstr "Formulier of element kan niet worden gevonden!"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms/elements.php:33
+msgid "Element saved successfully"
+msgstr "Element succesvol opgeslagen"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms/elements.php:35
+msgid "Element deleted successfully"
+msgstr "Element succesvol verwijderd"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms/mailings.php:28
+msgid "Mailing saved successfully"
+msgstr "E-mail succesvol opgeslagen"
+
+#: formidable_full/formidable_full/controllers/single_page/dashboard/formidable/forms/mailings.php:30
+msgid "Mailing deleted successfully"
+msgstr "E-mail succesvol verwijderd"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:16
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:16
+msgid "OR"
+msgstr "OF"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:20
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:20
+msgid "Delete this rule"
+msgstr "Verwijder deze regel"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:21
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:21
+msgid "Move this rule"
+msgstr "Verplaats deze regel"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:22
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:22
+msgid "Rule"
+msgstr "Regel"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:63
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:63
+msgid "Add an action to this rule"
+msgstr "Voeg een actie toe op deze regel"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:64
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:64
+msgid "Delete this action"
+msgstr "Verwijder deze actie"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:67
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:105
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:67
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:105
+msgid "and"
+msgstr "en"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:100
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:100
+msgid "Add an element to this rule"
+msgstr "Voeg een element op deze regel"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:101
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:101
+msgid "Delete this element"
+msgstr "Verwijder dit element"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:106
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:106
+msgid "if"
+msgstr "als"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:112
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:112
+msgid "has"
+msgstr "heeft"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:116
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:116
+msgid "selected/checked"
+msgstr "geselecteerd/aangevinkt"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:132
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:132
+msgid "Can't find dependency"
+msgstr "Kan afhankelijkheid niet vinden"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:136
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:136
+msgid "Are you sure you want to delete this dependency?"
+msgstr "Weet u zeker dat u deze afhankelijkheid wilt verwijderen?"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:145
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:618
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:879
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:39
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:140
+#: formidable_full/formidable_full/views/dialogs/forms/dialog.php:33
+#: formidable_full/formidable_full/views/dialogs/search/customize.php:57
+#: formidable_full/formidable_full/views/dialogs/search/advanced_search.php:32
+#: formidable_full/formidable_full/views/dialogs/search/advanced_search.php:53
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:145
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:291
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:352
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:85
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:195
+#: formidable_full/formidable_full/views/dialogs/results/dialog.php:71
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dependency.php:146
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:880
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:64
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:86
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:112
+#: formidable_full/formidable_full/views/dialogs/forms/mailing_list.php:34
+#: formidable_full/formidable_full/views/dialogs/forms/form_list.php:53
+#: formidable_full/formidable_full/views/dialogs/forms/dialog.php:34
+#: formidable_full/formidable_full/views/dialogs/mailings/dependency.php:146
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:353
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:196
+#: formidable_full/formidable_full/views/dialogs/results/dialog.php:18
+#: formidable_full/formidable_full/src/Formidable/Search/Menu.php:46
+#: formidable_full/formidable_full/src/Formidable/Search/Result/Result.php:45
+#: formidable_full/formidable_full/src/Formidable/Search/Result/Result.php:47
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:21
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:866
+msgid "Can't find element"
+msgstr "Kan element niet vinden"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:33
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:34
+msgid "Dependency"
+msgstr "Afhankelijkheid"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:35
+msgid "On submit"
+msgstr "Na verzending"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:48
+msgid ""
+"Please set the properties of this element. Each element has his own "
+"behaviour and/or values."
+msgstr ""
+"Stel de eigenschappen van dit element in. Elk element heeft zijn eigen "
+"gedrag en/of waarden."
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:51
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:745
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:787
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:817
+msgid "Type"
+msgstr "Type"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:58
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:744
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:786
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:816
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:39
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:34
+msgid "Label / Name"
+msgstr "Label / Naam"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:67
+msgid "Hide label / name"
+msgstr "Label / Naam verbergen"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:72
+msgid ""
+"When enabled, the label or name of the form element will not be displayed"
+msgstr ""
+"Wanneer ingeschakeld, zal het label van het element niet worden getoond"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:81
+msgid "Confirmation"
+msgstr "Bevestiging"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:86
+msgid "When enabled, duplicates field and compare both values"
+msgstr "Indien ingeschakeld, kopieer veld en vergelijk beide waarde"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:95
+msgid "Required"
+msgstr "Verplicht"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:100
+msgid "When enabled, the submitted value will be required and checked"
+msgstr ""
+"Wanneer ingeschakeld, zal de ingediende waarde gecontroleerd en verplicht "
+"zijn"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:109
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:39
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:126
+msgid "Default value"
+msgstr "Standaardwaarde"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:130
+msgid "Request Data ($_REQUEST)"
+msgstr "URL Parameters ($_REQUEST)"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:130
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:527
+msgid "User Data"
+msgstr "Gebruikersdata"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:130
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:528
+msgid "Collection Data"
+msgstr "Paginadata"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:163
+msgid "User ID"
+msgstr "GebruikersID"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:164
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:535
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:165
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:536
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:62
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:77
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:166
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:205
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:538
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:570
+msgid "Date added"
+msgstr "Datum toegevoegd"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:176
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:215
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:548
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:580
+msgid "Attributes"
+msgstr "Attributen"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:201
+msgid "Collection ID"
+msgstr "CollectieID"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:203
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:569
+msgid "Handle"
+msgstr "Handle"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:204
+msgid "Page Type (ID)"
+msgstr "Pagina Type (ID)"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:242
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:262
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:72
+msgid "Content"
+msgstr "Inhoud"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:251
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:76
+msgid "Code"
+msgstr "Code"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:253
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:518
+msgid "Warning:"
+msgstr "Waarschuwing:"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:253
+msgid ""
+"adding code to the form could break the form. Use this only if you know what "
+"you are doing!"
+msgstr ""
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:271
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:107
+msgid "Options"
+msgstr "Opties"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:306
+msgid "Other text"
+msgstr "Anders namelijk"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:309
+msgid "When enabled, user can add a new option."
+msgstr "Wanneer ingeschakeld, mag de gebruiker zelf een optie toevoegen"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:317
+msgid "Allow multiple"
+msgstr "Meerdere toelaten"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:322
+msgid "When enabled, multiple options can be selected"
+msgstr "Wanneer ingeschakeld, kunnen meerdere opties worden geselecteerd"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:331
+msgid "Limits"
+msgstr "Limiet"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:335
+msgid "Minimum"
+msgstr "Minimaal"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:336
+msgid "Maximum"
+msgstr "Maximaal"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:345
+msgid "Allowed chars"
+msgstr "Karakters toestaan"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:355
+msgid "Use CTRL (or option) to deselect or select multiple"
+msgstr "Gebruik CTRL (of optie) op meerdere opties te selecteren"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:368
+msgid "Comma seperate each extension"
+msgstr "Komma scheiden elk bestandstype"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:380
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:90
+msgid "Assign to fileset"
+msgstr "Toewijzen aan bestandsset"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:388
+msgid "No filesets available"
+msgstr "Geen bestandsset beschikbaar"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:392
+msgid "Assign uploaded file to selected fileset"
+msgstr "Geuploade bestand aan geselecteerde bestandsset koppelen"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:399
+msgid "Enable masking"
+msgstr "Enable maskeren"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:421
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:118
+msgid "Format"
+msgstr "Formaat"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:438
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:46
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:80
+msgid "Appearance"
+msgstr "Uiterlijk"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:447
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:85
+msgid "Advanced options"
+msgstr "Geavanceerde opties"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:468
+msgid "Tooltip / Description"
+msgstr "Tooltip / Beschrijving"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:488
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:60
+msgid "Add classname(s) to customize your form field. Example: myformelement"
+msgstr "Classnaam toe te voegen aan het element. Voorbeeld: myformelement"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:500
+msgid ""
+"If you want you can use dependencies for this element. This means the "
+"behaviour or the value can be influenced with the behaviour or value of "
+"another element"
+msgstr ""
+"Je kunt aan dit element afhankelijkheden toevoegen. Dit houdt in dat het "
+"gedrag of de waarde van het element beïnvloed kan worden door een ander "
+"element of waarde"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:504
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:216
+msgid "Add dependency rule"
+msgstr "Voeg afhankelijkheid regel"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:507
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:29
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:219
+msgid "Note:"
+msgstr "Opmerking:"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:507
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:219
+msgid ""
+"You have to save the element first before you can add dependencies to this "
+"element."
+msgstr ""
+"Je moet het element eerst opslaan voordat u afhankelijkheden kunt toevoegen "
+"aan dit element."
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:518
+msgid ""
+"This element can overwrite certain values within your Concrete5 "
+"installation. There will be no validation here, so if you overwrite the "
+"user's username it will try to save that value. This means it could break "
+"your site! Please be aware of this!!!"
+msgstr ""
+"Dit element kan waarde binnen de Concrete5 installatie aanpassen. Er zit "
+"geen validatie op de waarde die ingevoerd wordt. Dus wanneer er getragd "
+"wordt de gebruikersnaam te overschijven zal de addon dit proberen. Dit kan "
+"de werking van de site benadelen. Wees dus voorzichting!"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:522
+msgid "Update at submission"
+msgstr "Wijzig na verzending"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:537
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:600
+msgid "Skip if empty"
+msgstr "Sla over wanneer leeg"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:605
+msgid ""
+"If the value of this element is empty, skip saving the data into the "
+"selected propertie or attribute"
+msgstr ""
+"Als de waarde van dit element leeg is, probeer dan dit niet op te slaan"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:734
+msgid "Predefined"
+msgstr "Voorgedefineerd"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:734
+msgid "Elements"
+msgstr "Elementen"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:734
+msgid "Form data"
+msgstr "Formdata"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:757
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:759
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:797
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:833
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:849
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:65
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:92
+msgid "Label"
+msgstr "Label"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:761
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:799
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:835
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:851
+msgid "Both"
+msgstr "Beide"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:776
+msgid "No elements created yet."
+msgstr "Nog geen elementen gecreëerd."
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:777
+msgid ""
+"Go to \"Layout and Elements\"-tab in this form, and add some form elements."
+msgstr ""
+"Ga naar \"Lay-out en Elementen\"-tab in dit formulier en voeg elementen toe."
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:823
+msgid "All elements combined"
+msgstr "Alle elementen gecombineerd"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:824
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:831
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:840
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:847
+msgid "All"
+msgstr "Alles"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:826
+msgid "Add element data"
+msgstr "Elementdata toevoegen"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:830
+msgid "All elements as list"
+msgstr "Alle elementen als lijst"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:839
+msgid "All form data combined"
+msgstr "Gecombineerde formdata"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:842
+msgid "All form data"
+msgstr "Alle formdata"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:846
+msgid "All form data as list"
+msgstr "Alle formdata als lijst"
+
+#: formidable_full/formidable_full/views/dialogs/elements/dialog.php:870
+msgid "Are you sure you want to delete this element?"
+msgstr "Weet u zeker dat u dit element wilt verwijderen?"
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:29
+msgid ""
+"The captcha element (if you have one) will not be shown and validated in the "
+"preview-mode."
+msgstr ""
+"Verificatie element wordt binnen de voorvertoning niet weergegeven en zal "
+"niet gevalideerd worden."
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:33
+msgid "Access denied"
+msgstr ""
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:48
+msgid "No results found."
+msgstr "Geen resultaten gevonden"
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:55
+msgid "Submitted data"
+msgstr "Verzondes gegevens"
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:56
+msgid "Submission details"
+msgstr "Details"
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:99
+#: formidable_full/formidable_full/views/dialogs/results/dialog.php:53
+msgid "Submitted on"
+msgstr "Verzonden op"
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:103
+msgid "From page"
+msgstr "Vanaf pagina"
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:107
+msgid "Submitted by"
+msgstr "Verzonden door"
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:111
+msgid "Localization"
+msgstr "Taal/Land"
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:115
+msgid "Answerset ID (unique)"
+msgstr "Antwoordrij ID"
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:119
+msgid "Submitters IP"
+msgstr "Vanaf IP-adres"
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:123
+msgid "Used Browser"
+msgstr "Gebruikte browser"
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:127
+#: formidable_full/formidable_full/src/Formidable/Search/Field/Manager.php:38
+#: formidable_full/formidable_full/src/Formidable/Search/ColumnSet/Available.php:37
+msgid "Platform"
+msgstr "Platform"
+
+#: formidable_full/formidable_full/views/dialogs/forms/preview.php:131
+msgid "Screen resolution"
+msgstr "Schermresolutie"
+
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:24
+msgid "Empty column"
+msgstr "Lege kolom"
+
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:56
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:81
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:109
+#: formidable_full/formidable_full/views/dialogs/forms/mailing_list.php:30
+#: formidable_full/formidable_full/src/Formidable/Search/Menu.php:32
+msgid "Edit"
+msgstr "Bewerk"
+
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:60
+#: formidable_full/formidable_full/views/dialogs/forms/mailing_list.php:32
+#: formidable_full/formidable_full/views/dialogs/forms/form_list.php:51
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:73
+msgid "Column"
+msgstr "Kolom"
+
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:82
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:110
+msgid "Move"
+msgstr "Verplaats"
+
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:84
+msgid "Add element"
+msgstr "Element toevoegen"
+
+#: formidable_full/formidable_full/views/dialogs/forms/element_list.php:102
+msgid "Row"
+msgstr "Rij"
+
+#: formidable_full/formidable_full/views/dialogs/forms/mailing_list.php:12
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:157
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:138
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: formidable_full/formidable_full/views/dialogs/forms/mailing_list.php:13
+msgid "Mail from"
+msgstr "Mail van"
+
+#: formidable_full/formidable_full/views/dialogs/forms/mailing_list.php:41
+msgid "No mailings created for this form"
+msgstr "Geen mailings aangemaakt voor dit formulier"
+
+#: formidable_full/formidable_full/views/dialogs/forms/form_list.php:12
+msgid "Form Title"
+msgstr "Formuliertitel"
+
+#: formidable_full/formidable_full/views/dialogs/forms/form_list.php:13
+msgid "Last Submission"
+msgstr "%s inzending"
+
+#: formidable_full/formidable_full/views/dialogs/forms/form_list.php:14
+msgid "Submissions"
+msgstr "Inzendingen"
+
+#: formidable_full/formidable_full/views/dialogs/forms/dialog.php:18
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:20
+msgid "Can't find mailing"
+msgstr "Kan mailing niet vinden"
+
+#: formidable_full/formidable_full/views/dialogs/forms/dialog.php:24
+msgid "Are you sure you want to delete this form?"
+msgstr "Weet u zeker dat u dit formulier wilt verwijderen?"
+
+#: formidable_full/formidable_full/views/dialogs/search/customize.php:12
+msgid "Choose Columns"
+msgstr "Kies kolommen"
+
+#: formidable_full/formidable_full/views/dialogs/search/customize.php:14
+msgid "Available Columns"
+msgstr "Beschikbare kolommen"
+
+#: formidable_full/formidable_full/views/dialogs/search/customize.php:25
+msgid "Column Order"
+msgstr "Kolom volgorde"
+
+#: formidable_full/formidable_full/views/dialogs/search/customize.php:26
+msgid "Click and drag to change column order."
+msgstr "Klik en sleep om volgorde aan te passen"
+
+#: formidable_full/formidable_full/views/dialogs/search/customize.php:35
+msgid "Sort By"
+msgstr "Sorteren op"
+
+#: formidable_full/formidable_full/views/dialogs/search/customize.php:38
+msgid "Default Column"
+msgstr "Standaard kolommen"
+
+#: formidable_full/formidable_full/views/dialogs/search/customize.php:47
+msgid "Direction"
+msgstr "Richting"
+
+#: formidable_full/formidable_full/views/dialogs/search/customize.php:49
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: formidable_full/formidable_full/views/dialogs/search/customize.php:50
+msgid "Descending"
+msgstr "Aflopend"
+
+#: formidable_full/formidable_full/views/dialogs/search/advanced_search.php:6
+msgid "Filters"
+msgstr "Filters"
+
+#: formidable_full/formidable_full/views/dialogs/search/advanced_search.php:7
+msgid "Customize Results"
+msgstr "Pas resultaten aan"
+
+#: formidable_full/formidable_full/views/dialogs/search/advanced_search.php:15
+msgid "Add Field"
+msgstr ""
+
+#: formidable_full/formidable_full/views/dialogs/search/advanced_search.php:35
+msgid "Save as Search Preset"
+msgstr ""
+
+#: formidable_full/formidable_full/views/dialogs/search/advanced_search.php:54
+msgid "Save Preset"
+msgstr ""
+
+#: formidable_full/formidable_full/views/dialogs/search/advanced_search.php:63
+msgid "** Select Field"
+msgstr ""
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:30
+msgid "Send from"
+msgstr "Verstuur vanaf"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:31
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:95
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:168
+msgid "Send to"
+msgstr "Verzenden naar"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:33
+msgid "Attachments"
+msgstr "Bijlagen"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:49
+msgid ""
+"Set the \"From\"-header of the mail. You can either select a form element or "
+"add a custom one."
+msgstr ""
+"Stel de \"Van\"-header van de e-mail. U kunt kiezen voor een element op het "
+"formulier of een eigen waarde. U kunt ook de \"Reply-To\"-header van de e-"
+"mail wijzigen wanneer u een aangepaste \"Van\"-header gebruikt. Dit is voor "
+"de gevorderde gebruiker."
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:69
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:155
+msgid "Reply To"
+msgstr "Bericht beantwoorden"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:90
+msgid ""
+"You can send a mail to multiple addresses. You can select \"Send to\"-"
+"elements if you have them in your form. You can also add custom Email Address"
+"(es) in the field below."
+msgstr ""
+"U kunt een mail sturen naar meerdere adressen. U kunt kiezen \"Aan\"-"
+"elementen als deze in het formulier aanwezig zijn. U kunt ook aangepaste e-"
+"mailadres(sen) in het onderstaande veld toevoegen."
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:108
+msgid "AND/OR"
+msgstr "EN/OF"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:111
+msgid ""
+"Add an \"Email Address\" or a \"Recipient Selector\" element(s) to enable "
+"selection of recipient."
+msgstr ""
+"Voeg een \"Emailadres\" of \"Ontvanger Selector\"-element toe om de selectie "
+"van de ontvanger in te schakelen."
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:112
+msgid "You must add custom e-mailaddress now:"
+msgstr "U dient nu een aangepaste e-mailadres toe te voegen:"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:119
+msgid "E-mail Address(es)"
+msgstr "E-mailadres(sen)"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:127
+msgid "Comma seperate each e-mailaddress"
+msgstr "Elk e-mailadres komma gescheiden toevoegen"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:132
+msgid "Send as CC"
+msgstr "Stuur als CC"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:138
+msgid "Use CC instead of BCC (default) for sending mail"
+msgstr "Gebruik CC in plaats van BCC (standaard) voor het verzenden van mail"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:152
+msgid ""
+"Define your mail here. Add a subject and a HTML-message. In your message and "
+"subject you can use element values and labels of the form by clicking on "
+"\"Insert Formidable Element\" in the top bar of the editor."
+msgstr ""
+"Creëer hier uw e-mail. Voeg een onderwerp en een HTML-bericht toe. In uw "
+"bericht kunt u element waarden en labels gebruiken uit dit formulier door te "
+"klikken op \"Voeg element toe\" in de bovenste balk van de editor."
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:162
+msgid "Insert Formidable Element"
+msgstr "Formidable Element toevoegen"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:180
+msgid "Discard empty"
+msgstr "Sla leeg over"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:186
+msgid "If checked empty elements will not be shown in message"
+msgstr "Wanneer ingeschakeld, lege waarde zullen niet terug komen in de mail"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:194
+msgid "Discard layout"
+msgstr "Sla layout over"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:200
+msgid "If checked layout elements will not be shown in message"
+msgstr ""
+"Wanneer ingeschakeld, layout elementen zullen niet terug komen in de mail"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:214
+msgid ""
+"If you want you can use dependencies for this mailing. This means the mail "
+"can be influenced with the behaviour or value of a form element"
+msgstr ""
+"Je kunt aan dit element afhankelijkheden toevoegen. Dit houdt in dat het "
+"gedrag of de waarde van het element beïnvloed kan worden door een ander "
+"element of waarde"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:230
+msgid "Files after upload"
+msgstr "Bestanden na uploaden"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:247
+msgid "Add an \"Upload\" element to enable selection."
+msgstr ""
+"Voeg een \"Upload\"-element om de selectie van bijlagen mogelijk te maken."
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:248
+msgid "You can add files from the filemanager:"
+msgstr "Bijlage uit de filemanager selecteren:"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:256
+msgid "Files from filemanager"
+msgstr "Bestanden uit filemanager"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:266
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:281
+msgid "Choose file"
+msgstr "Bestand kiezen"
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:279
+msgid ""
+"Be careful with size and extensions, some spamfilters can block your mail."
+msgstr ""
+"Wees voorzichtig met de grootte en bestandstype, sommige spamfilters kunnen "
+"uw e-mail blokkeren."
+
+#: formidable_full/formidable_full/views/dialogs/mailings/dialog.php:343
+msgid "Are you sure you want to delete this mailing?"
+msgstr "Weet u zeker dat u deze email wilt verwijderen?"
+
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:19
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:179
+msgid "Can't find layout"
+msgstr "Kan layout niet vinden"
+
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:36
+msgid "Set the properties of the column"
+msgstr "Eigenschappen van de kolom"
+
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:67
+msgid "Set the properties of the row"
+msgstr "Eigenschappen van de rij"
+
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:70
+msgid "Number of columns"
+msgstr "Aantal kolommen"
+
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:74
+msgid "If you want to have less columns, empty them first."
+msgstr "Wilt u minder kolommen, leeg ze dan eerst"
+
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:117
+msgid "Search:"
+msgstr "Zoeken:"
+
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:136
+msgid "disabled"
+msgstr "uitgeschakeld"
+
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:145
+msgid "No available elements found!"
+msgstr "Geen beschikbare elementen gevonden!"
+
+#: formidable_full/formidable_full/views/dialogs/layouts/dialog.php:185
+msgid "Are you sure you want to delete this layout?"
+msgstr "Weet u zeker dat u deze layout wilt verwijderen?"
+
+#: formidable_full/formidable_full/views/dialogs/results/dialog.php:22
+msgid "Are you sure you want to delete this result?"
+msgstr "Weet u zeker dat u deze inzending wilt verwijderen?"
+
+#: formidable_full/formidable_full/views/dialogs/results/dialog.php:23
+msgid "Are you sure you want to delete the following results?"
+msgstr "Weet u zeker dat u deze inzendingen wilt verwijderen?"
+
+#: formidable_full/formidable_full/views/dialogs/results/dialog.php:31
+msgid "Resend"
+msgstr "Opnieuw zenden"
+
+#: formidable_full/formidable_full/views/dialogs/results/dialog.php:35
+msgid "Are you sure you want to resend this result?"
+msgstr "Weet u zeker dat u dit resultaat nogmaals wilt verzenden?"
+
+#: formidable_full/formidable_full/views/dialogs/results/dialog.php:36
+msgid "Are you sure you want to resend the following results?"
+msgstr "Weet u zeker dat u onderstaande resultaten nogmaals wilt verzenden?"
+
+#: formidable_full/formidable_full/views/dialogs/results/dialog.php:52
+msgid "AnswerSetID"
+msgstr "AntwoordrijID"
+
+#: formidable_full/formidable_full/views/dialogs/results/dialog.php:54
+msgid "By"
+msgstr "Door"
+
+#: formidable_full/formidable_full/blocks/formidable/form_setup_html.php:5
+msgid "Select a Formidable Form"
+msgstr "Selecteer een Formidable Form"
+
+#: formidable_full/formidable_full/blocks/formidable/form_setup_html.php:7
+msgid "Form Name"
+msgstr "Formuliernaam"
+
+#: formidable_full/formidable_full/blocks/formidable/form_setup_html.php:15
+msgid "There are no Formidable Forms!"
+msgstr "Er zijn geen formulieren aangemaakt!"
+
+#: formidable_full/formidable_full/blocks/formidable/form_setup_html.php:16
+msgid "Go to dashboard and create a Formidable Form"
+msgstr "Ga naar het dashboard en maak een formulier aan"
+
+#: formidable_full/formidable_full/blocks/formidable/form_setup_html.php:17
+msgid "Create a new Formidable Form"
+msgstr "Maak een nieuwe formulier"
+
+#: formidable_full/formidable_full/blocks/formidable/controller.php:32
+msgid "Adds a Formidable Form to you page."
+msgstr "Voeg formulier toe op uw pagina."
+
+#: formidable_full/formidable_full/blocks/formidable/controller.php:36
+#: formidable_full/formidable_full/src/Formidable/Editor.php:10
+msgid "Formidable"
+msgstr "Formidable"
+
+#: formidable_full/formidable_full/blocks/formidable/controller.php:41
+msgid "You must select a form."
+msgstr "U moet een formulier selecteren."
+
+#: formidable_full/formidable_full/blocks/formidable/view.php:5
+#: formidable_full/formidable_full/blocks/formidable/templates/default/view.php:5
+#: formidable_full/formidable_full/blocks/formidable/templates/dashboard/view.php:225
+msgid "Can't find the Formidable Form"
+msgstr "Kan het formulier niet vinden"
+
+#: formidable_full/formidable_full/blocks/formidable/view.php:72
+#: formidable_full/formidable_full/blocks/formidable/templates/default/view.php:70
+#: formidable_full/formidable_full/blocks/formidable/templates/dashboard/view.php:294
+msgid "You have"
+msgstr "U heeft nog"
+
+#: formidable_full/formidable_full/blocks/formidable/view.php:72
+#: formidable_full/formidable_full/blocks/formidable/templates/default/view.php:70
+#: formidable_full/formidable_full/blocks/formidable/templates/dashboard/view.php:294
+msgid "characters"
+msgstr "karakters"
+
+#: formidable_full/formidable_full/blocks/formidable/view.php:72
+#: formidable_full/formidable_full/blocks/formidable/templates/default/view.php:70
+#: formidable_full/formidable_full/blocks/formidable/templates/dashboard/view.php:294
+msgid "left"
+msgstr "over"
+
+#: formidable_full/formidable_full/blocks/formidable/view.php:95
+#: formidable_full/formidable_full/blocks/formidable/templates/default/view.php:88
+#: formidable_full/formidable_full/blocks/formidable/templates/dashboard/view.php:317
+#: formidable_full/formidable_full/src/Formidable/Element/Password.php:55
+#: formidable_full/formidable_full/src/Formidable/Element/Emailaddress.php:36
+#: formidable_full/formidable_full/src/Formidable/Element/Website.php:37
+#, php-format
+msgid "Confirm %s"
+msgstr "Bevestig %s"
+
+#: formidable_full/formidable_full/blocks/formidable/view.php:135
+#: formidable_full/formidable_full/blocks/formidable/templates/default/view.php:128
+#: formidable_full/formidable_full/blocks/formidable/templates/dashboard/view.php:357
+msgid "Submit"
+msgstr "Verzenden"
+
+#: formidable_full/formidable_full/src/Formidable.php:191
+msgid "Custom Elements"
+msgstr "Eigen elementen"
+
+#: formidable_full/formidable_full/src/Formidable.php:202
+msgid "Type of element not supported"
+msgstr "Type element niet ondersteund"
+
+#: formidable_full/formidable_full/src/Formidable.php:253
+#: formidable_full/formidable_full/src/Formidable.php:254
+#: formidable_full/formidable_full/src/Formidable/Mailing.php:55
+#: formidable_full/formidable_full/src/Formidable/Result.php:118
+#: formidable_full/formidable_full/src/Formidable/Result.php:121
+#: formidable_full/formidable_full/src/Formidable/Result.php:124
+#: formidable_full/formidable_full/src/Formidable/Result.php:143
+#: formidable_full/formidable_full/src/Formidable/Search/ColumnSet/ColumnSet.php:36
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: formidable_full/formidable_full/src/Formidable/Layout.php:128
+msgid "copy"
+msgstr "kopiëren"
+
+#: formidable_full/formidable_full/src/Formidable/Form.php:180
+msgid "Never"
+msgstr "Nooit"
+
+#: formidable_full/formidable_full/src/Formidable/Form.php:314
+#: formidable_full/formidable_full/src/Formidable/Mailing.php:139
+#: formidable_full/formidable_full/src/Formidable/Element.php:141
+#, php-format
+msgid "%s (copy)"
+msgstr "%s (kopie)"
+
+#: formidable_full/formidable_full/src/Formidable/Result.php:124
+#, php-format
+msgid "%s pixels"
+msgstr ""
+
+#: formidable_full/formidable_full/src/Formidable/Result.php:131
+msgid "Unknown or deleted page"
+msgstr "Onbekend of verwijderde pagina"
+
+#: formidable_full/formidable_full/src/Formidable/Result.php:132
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">%s</a> (Page ID: %s)"
+msgstr "<a href=\"%s\" target=\"_blank\">%s</a> (Pagina ID: %s)"
+
+#: formidable_full/formidable_full/src/Formidable/Result.php:136
+msgid "Guest"
+msgstr "Gast"
+
+#: formidable_full/formidable_full/src/Formidable/Result.php:138
+msgid "Unknown or deleted user"
+msgstr "Onbekend of verwijderde gebruiker"
+
+#: formidable_full/formidable_full/src/Formidable/Result.php:139
+#, php-format
+msgid "<a href=\"%s?uID=%s\" target=\"_blank\">%s</a> (User ID: %s)"
+msgstr "<a href=\"%s?uID=%s\" target=\"_blank\">%s</a> (Gebruikers ID: %s)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Select.php:40
+#: formidable_full/formidable_full/src/Formidable/Element/Checkbox.php:33
+msgid "Selected options"
+msgstr "Geselecteerde opties"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Select.php:44
+#: formidable_full/formidable_full/src/Formidable/Element/Radio.php:33
+#: formidable_full/formidable_full/src/Formidable/Element/Checkbox.php:37
+msgid "Single text"
+msgstr "Enkele tekst"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Select.php:45
+#: formidable_full/formidable_full/src/Formidable/Element/Radio.php:34
+#: formidable_full/formidable_full/src/Formidable/Element/Checkbox.php:38
+msgid "Textarea"
+msgstr "Textarea"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Select.php:49
+msgid "Selectbox"
+msgstr "Selectie"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Select.php:50
+msgid "Tags (selectize)"
+msgstr ""
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:34
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:35
+msgid ""
+"address_1 {n} address_2 {n} city {n} province {n} country {n} postal_code"
+msgstr "adres1 {n} {n} adres2 stad {n} {n} provincie land {n} postcode"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:36
+msgid "address_1 {n} address_2 {n} city {n} county {n} country {n} zipcode"
+msgstr "adres1 {n} {n} adres2 stad {n} {n} graafschap land {n} postcode"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:38
+msgid "address_1 {n} address_2 {n} city {n} state {n} postal_code {n} country"
+msgstr "adres1 {n} {n} adres2 stad {n} staat {n} {n} postcode land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:39
+msgid ""
+"address_1 {n} address_2 {n} city {n} province {n} postal_code {n} country"
+msgstr "adres1 {n} {n} adres2 stad {n} {n} provincie postcode {n} land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:40
+msgid "address_1 {n} address_2 {n} city {n} county {n} zipcode {n} country"
+msgstr "adres1 {n} {n} adres2 stad {n} {n} provincie postcode {n} land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:42
+msgid "address_1 {n} address_2 {n} city {n} country {n} state {n} postal_code"
+msgstr "adres1 {n} {n} adres2 stad {n} {n} land staat {n} postcode"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:43
+msgid ""
+"address_1 {n} address_2 {n} city {n} country {n} province {n} postal_code"
+msgstr "adres1 {n} {n} adres2 stad {n} {n} land provincie {n} postcode"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:44
+msgid "address_1 {n} address_2 {n} city {n} country {n} county {n} zipcode"
+msgstr "adres1 {n} {n} adres2 stad {n} {n} land provincie {n} postcode"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:46
+msgid "address_1 address_2 {n} postal_code city, state {n} country"
+msgstr "adres1 adres2 {n} postcode stad, staat {n} land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:47
+msgid "address_1 address_2 {n} postal_code city, province {n} country"
+msgstr "adres1 adres2 {n} psotcode stad, provincie {n} land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:48
+msgid "address_1 address_2 {n} zipcode city, county {n} country"
+msgstr "adres1 adres2 {n} postcode plaats, provincie {n} land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:50
+msgid "address_1 {n} postal_code city, state {n} country"
+msgstr "adres1 {n} postcode stad, staat {n} land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:51
+msgid "address_1 {n} postal_code city, province {n} country"
+msgstr "adres1 {n} postcode stad, provincie {n} land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:52
+msgid "address_1 {n} zipcode city, county {n} country"
+msgstr "adres1 {n} postcode plaats, provincie {n} land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:53
+msgid "street, number {n} zipcode city, state {n} country"
+msgstr "straat, nummer, {n} postcode plaats, provincie {n} land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:54
+msgid "street, number {n} zipcode city, province {n} country"
+msgstr "straat, nummer, {n} postcode plaats, provincie {n} land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:55
+msgid "street, number {n} zipcode city, county {n} country"
+msgstr "adres1 {n} postcode plaats, provincie {n} land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:56
+msgid "street, number {n} zipcode city{n} country"
+msgstr "straat, nummer, {n} postcode plaats {n} land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:57
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:60
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:36
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:79
+msgid "Other format: "
+msgstr "Ander formaat: "
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:60
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:140
+msgid "Street"
+msgstr "Straat"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:61
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:144
+msgid "Number"
+msgstr "Nummer"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:62
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:87
+msgid "Address 1"
+msgstr "Adres "
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:63
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:91
+msgid "Address 2"
+msgstr "Adres 2"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:64
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:95
+msgid "City"
+msgstr "Plaats"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:65
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:118
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:123
+msgid "State"
+msgstr "Staat"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:66
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:109
+msgid "Province"
+msgstr "Provincie"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:67
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:99
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:104
+msgid "County"
+msgstr "Graafschap"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:68
+msgid "Country"
+msgstr "Land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:69
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:132
+msgid "Postal Code"
+msgstr "Postcode"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:70
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:136
+msgid "Zipcode"
+msgstr "Postcode"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:71
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:42
+msgid "Break / New line"
+msgstr "Break / Nieuwe lijn"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:72
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:43
+msgid "You can also use specialchars like ,.!;: etc..."
+msgstr "U kunt ook gebruik maken van speciale karakters zoals,;:.! Enz. .."
+
+#: formidable_full/formidable_full/src/Formidable/Element/Address.php:221
+msgid "Choose country"
+msgstr "Kies land"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Radio.php:38
+#: formidable_full/formidable_full/src/Formidable/Element/Checkbox.php:42
+msgid "One column"
+msgstr "Een kolom"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Radio.php:39
+#: formidable_full/formidable_full/src/Formidable/Element/Checkbox.php:43
+msgid "Two columns"
+msgstr "Twee Kolommen"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Radio.php:40
+#: formidable_full/formidable_full/src/Formidable/Element/Checkbox.php:44
+msgid "Three columns"
+msgstr "Drie kolommen"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Radio.php:41
+#: formidable_full/formidable_full/src/Formidable/Element/Checkbox.php:45
+msgid "Four columns"
+msgstr "Vier kolommen"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Radio.php:42
+#: formidable_full/formidable_full/src/Formidable/Element/Checkbox.php:46
+msgid "Five columns"
+msgstr "Vijf kolommen"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Radio.php:43
+#: formidable_full/formidable_full/src/Formidable/Element/Checkbox.php:47
+msgid "Automatically (let the width decide)"
+msgstr "Automatisch (laat de breedte beslissen)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Password.php:34
+#: formidable_full/formidable_full/src/Formidable/Element/Text.php:34
+msgid "Represents an alpha character"
+msgstr "Vertegenwoordigt een alfabetisch teken"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Password.php:35
+#: formidable_full/formidable_full/src/Formidable/Element/Text.php:35
+msgid "Represents a numeric character"
+msgstr "Vertegenwoordigt een numeriek teken"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Password.php:36
+#: formidable_full/formidable_full/src/Formidable/Element/Text.php:36
+msgid "Represents an alphanumeric character"
+msgstr "Vertegenwoordigt een alfanumeriek teken"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Password.php:37
+#: formidable_full/formidable_full/src/Formidable/Element/Text.php:37
+msgid ""
+"Represents optional data, everything behind the questionmark is optional"
+msgstr ""
+"Vertegenwoordigt optionele gegevens, alles achter het vraagteken is optioneel"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Password.php:38
+#: formidable_full/formidable_full/src/Formidable/Element/Text.php:38
+msgid "Examples:"
+msgstr "Voorbeelden:"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Password.php:39
+#: formidable_full/formidable_full/src/Formidable/Element/Text.php:39
+msgid "Phone"
+msgstr "Telefoon"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Password.php:40
+#: formidable_full/formidable_full/src/Formidable/Element/Text.php:40
+msgid "Product Code"
+msgstr "Product Code"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Password.php:41
+#: formidable_full/formidable_full/src/Formidable/Element/Text.php:41
+#: formidable_full/formidable_full/src/Formidable/Element/Phone.php:48
+#, php-format
+msgid ""
+"More information about masking: <a href=\"%s\" target=\"_blank\">click here</"
+"a>"
+msgstr ""
+"Meer informatie over maskeren: <a href=\"%s\" target=\"_blank\">klik hier</a>"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Password.php:46
+#: formidable_full/formidable_full/src/Formidable/Element/Text.php:47
+#: formidable_full/formidable_full/src/Formidable/Element/Integer.php:33
+#: formidable_full/formidable_full/src/Formidable/Element/Textarea.php:35
+msgid "Characters"
+msgstr "Karakters"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Text.php:46
+#: formidable_full/formidable_full/src/Formidable/Element/Textarea.php:34
+msgid "Words"
+msgstr "Woorden"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:44
+msgid "Default time format (24 hours): HH:mm:ss"
+msgstr "Standaardtijd formaat (24 uur): HH: mm: ss"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:48
+msgid "Create element with timeslider"
+msgstr "Maak element met timeslider"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:49
+msgid "Selectboxes for hours, minutes, etc."
+msgstr "Selectboxes voor uren, minuten, etc."
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:50
+msgid "Create masked input textfield (only 24-hours notation)"
+msgstr "Maak gemaskerd tekstveld (alleen 24-uur notatie)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:64
+msgid "hour (no leading zero)"
+msgstr "uur (geen voorloopnul)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:65
+msgid "hour (two digit)"
+msgstr "uur (twee cijfers)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:66
+msgid "minutes (no leading zero)"
+msgstr "minuten (geen voorloopnul)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:67
+msgid "minutes (two digit)"
+msgstr "minuten (twee cijfers)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:68
+msgid "seconds (no leading zero)"
+msgstr "seconden (geen voorloopnul)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:69
+msgid "seconds (two digit)"
+msgstr "seconden (twee cijfers)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:70
+msgid "am or pm for AM/PM"
+msgstr "am of pm voor AM / PM"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:71
+msgid "AM or PM for AM/PM"
+msgstr "AM of PM voor AM / PM"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:72
+msgid "More information about timeformat: "
+msgstr "Meer informatie over tijd formaat: "
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:72
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:79
+#: formidable_full/formidable_full/src/Formidable/Element/Rating.php:36
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:44
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:45
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:95
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:102
+msgid "click here"
+msgstr "klik hier"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:76
+msgid "Manage some advanced options of the timepicker"
+msgstr "Beheer een aantal geavanceerde opties van de timepicker"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:77
+#: formidable_full/formidable_full/src/Formidable/Element/Rating.php:34
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:42
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:100
+msgid "Comma seperate options"
+msgstr "Komma gescheiden opties"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:78
+msgid "Example: hourMin: 8, hourMax: 16"
+msgstr "Voorbeeld: hourMin: 8, hourMax: 16"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:79
+#: formidable_full/formidable_full/src/Formidable/Element/Rating.php:36
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:44
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:102
+msgid "Possible options: "
+msgstr "Mogelijke opties: "
+
+#: formidable_full/formidable_full/src/Formidable/Element/Time.php:192
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:189
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:193
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:198
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:201
+#, php-format
+msgid "Field \"%s\" is an invalid date"
+msgstr "Veld \"%s\" is een ongeldige datum"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Rating.php:33
+msgid "Manage some advanced options for the rating"
+msgstr "Beheer een aantal geavanceerde opties voor de beoordeling"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Rating.php:35
+msgid ""
+"Example: \"min: 0, max: 5, step: 1, showClear:true, showCaption:false, "
+"hoverOnClear: false, theme: 'formidable-fa'\""
+msgstr ""
+
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:34
+msgid "Horizontal"
+msgstr ""
+
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:35
+msgid "Horizontal (Range)"
+msgstr "Horizontaal (Bereik)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:36
+msgid "Vertical"
+msgstr "Verticaal"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:37
+msgid "Vertical (Range)"
+msgstr "Verticaal (Bereik)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:41
+msgid "Manage some advanced options for the slider"
+msgstr "Beheer een aantal geavanceerde opties voor de slider"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:43
+msgid "Example: reversed:true, tooltip:'always'"
+msgstr ""
+
+#: formidable_full/formidable_full/src/Formidable/Element/Slider.php:45
+msgid "Examples: "
+msgstr "Voorbeelden:"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:33
+msgid "firstname prefix lastname"
+msgstr "voornaam voorvoegsel achternaam"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:34
+msgid "firstname lastname"
+msgstr "voornaam achternaam"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:35
+msgid "prefix lastname"
+msgstr "voorvoegsel achternaam"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:39
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:58
+msgid "Firstname"
+msgstr "Voornaam"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:40
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:62
+msgid "Prefix"
+msgstr "Voorvoegsel"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:41
+#: formidable_full/formidable_full/src/Formidable/Element/Fullname.php:66
+msgid "Lastname"
+msgstr "Achternaam"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:60
+msgid "Default date format: mm/dd/yyyy"
+msgstr "Standaarddatumnotatie: mm/dd/jjjj"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:64
+msgid "Create element with datepicker"
+msgstr "Maak element met datepicker"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:65
+msgid "Selectboxes for years, months, days"
+msgstr "Selectboxes jaren, maanden, dagen"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:66
+msgid "Create masked input textfield (only dd, mm and yyyy input)"
+msgstr "Maak gemaskerde tekstveld (alleen dd, mm en jjjj)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:83
+msgid "day of month (no leading zero)"
+msgstr "dag van de maand (zonder voorloopnul)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:84
+msgid "day of month (two digit)"
+msgstr "dag van de maand (twee cijfers)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:85
+msgid "day of the year (no leading zeros)"
+msgstr "dag van het jaar (zonder voorloopnul)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:86
+msgid "day of the year (three digit)"
+msgstr "dag van het jaar (drie cijfers)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:87
+msgid "day name short"
+msgstr "dag naam kort"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:88
+msgid "day name long"
+msgstr "dag naam lang"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:89
+msgid "month of year (no leading zero)"
+msgstr "maand van het jaar (geen voorloopnul)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:90
+msgid "month of year (two digit)"
+msgstr "maand van het jaar (twee cijfers)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:91
+msgid "month name short"
+msgstr "Maandnaam (kort)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:92
+msgid "month name long"
+msgstr "Maandnaam (lang)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:93
+msgid "year (two digit)"
+msgstr "jaar (twee cijfers)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:94
+msgid "year (four digit)"
+msgstr "jaar (vier cijfers)"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:95
+msgid "More information about dateformat: "
+msgstr "Meer informatie over datum formaat: "
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:99
+msgid "Manage some advanced options of the datepicker"
+msgstr "Beheer een aantal geavanceerde opties van de datepicker"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Date.php:101
+msgid "Example: changeYear:true, yearRange:\"c-10:c+10\""
+msgstr "Voorbeeld: changeYear: true, yearRange: \"c-10: c 10\""
+
+#: formidable_full/formidable_full/src/Formidable/Element/Website.php:32
+msgid "Including http(s):// or (s)ftp://"
+msgstr "Inclusief http(s):// of (s)ftp://"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Upload.php:47
+msgid "Files"
+msgstr "Bestanden"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Upload.php:178
+msgid "Drag 'n Drop your files here!"
+msgstr ""
+
+#: formidable_full/formidable_full/src/Formidable/Element/Upload.php:192
+#, php-format
+msgid "%s uploaded files"
+msgstr "%s geüploade bestanden"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Upload.php:206
+#: formidable_full/formidable_full/src/Formidable/Element/Upload.php:207
+msgid "Click to download"
+msgstr ""
+
+#: formidable_full/formidable_full/src/Formidable/Element/Upload.php:267
+msgid "File uploaded with errors"
+msgstr "Bestanden zonder foutmeldingen"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Upload.php:272
+msgid "Extension not allowed"
+msgstr "Bestandstype niet toegestaan"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Upload.php:284
+msgid "File not found"
+msgstr "Bestand niet gevonden"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Upload.php:352
+msgid "Uploaded Files"
+msgstr "Geüploade bestanden"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Upload.php:368
+#, php-format
+msgid "%s: %s"
+msgstr ""
+
+#: formidable_full/formidable_full/src/Formidable/Element/Phone.php:46
+msgid "Your mask not available? Add a text field and create your own mask"
+msgstr "Je masker niet beschikbaar? Voeg een tekstveld en maak je eigen masker"
+
+#: formidable_full/formidable_full/src/Formidable/Element/Phone.php:47
+#, php-format
+msgid "Send your mask to %s"
+msgstr "Stuur uw masker om %s"
+
+#: formidable_full/formidable_full/src/Formidable/Search/Menu.php:27
+msgid "View"
+msgstr "Weergeven"
+
+#: formidable_full/formidable_full/src/Formidable/Search/Menu.php:39
+#: formidable_full/formidable_full/src/Formidable/Search/Result/Result.php:30
+#: formidable_full/formidable_full/src/Formidable/Search/Result/Result.php:32
+msgid "Resend mail"
+msgstr "Opnieuw verzenden"
+
+#: formidable_full/formidable_full/src/Formidable/Search/Field/Manager.php:31
+msgid "Core Properties"
+msgstr "Eigenschappen"
+
+#: formidable_full/formidable_full/src/Formidable/Search/Field/Manager.php:36
+#: formidable_full/formidable_full/src/Formidable/Search/ColumnSet/Available.php:31
+msgid "IP"
+msgstr "IP"
+
+#: formidable_full/formidable_full/src/Formidable/Search/Field/Manager.php:37
+#: formidable_full/formidable_full/src/Formidable/Search/ColumnSet/Available.php:36
+msgid "Browser"
+msgstr "Browser"
+
+#: formidable_full/formidable_full/src/Formidable/Search/Field/Manager.php:68
+msgid "Other Elements"
+msgstr "Overige elementen"
+
+#: formidable_full/formidable_full/src/Formidable/Search/Field/Field/UserField.php:24
+msgid "User (submitted by)"
+msgstr "Door"
+
+#: formidable_full/formidable_full/src/Formidable/Search/Field/Field/PageField.php:24
+msgid "Page (submitted from)"
+msgstr "Pagina (vanaf)"
+
+#: formidable_full/formidable_full/src/Formidable/Search/Field/Field/DateSubmittedField.php:28
+msgid "Date Submitted"
+msgstr "Verzonden op"
+
+#: formidable_full/formidable_full/src/Formidable/Search/Field/Field/DateSubmittedField.php:34
+msgid "to"
+msgstr "aan"
+
+#: formidable_full/formidable_full/src/Formidable/Search/Field/Field/ResolutionField.php:22
+#: formidable_full/formidable_full/src/Formidable/Search/ColumnSet/Available.php:38
+msgid "Resolution"
+msgstr "Resolutie"
+
+#: formidable_full/formidable_full/src/Formidable/Search/Result/Result.php:38
+msgid "Export"
+msgstr "Exporteer"
+
+#: formidable_full/formidable_full/src/Formidable/Search/ColumnSet/Available.php:32
+msgid "Page"
+msgstr "Pagina"
+
+#: formidable_full/formidable_full/src/Formidable/Search/ColumnSet/Available.php:33
+msgid "User"
+msgstr "Gebruiker"
+
+#: formidable_full/formidable_full/src/Formidable/Search/ColumnSet/Available.php:34
+msgid "Answerset ID"
+msgstr "Antwoordrij ID"
+
+#: formidable_full/formidable_full/src/Formidable/Search/ColumnSet/Available.php:35
+#: formidable_full/formidable_full/src/Formidable/Search/ColumnSet/ColumnSet.php:60
+msgid "Submitted"
+msgstr "Verstuurd"
+
+#: formidable_full/formidable_full/src/Formidable/Search/ColumnSet/Available.php:39
+msgid "Locale"
+msgstr "Taal / Land"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:89
+#, php-format
+msgid "Field \"%s\" is an invalid numeric value"
+msgstr "Veld \"%s\" is een ongeldige numerieke waarde"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:95
+#, php-format
+msgid "Field \"%s\" is an invalid e-mailaddress"
+msgstr "Veld \"%s\" is ongeldig emailadres"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:100
+#, php-format
+msgid "Fields \"%s\" is an invalid url"
+msgstr "Veld \"%s\" is ongeldige url"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:106
+#, php-format
+msgid "Fields \"%s\" and it's confirmation don't match"
+msgstr "Velden \"%s\" en de bevestiging komen niet overeen"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:121
+#, php-format
+msgid "Fields \"%s\" only allows the following characters: %s"
+msgstr "Velden \"%s\" kan alleen de volgende tekens: %s"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:133
+#, php-format
+msgid "Field \"%s\" should be between %s and %s words"
+msgstr "Veld \"%s\" moet tussen %s en %s woorden"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:134
+#, php-format
+msgid "Field \"%s\" should have at least %s words"
+msgstr "Veld \"%s\" moeten ten minste %s woorden"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:139
+#, php-format
+msgid "Field \"%s\" should be between %s and %s charachters"
+msgstr "Veld \"%s\" moet tussen %s en %s charachters"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:140
+#, php-format
+msgid "Field \"%s\" should be at least %s charachters"
+msgstr "Veld \"%s\" moet minstens %s charachters"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:145
+#, php-format
+msgid "Field \"%s\" should be a numeric value between %s and %s"
+msgstr "Veld \"%s\" moet een numerieke waarde zijn tussen %s en %s"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:146
+#, php-format
+msgid "Field \"%s\" should be a numeric value equal or greater than %s"
+msgstr "Veld \"%s\" moet een numerieke waarde gelijk aan of groter zijn dan %s"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:151
+#, php-format
+msgid "Field \"%s\" should have %s options selected"
+msgstr "Veld \"%s\" moet hebben %s opties geselecteerd"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:152
+#, php-format
+msgid "Field \"%s\" should have between %s and %s options selected"
+msgstr "Veld \"%s\" moet hebben tussen %s en %s opties geselecteerd"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:157
+#, php-format
+msgid "Field \"%s\" should have %s files"
+msgstr "Veld \"%s\" moet hebben %s bestanden"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:158
+#, php-format
+msgid "Field \"%s\" should have between %s and %s files"
+msgstr "Veld \"%s\" moet hebben tussen %s en %s bestanden"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:171
+#, php-format
+msgid "Field \"%s\" is invalid or empty"
+msgstr "Veld \"%s\" is ongeldig of leeg"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Result.php:179
+#, php-format
+msgid "Field \"%s\" files are not permitted"
+msgstr "Veld \"%s\" bestanden zijn niet toegestaan"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Dependency.php:43
+#, php-format
+msgid "Dependency Rule #%s: %s is already used"
+msgstr "Afhankelijkheid Regel # %s : %s is al in gebruik"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Dependency.php:48
+#: formidable_full/formidable_full/src/Formidable/Validator/Dependency.php:50
+#, php-format
+msgid "Dependency Rule #%s: %s is invalid or not selected"
+msgstr "Afhankelijkheid Regel # %s : %s is ongeldig of niet geselecteerd"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Dependency.php:52
+#: formidable_full/formidable_full/src/Formidable/Validator/Dependency.php:55
+#, php-format
+msgid "Dependency Rule #%s: no depending element selected"
+msgstr "Afhankelijkheid Regel # %s : geen afhankelijk element geselecteerd"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Dependency.php:57
+#, php-format
+msgid "Dependency Rule #%s: condition value is invalid"
+msgstr "Afhankelijkheid Regel # %s : conditie is ongeldig"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:44
+msgid "Default"
+msgstr "Standaard"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:49
+msgid "Submission Update"
+msgstr "Update bij verzending"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:54
+msgid "Masking"
+msgstr "Maskeren"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:60
+msgid "Minimum value"
+msgstr "Minimale waarde"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:60
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:61
+#, php-format
+msgid "Field \"%s\" isn't a valid integer"
+msgstr "Veld \"%s\" is geen geldige integer"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:61
+msgid "Maximum value"
+msgstr "Maximumwaarde"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:62
+msgid "Minimum/Maximum type"
+msgstr "Minimum / Maximum soort"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:62
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:112
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:113
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:118
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:119
+#, php-format
+msgid "Field \"%s\" invalid"
+msgstr "Veld \"%s\" is ongeldig"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:68
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:95
+msgid "CSS"
+msgstr ""
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:107
+#, php-format
+msgid "Field \"%s\" are invalid"
+msgstr "Veld \"%s\" is ongeldig"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:112
+msgid "Other option (value)"
+msgstr "Andere optie (waarde)"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:113
+msgid "Other option (type)"
+msgstr "Andere optie (type)"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:119
+msgid "Format (other)"
+msgstr "Format (andere)"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:131
+#, php-format
+msgid ""
+"Extensions \"%s\" in \"%s\" aren't allowed globally (check Allowed File "
+"Types)"
+msgstr ""
+"Extensions \"%s\" in \"%s\" niet globaal toegestaan ​​(check toegestaan ​​"
+"bestandstypen)"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:151
+msgid "From (Name)"
+msgstr "Van (Naam)"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:152
+msgid "From (Email Address)"
+msgstr "Van (e-mailadres)"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:158
+msgid "Reply To (Name)"
+msgstr "Antwoord aan (naam)"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:159
+msgid "Reply To (Email Address)"
+msgstr "Antwoord aan (e-mailadres)"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:168
+#, php-format
+msgid "Field \"%s\" isn't selected"
+msgstr "Veld \"%s\" is niet geselecteed"
+
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:173
+#: formidable_full/formidable_full/src/Formidable/Validator/Property.php:177
+msgid "Send to (custom)"
+msgstr "Stuur naar (aangepaste)"
+
+#: formidable_full/formidable_full/src/Helpers/FileImporter.php:56
+msgid "Unable to remove file"
+msgstr "Kan deze bestand(en) niet verwijderen"
+
+#~ msgid "Formidable cleanup"
+#~ msgstr "Formidable opruimen"
+
+#~ msgid ""
+#~ "%s temp submissions deleted, %s temp answers deleted, %s temp files "
+#~ "deleted"
+#~ msgstr ""
+#~ "%s temp inzendingen verwijderd, %s temp antwoorden verwijderd, %s temp "
+#~ "bestanden verwijderd"
+
+#~ msgid "Style"
+#~ msgstr "Stijl"
+
+#~ msgid "Create mail"
+#~ msgstr "Maak een nieuw e-mail"
+
+#~ msgid "Submission content"
+#~ msgstr "Inzending inhoud"
+
+#~ msgid "File handling"
+#~ msgstr "Bestands afhandeling"
+
+#~ msgid "What do you want to happen when files are uploaded?"
+#~ msgstr "Wat wil je gebeuren wanneer de bestanden worden geupload?"
+
+#~ msgid "Mail Exception Occurred. Unable to send mail: "
+#~ msgstr "Mail Error opgetreden. Kan geen e-mail sturen: "
+
+#~ msgid "Template Used"
+#~ msgstr "Sjabloon Gebruikt"
+
+#~ msgid "Reply-To"
+#~ msgstr "Reply-To"
+
+#~ msgid "Body"
+#~ msgstr "Body"
+
+#~ msgid "EMAILS ARE ENABLED. THIS EMAIL WAS SENT TO mail()"
+#~ msgstr "E-mails zijn ingeschakeld. Deze e-mail werd verzonden naar mail ()"
+
+#~ msgid "EMAILS ARE DISABLED. THIS EMAIL WAS LOGGED BUT NOT SENT"
+#~ msgstr ""
+#~ "E-mails zijn uitgeschakeld. Deze e-mail is geregistreerd maar nog niet "
+#~ "verzonden"
+
+#~ msgid "Mail Details: %s"
+#~ msgstr "Mail Details: %s"
+
+#~ msgid "Submit button text"
+#~ msgstr "Verzend-knop tekst"
+
+#~ msgid "Submit now!"
+#~ msgstr "Verzend nu!"
+
+#~ msgid "Items Selected"
+#~ msgstr "Met geselecteerde"
+
+#~ msgid "Advanced Search"
+#~ msgstr "Geavanceerd"
+
+#~ msgid "Per Page"
+#~ msgstr "# Per Pagina"
+
+#~ msgid "View submission"
+#~ msgstr "Bekijk inzending"
+
+#~ msgid "Edit submission"
+#~ msgstr "Wijzig inzending"
+
+#~ msgid "Delete submission"
+#~ msgstr "Verwijder inzending"
+
+#~ msgid "Choose Field"
+#~ msgstr "Bestand kiezen"
+
+#~ msgid "Results search columns saved successfully."
+#~ msgstr "Kolommen succesvol opgeslagen"
+
+#~ msgid "Required fields"
+#~ msgstr "Verplichte velden. "
+
+#~ msgid "Form successfully submitted"
+#~ msgstr "Formulier succesvol verzonden"
+
+#~ msgid "Captcha label"
+#~ msgstr "Captcha label"
+
+#~ msgid "Submit button label"
+#~ msgstr "Verzend-knop label"
+
+#~ msgid "On page"
+#~ msgstr "Op pagina "
+
+#~ msgid "From IP"
+#~ msgstr "Van IP"
+
+#~ msgid "Submitted between"
+#~ msgstr "Verzonden tussen"
+
+#~ msgid "From userID"
+#~ msgstr "Van userID"
+
+#~ msgid "Browser used"
+#~ msgstr "Gebruikte browser"
+
+#~ msgid "Platform / OS"
+#~ msgstr "Platform / OS"
+
+#~ msgid "Form or mailing can't be found!"
+#~ msgstr "Formulier of e-mail kan niet worden gevonden!"
+
+#~ msgid "Element options"
+#~ msgstr "Element opties"
+
+#~ msgid "Multiple options"
+#~ msgstr "Meerdere opties"
+
+#~ msgid "px"
+#~ msgstr "px"
+
+#~ msgid "CSS Class"
+#~ msgstr "CSS Class"
+
+#~ msgid "Field %s is invalid"
+#~ msgstr "Veld %s is ongeldig"
+
+#~ msgid "Field %s isn't selected"
+#~ msgstr "Veld %s is niet geselecteerd"
+
+#~ msgid "Field \"%s\" is an invalid time"
+#~ msgstr "Veld \"%s\" is een ongeldige tijd"
+
+#~ msgid "Element successfully saved!"
+#~ msgstr "Element succesvol opgeslagen!"
+
+#~ msgid "Element successfully duplicated!"
+#~ msgstr "Element succesvol gedupliceerd!"
+
+#~ msgid "Element successfully deleted!"
+#~ msgstr "Element succesvol verwijderd!"
+
+#~ msgid "Layout successfully saved!"
+#~ msgstr "Lay-out succesvol opgeslagen!"
+
+#~ msgid "Layout successfully deleted!"
+#~ msgstr "Lay-out succesvol verwijderd!"
+
+#~ msgid "Mailing successfully saved!"
+#~ msgstr "E-mail succesvol opgeslagen!"
+
+#~ msgid "Mailing successfully duplicated!"
+#~ msgstr "E-mail succes gedupliceerd!"
+
+#~ msgid "Mailing successfully deleted!"
+#~ msgstr "E-mail succesvol verwijderd!"
+
+#~ msgid "Form duplicated successfully"
+#~ msgstr "Formulier succesvol gedupliceerd"
+
+#~ msgid "Captcha button text"
+#~ msgstr "Verificatiebutton tekst"
+
+#~ msgid "Captcha"
+#~ msgstr "Captcha"
+
+#~ msgid "Mailings"
+#~ msgstr "E-mails"
+
+#~ msgid "Back to forms"
+#~ msgstr "Terug naar de formulieren"
+
+#~ msgid "Add all elements"
+#~ msgstr "Voeg alle elementen toe"
+
+#~ msgid "All advanced data of the form"
+#~ msgstr "Alle geavanceerde data van het formulier"
+
+#~ msgid "Add all advanced data"
+#~ msgstr "Voeg alle geavanceerde data"
+
+#~ msgid "Copy"
+#~ msgstr "Kopiëer"
+
+#~ msgid "Clear content"
+#~ msgstr "Inhoud legen"
+
+#~ msgid "Error: Row or column must be empty before deletion"
+#~ msgstr "Fout: Rij of kolom moet leeg voordat verwijderd kan worden"
+
+#~ msgid "Can't find Formidable submission"
+#~ msgstr "Kan het formulier niet vinden"
+
+#~ msgid "Calculation Captcha"
+#~ msgstr "Berekening Captcha"
+
+#~ msgid "CC"
+#~ msgstr "CC"
+
+#~ msgid "BCC"
+#~ msgstr "BCC"
+
+#~ msgid "Class \"%s\" unknown!"
+#~ msgstr "Class \"%s\" onbekend!"
+
+#~ msgid "Simple (Basic tools for html, bold, italic, lists, etc...)"
+#~ msgstr ""
+#~ "Eenvoudige (Basic gereedschappen voor html, vet, cursief, lijsten, "
+#~ "enz. ..)"
+
+#~ msgid "Advanced (Some extra options like images, links, special chars)"
+#~ msgstr ""
+#~ "Geavanceerde (Extra opties zoals afbeeldingen, links, speciale tekens)"
+
+#~ msgid "Concrete5 (Sure, everything is possible!) (not recommended)"
+#~ msgstr "Concrete5 (Natuurlijk, alles is mogelijk!) (Niet aanbevolen)"
+
+#~ msgid "lowercase chars"
+#~ msgstr "onderkast"
+
+#~ msgid "uppercase chars"
+#~ msgstr "bovenkast"
+
+#~ msgid "digits"
+#~ msgstr "cijfers"
+
+#~ msgid "symbols"
+#~ msgstr "symbolen"
+
+#~ msgid "Horizontal - Range with fixed minimum"
+#~ msgstr "Horizontaal - Bereik met vaste minimum"
+
+#~ msgid "Horizontal - Range with fixed maximum"
+#~ msgstr "Horizontaal - Bereik met vaste maximale"
+
+#~ msgid "Vertical - Range with fixed minimum"
+#~ msgstr "Verticaal - Bereik met vaste minimum"
+
+#~ msgid "Vertical - Range with fixed maximum"
+#~ msgstr "Verticaal - Bereik met vaste maximale"
+
+#~ msgid "%s - %s"
+#~ msgstr "%s - %s"
+
+#~ msgid "Tags"
+#~ msgstr "Labels"
+
+#~ msgid "add a tag"
+#~ msgstr "Voeg label toe"
+
+#~ msgid "stars"
+#~ msgstr "sterren"
+
+#~ msgid "%s of %s"
+#~ msgstr "%s van %s"
+
+#~ msgid "Please solve the equation"
+#~ msgstr "Los bovenstaande som op"
+
+#~ msgid "click the image to see another equation"
+#~ msgstr "klik om nieuwe afbeelding te zien"
+
+#~ msgid "Insert Link to Page"
+#~ msgstr "Link naar Pagina"
+
+#~ msgid "Insert Mailing-tag"
+#~ msgstr "Voeg Mailing-Tag toe"
+
+#~ msgid "Set the properties for your form."
+#~ msgstr "Stel de eigenschappen voor het formulier in."
+
+#~ msgid "Use captcha on your form."
+#~ msgstr "Gebruik captcha code op uw formulier."
+
+#~ msgid "Captcha (label)"
+#~ msgstr "Captcha (label)"
+
+#~ msgid "Label for the captcha"
+#~ msgstr "Label voor de captcha"
+
+#~ msgid "Buttons"
+#~ msgstr "Knoppen"
+
+#~ msgid "Clear button label"
+#~ msgstr "Reset-knop label"
+
+#~ msgid "Clear form"
+#~ msgstr "Reset formulier"
+
+#~ msgid "Label for the \"reset form\" button"
+#~ msgstr "Label voor de \"Reset formulier\"-knop"
+
+#~ msgid ""
+#~ "Review the submission. If enabled, the submitter will be prompted to a "
+#~ "preview page that lets them double check their entries before submitting "
+#~ "the form."
+#~ msgstr ""
+#~ "Controleer inzending. Indien ingeschakeld, zal de indiener gevraagd "
+#~ "worden om hun inzending te controleren alvorens de gegevens daadwerkelijk "
+#~ "verzonden worden."
+
+#~ msgid "Enable review"
+#~ msgstr "Controle inschakelen"
+
+#~ msgid "Add/Edit Description"
+#~ msgstr "Beschrijving toevoegen/aanpassen"
+
+#~ msgid "Click on the button to add/edit the content."
+#~ msgstr "Klik op de knop om inhoud toe te voegen of aan te passen."
+
+#~ msgid "Redirect or show message after successfully submitted"
+#~ msgstr "Leid naar pagina of toon bericht na succesvol verzonden"
+
+#~ msgid "Add/Edit Message"
+#~ msgstr "Bericht toevoegen/aanpassen"
+
+#~ msgid "If limit reached"
+#~ msgstr "Als limiet is bereikt"
+
+#~ msgid "Use HTML5 elements"
+#~ msgstr "Gebruik HTML5 elementen"
+
+#~ msgid "Warning!"
+#~ msgstr "Waarschuwing!"
+
+#~ msgid ""
+#~ "This is a preview! You can't submit. Styles and theme aren't loaded, just "
+#~ "a preview with the default view and css."
+#~ msgstr ""
+#~ "Dit is een voorvertoning. U kunt niet verzenden en style en thema worden "
+#~ "niet geladen. De voorvertoning gebruikt de standaard template."
+
+#~ msgid "Back to form"
+#~ msgstr "Terug naar de lijst"
+
+#~ msgid "Set the properties for your template."
+#~ msgstr "Stel de eigenschappen van het sjabloon in."
+
+#~ msgid "Template name"
+#~ msgstr "Sjabloon naam"
+
+#~ msgid "My Formidable Template"
+#~ msgstr "Mijn Formidable Sjabloon"
+
+#~ msgid "Template"
+#~ msgstr "Sjabloon"
+
+#~ msgid "This is a preview! Just a preview without any results"
+#~ msgstr ""
+#~ "Dit is een voorvertoning. Alleen een voorvertoning, geen resultaten."
+
+#~ msgid "Back to template"
+#~ msgstr "Terug naar het sjabloon"
+
+#~ msgid "Fields"
+#~ msgstr "Velden"
+
+#~ msgid "** Select a saved search."
+#~ msgstr "** Selecteer een opgeslagen zoekopdracht."
+
+#~ msgid "** None (Exit Saved Search)"
+#~ msgstr "** Geen (Exit Saved Search)"
+
+#~ msgid "Delete Saved Search"
+#~ msgstr "Verwijder opgeslagen zoekopdracht"
+
+#~ msgid "Form(s)"
+#~ msgstr "Formulier(en)"
+
+#~ msgid "Name or Email Address"
+#~ msgstr "Naam of e-mailadres"
+
+#~ msgid "Additional Filters"
+#~ msgstr "Extra Filters"
+
+#~ msgid "Add"
+#~ msgstr "Toevoegen"
+
+#~ msgid "Edit \"%s\"-form"
+#~ msgstr "Bewerken \"%s\"-formulier"
+
+#~ msgid "Search Formidable Results"
+#~ msgstr "Zoek resultaten"
+
+#~ msgid "Search the results of Formidable"
+#~ msgstr "Zoeken de resultaten"
+
+#~ msgid "You have not created any forms."
+#~ msgstr "Je hebt nog geen formulieren."
+
+#~ msgid "Formidable Templates"
+#~ msgstr "Formidable sjablonen"
+
+#~ msgid "List of Formidable Templates. If the list is empty, please add one."
+#~ msgstr ""
+#~ "Lijst van Formidable sjablonen. Als de lijst leeg is, voeg er dan één toe!"
+
+#~ msgid "Add new"
+#~ msgstr "Toevoegen"
+
+#~ msgid "Template Title"
+#~ msgstr "Sjabloonnaam"
+
+#~ msgid "You have not created any templates."
+#~ msgstr "Je hebt nog geen sjablonen."
+
+#~ msgid "List of rows and colums containing elements of this form"
+#~ msgstr ""
+#~ "Lijst van de rijen en kolommen die elementen bevatten in dit formulier"
+
+#~ msgid "List of Formidable Forms. If the list is empty, please add one."
+#~ msgstr ""
+#~ "Lijst van Formidable formulieren. Als de lijst leeg is, voeg er dan één "
+#~ "toe!"
+
+#~ msgid "Back to \"%s\"-page"
+#~ msgstr "Terug naar \"%s\"-pagina"
+
+#~ msgid "You didn't create any mails yet."
+#~ msgstr "U heeft nog geen e-mails toegevoegd"
+
+#~ msgid "Are you sure you want to delete all selected submissions?"
+#~ msgstr "Weet u zeker dat u alle geselecteerde inzendingen wilt verwijderen?"
+
+#~ msgid "Can't save data"
+#~ msgstr "Kan de gegevens niet opslaan"
+
+#~ msgid "Error: Can't clear result"
+#~ msgstr "Fout: Kan resultaten niet leegmaken"
+
+#~ msgid "Submission deleted successfully"
+#~ msgstr "Inzending succesvol verwijderd"
+
+#~ msgid "Template saved successfully"
+#~ msgstr "Sjabloon succesvol opgeslagen"
+
+#~ msgid "Template can't be found!"
+#~ msgstr "Sjabloon kan niet worden gevonden!"
+
+#~ msgid "Template duplicated successfully"
+#~ msgstr "Sjabloon succesvol gedupliceerd"
+
+#~ msgid "Template deleted successfully"
+#~ msgstr "Sjabloon succesvol verwijderd"
+
+#~ msgid "Review your submission"
+#~ msgstr "Controleer uw gegevens"
+
+#~ msgid "Please check the information you want to send."
+#~ msgstr "Controleer de informatie die u wilt verzenden."
+
+#~ msgid "You have reached the maximum submissions of the form."
+#~ msgstr "Je hebt het maximum inzendingen van het formulier bereikt."
+
+#~ msgid "The form is currently unavailable."
+#~ msgstr "Het formulier is momenteel niet beschikbaar."
+
+#~ msgid "Description (review)"
+#~ msgstr "Beschrijving (controle)"
+
+#~ msgid "Clicking will take you back to the dashboard."
+#~ msgstr "Klikken brengt u terug naar het dashboard."
+
+#~ msgid "The current page will remain in Edit Mode!"
+#~ msgstr "De huidige pagina zal in Bwerkingsmode blijven!"
+
+#~ msgid "Can't remove temporary data!"
+#~ msgstr "Kan tijdelijke gegevens niet verwijderen!"
+
+#~ msgid "Can't move temporary file to filemanager"
+#~ msgstr "Bestand kan niet verplaatst worden naar filemanager"
+
+#~ msgid "Can't merge chuncked files..."
+#~ msgstr "Kan de bestandsdelen niet samenvoegen"
+
+#~ msgid "Back"
+#~ msgstr "Terug"
+
+#~ msgid "Are you sure you want to delete this search rule?"
+#~ msgstr "Weet u zeker dat u deze regel wilt verwijderen?"
+
+#~ msgid "Form"
+#~ msgstr "Formulier"
+
+#~ msgid "Query / Filter"
+#~ msgstr "Zoeken / Filter"
+
+#~ msgid "Columns"
+#~ msgstr "Kolommen"
+
+#~ msgid "Results and Pagination"
+#~ msgstr "Resultaten en paginering"
+
+#~ msgid "Enable pagination"
+#~ msgstr "Paginatie aanzetten"
+
+#~ msgid "Sortable"
+#~ msgstr "Sorteerbaar"
+
+#~ msgid "Enable sortable columns, if columns allow it"
+#~ msgstr "Sorteren van kolommen inschakelen, wanneer beschikbaar"
+
+#~ msgid "Adds a Formidable Form Results to you page."
+#~ msgstr "Voeg Formidable Results toe op uw pagina."
+
+#~ msgid "Formidable Results"
+#~ msgstr "Formidable Results"
+
+#~ msgid "You must select a form"
+#~ msgstr "U moet een formulier selecteren."
+
+#~ msgid "Search Rule #%s: no element selected"
+#~ msgstr "Zoek Regel # %s : geen element geselecteerd"
+
+#~ msgid "Search Rule #%s: condition value is invalid"
+#~ msgstr "Zoek Regel # %s : conditie is ongeldig"
+
+#~ msgid "You must select at least one column to show"
+#~ msgstr "U moet minimaal 1 kolom selecteren."
+
+#~ msgid "You must select a default sort"
+#~ msgstr "U moet een standaard sortering kiezen"
+
+#~ msgid "You must select a default sort direction"
+#~ msgstr "U moet een standaard sortering kiezen"
+
+#~ msgid "Add search rule"
+#~ msgstr "Voeg zoekregel toe"
+
+#~ msgid "starts with"
+#~ msgstr "start met"
+
+#~ msgid "does not start with"
+#~ msgstr "start niet met"
+
+#~ msgid "ends with"
+#~ msgstr "eindigend op"
+
+#~ msgid "does not end with"
+#~ msgstr "eindingt niet op"
+
+#~ msgid "match regular expression"
+#~ msgstr "komt overeen met reguliere expressie"
+
+#~ msgid "where"
+#~ msgstr "waar"
+
+#~ msgid "Vorige"
+#~ msgstr "Vorige"
+
+#~ msgid "Volgende"
+#~ msgstr "Volgende"
+
+#~ msgid "Choose Headers"
+#~ msgstr "Kies headers"
+
+#~ msgid "Standard Properties"
+#~ msgstr "Eigenschappen"
+
+#~ msgid "Random"
+#~ msgstr "Willekeurig"
+
+#~ msgid "Use template"
+#~ msgstr "Gebruik sjabloon"
+
+#~ msgid "Not templates available."
+#~ msgstr "Geen sjablonen beschikbaar"
+
+#~ msgid "It's not required, its just that your mail will use no template"
+#~ msgstr "Niet verplicht. De mail zal nu gene template gebruiken"
+
+#~ msgid ""
+#~ "With your mailing you can send attachments. You can add the files from "
+#~ "\"Upload Files\"-elements in your form. You can also add files from the "
+#~ "filemanager."
+#~ msgstr ""
+#~ "Met uw e-mail kunt u bijlagen verzenden. U kunt de bestanden toevoegen "
+#~ "uit \"Upload bestand\"-elementen in uw formulier. U kunt ook bestanden "
+#~ "toevoegen vanuit de filemanager."
+
+#~ msgid "Reset customized results"
+#~ msgstr "Reset aangepaste resultaten"
+
+#~ msgid "Invalid Saved Search"
+#~ msgstr "Ongeldige opgeslagen zoekopdracht"
+
+#~ msgid "Enter a name for this saved search."
+#~ msgstr "Voer een naam in voor deze zoekopdracht."
+
+#~ msgid "You must enter a valid name"
+#~ msgstr "U moet een geldige naam opgeven"
+
+#~ msgid "There are no results found, the answers are empty or not set"
+#~ msgstr "Er zijn geen resultaten gevonden, de antwoorden zijn leeg"
+
+#~ msgid "Beta:"
+#~ msgstr "Beta:"
+
+#~ msgid "Having problems? Please send a support ticket through Concrete5."
+#~ msgstr ""
+#~ "Afhankelijkheden zijn nog steeds in testfase. Een probleem? Stuur dan een "
+#~ "support ticket via Concete5."
+
+#~ msgid "(Page ID: %s)"
+#~ msgstr "(Pagina ID: %s)"
+
+#~ msgid "(User ID: %s)"
+#~ msgstr "(User ID: %s)"
+
+#~ msgid "Are you sure you want to clear this data?"
+#~ msgstr "Weet u zeker dat u deze data wilt verwijderen?"
+
+#~ msgid "matches"
+#~ msgstr "komt overeen met"
+
+#~ msgid "No errors."
+#~ msgstr "Er zijn geen fouten."
+
+#~ msgid "Invalid file."
+#~ msgstr "Ongeldig bestand."
+
+#~ msgid "Invalid file extension."
+#~ msgstr "Ongeldige bestandstype."
+
+#~ msgid "The file was only partially uploaded."
+#~ msgstr "Het bestand is maar gedeeltelijk geupload."
+
+#~ msgid ""
+#~ "Uploaded file is too large. The current value of upload_max_filesize is %s"
+#~ msgstr ""
+#~ "Geüploade bestand is te groot. De actuele waarde van upload_max_filesize "
+#~ "is %s"
+
+#~ msgid ""
+#~ "Unable to copy file to storage directory. Please check permissions on "
+#~ "your upload directory and ensure they can be written to by your web "
+#~ "server."
+#~ msgstr ""
+#~ "Kan het bestand niet kopiëren naar de opslag directory. Controleer "
+#~ "machtigingen voor de upload directory en zorg dat ze kunnen worden "
+#~ "opgeslagen door uw webserver."
+
+#~ msgid "No temporary directory."
+#~ msgstr "Geen tijdelijke map."
+
+#~ msgid ""
+#~ "An unknown error occurred while uploading the file. Please check that "
+#~ "file uploads are enabled, and that your file does not exceed the size of "
+#~ "the post_max_size or upload_max_filesize variables.\n"
+#~ "\n"
+#~ "File Uploads: %s\n"
+#~ "Max Upload File Size: %s\n"
+#~ "Post Max Size: %s"
+#~ msgstr ""
+#~ "Er is een onbekende fout opgetreden bij het uploaden van het bestand. "
+#~ "Controleer of het uploaden van bestanden is ingeschakeld en dat het "
+#~ "bestand niet groter is dan de grootte van de post_max_size of "
+#~ "upload_max_filesize variabelen.\n"
+#~ "\n"
+#~ "File Uploads: %s\n"
+#~ "Max Upload File Size: %s\n"
+#~ "Post Max Size: %s"
+
+#~ msgid "Cc"
+#~ msgstr "Cc:"
+
+#~ msgid "Default (no tag)"
+#~ msgstr "Standaard (geen label)"

@@ -1,0 +1,64 @@
+$base-height: 900;
+$base-width: 1440;
+$max-additional-size: 5;
+// for responsive widths, heights, paddings, margins
+// padding: vw(20px)
+@function vw($size) {
+  @return (strip-unit($size) / $base-width) * 100vw;
+}
+
+// Use this if the design of the page will be fullpage
+// padding: vh(20px)
+@function vh($size) {
+  @return (strip-unit($size) / $base-height) * 100vh;
+}
+
+@function resize($size) {
+  // font-size: fs(16px);
+  @return clamp(
+    rem($size),
+    vw($size),
+    vw((strip-unit($size) + $max-additional-size) * 1px)
+  );
+}
+
+@mixin font-size($size) {
+  //  @include font-size(14px);
+  font-size: resize($size);
+  // TODO: Handle responsive here
+}
+
+// @incldue center();
+@mixin center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// @incldue centerX();
+@mixin centerX {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+// @incldue centerY();
+@mixin centerY {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin responsive-ratio($x, $y, $pseudo: false) {
+  $padding: unquote(($y / $x) * 100 + "%");
+  @if $pseudo {
+    &:before {
+      @include pseudo($pos: relative);
+      width: 100%;
+      padding-top: $padding;
+    }
+  } @else {
+    padding-top: $padding;
+  }
+}

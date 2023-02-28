@@ -1,0 +1,27 @@
+.marquee {
+    background: #263790;
+    color: #EEE;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 23px;
+    height: 91px;
+    position: relative;
+    overflow: hidden;
+    @include breakpoint(767){
+        font-size: 16px;
+        height: 60px;
+    }
+    .marquee__inner {
+        -webkit-font-smoothing: antialiased;
+          width: fit-content;
+          display: flex;
+          flex: auto;
+          align-items: center;
+          flex-direction: row;
+          height: 100%;
+            .marquee__part {
+                flex-shrink: 0;
+                font-smooth: always;
+            }
+      }      
+}

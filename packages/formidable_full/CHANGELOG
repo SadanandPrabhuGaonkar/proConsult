@@ -1,0 +1,47 @@
+1.0.9
+Fixed error on adding mailing (thanks Graham)
+
+1.0.8
+Fixed uploading issue (undefined)
+Changed Dutch language
+
+1.0.7
+Fixed "operator error" for checkbox and radio
+Fixed coding error in Textarea element
+Fixed unclosed div in results-page
+Add placeholder to Date Element
+
+1.0.6
+Validation on URL and E-mailaddress changed
+
+1.0.5
+Fixed single quote issue in mailing (thanks olacom)
+Fixed error on validation on checkbox and radio
+Fixed fullname not showing in form
+Fixed not showing chars-counter in form
+
+1.0.4
+Fixed redirect error after submission
+Fixed empty page and user fields
+Added page and user attributes to mailing
+Fixed error abstact error SearchProvider on 8.2.1
+
+1.0.3
+Fixed error on other formats in Date Element
+Fixed minor dependency issue
+Fixed for 8.2 (IPservice)
+
+1.0.2
+Added sorting options for select, checkbox and radio
+Added adding in bulk for select, checkbox and radio
+Fixed typo (succesfully)
+
+1.0.1
+Fixed issues PRB
+Added a default-view for non-bootstrap users
+Added custom errors for elements
+Added templates for mailings
+Added ability to change format for checkboxes and radios
+
+1.0
+Initial version

@@ -1,0 +1,20 @@
+@function z($name) {
+  @if index($z-indexes, $name) {
+    @return (length($z-indexes) - index($z-indexes, $name)) + 1;
+  } @else {
+    @warn 'There is no item "#{$name}" in this list; choose one of: #{$z-indexes}';
+    @return null;
+  }
+}
+$z-indexes: (
+  "outdated-browser",
+  "modal",
+  "site-header",
+  "mobile-menu",
+  "mobile-menu-mask",
+  "go-to-top",
+  "page-wrapper",
+  "site-footer"
+);
+
+// z-index: z('site-header');

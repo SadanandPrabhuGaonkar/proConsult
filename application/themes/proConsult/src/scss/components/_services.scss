@@ -1,0 +1,159 @@
+.services{
+    border-top: 1px solid #FFFFFF;
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            width: 58%;
+            margin-top: 20px;
+            text-align: center;
+            @include breakpoint(767){
+                width: 100%;
+                font-size: 16px;
+            }
+        }
+    }
+    .service-details{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        .uni1{
+            position: absolute;
+            z-index: -1;
+            left: -5%;
+            top: 2%;
+        }
+        .uni2{
+            position: absolute;
+            z-index: -1;
+            left: auto;
+            right: -5%;
+            top: 30%;
+            @include breakpoint(1200){
+                top: auto;
+                bottom: 10%;
+            }
+        }
+        .service-card{
+            margin-top: 67px;
+            margin-right: 5%;
+            width: 30%;
+            &:nth-child(3n + 2){
+                margin-right: 0px;
+            }
+            @include breakpoint(1200){
+                width: 47.5%;
+                &:nth-child(3n + 1){
+                    margin-right: 0px;
+                }
+                &:nth-child(3n + 2){
+                    margin-right: 5%;
+                }
+            }
+            @include breakpoint(767){
+                width: 100%;
+                margin-top: 40px;
+                &:nth-child(3n + 1){
+                    margin-right: 0px;
+                }
+                &:nth-child(3n + 2){
+                    margin-right: 0px;
+                }
+            }
+            .image-card{
+                height: 360px;
+                position: relative;
+                overflow: hidden;
+                margin-bottom: 25px;
+                .absul{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 1;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+                .content{
+                    position: absolute;
+                    width: 100%;
+                    height: fit-content;
+                    padding: 30px;
+                    background-color: #ffffff;
+                    transition: 0.5s;
+                    left: 0;
+                    top: auto;
+                    bottom: -100%;
+                    @include breakpoint(1024){
+                        bottom: 0px;
+                    }
+                }
+                @include min-breakpoint(1024){
+                    &:hover{
+                        .content{
+                            bottom: 0px;
+                        }
+                    }
+                }
+            }
+            h4{
+                margin-bottom: 15px;
+                color: #263790;
+                position: relative;
+                &::before{
+                    content: '';
+                    width: 39px;
+                    height: 2px;
+                    background-color: #4D5053;
+                    left: 8px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    position: absolute;
+                    @include breakpoint(1350){
+                        width: 15px;
+                    }
+                }
+            }
+            a{
+                font-size: 16px;
+                position: relative;
+                &::before{
+                    content: '';
+                    background-image: url(../images/ArrowRight.svg);
+                    position: absolute;
+                    top: 52%;
+                    transform: translateY(-50%);
+                    left: auto;
+                    right: -28px;
+                    width: 12.88px;
+                    height: 12.62px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    transition: 0.3s;
+                  }
+                  @include min-breakpoint(1025){
+                    &:hover{
+                        color: #363636;
+                        &::before{
+                            content: '';
+                            right: -22px;
+                        }
+                    }
+                  }
+            }
+            h4,a{
+                padding-left: 19%;
+                @include breakpoint(1350){
+                    padding-left: 10%;
+                }
+            }
+        }
+    }
+}

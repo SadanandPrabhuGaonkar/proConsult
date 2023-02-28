@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/process": "^3.3",
+        "tinify/tinify": "^1.5"
+    }
+}

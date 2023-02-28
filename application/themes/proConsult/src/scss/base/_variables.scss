@@ -1,0 +1,36 @@
+/* scss variables */
+
+$body-font: 'Montserrat', sans-serif;
+$body-weight-light: 300;
+
+$body-font-size: 20px;
+$body-font-size-large: 18px;
+$body-font-size-medium: 17px;
+$body-font-size-small: 16px;
+$body-font-size-xs: 14px;
+
+
+$body-font-color: #363636;
+
+// Colors
+$color-white: #ffffff;
+$color-white-50: rgba(255, 255, 255, 0.5);
+$color-black: #000000;
+$color-black-light: #e0e0e0;
+$color-black-50: rgba(0, 0, 0, 0.5);
+$color-gray: #5D5D5D;
+$color-gray-light: #f7f7f7;
+$color-red: #ff0000;
+
+// Transitions
+$transitionEffect: cubic-bezier(.6,.04,.12,.96);
+
+// Header
+$header-height: 96px;
+$header-breakpoint: 1024;
+
+//fonts
+:root{
+    --font-title: 'Inter', sans-serif;
+    --font-para: 'Jost', sans-serif;
+}

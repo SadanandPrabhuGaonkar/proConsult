@@ -1,0 +1,206 @@
+:root {
+  font-size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: $body-font;
+  color: $body-font-color;
+  font-weight: normal;
+  background-color: #E0E0E0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  .modal-open {
+    margin-right: 0;
+  }
+  &.active {
+    overflow: hidden;
+  }
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px; /* This needs to be calculated dynamically via js  - height of the footer */
+
+  .container {
+    height: 100%;
+  }
+  /* form fields */
+  input,
+  textarea,
+  select {
+    font-family: $body-font;
+    color: $body-font-color;
+    font-weight: normal;
+    font-size: $body-font-size;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  select {
+    cursor: pointer;
+    padding: 9px 6px 9px;
+    border: 0;
+    border-radius: 0;
+    font-size: $body-font-size;
+    -webkit-appearance: none;
+    height: 36px;
+    -moz-appearance: none;
+    background: none;
+    text-indent: 0.01px;
+    color: $body-font-color;
+    font-family: $body-font;
+    text-overflow: '';
+  }
+}
+
+a {
+  color: $body-font-color;
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+}
+
+ul {
+  padding-left: 0;
+  li {
+    line-height: 26px;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border: none 0;
+}
+
+input[type='submit'] {
+  cursor: pointer;
+}
+
+input:focus,
+textarea:focus {
+  outline: transparent none;
+}
+
+select:focus {
+  outline: none;
+}
+
+section {
+  display: block;
+}
+
+.errors,
+.success {
+  background: #ffffff;
+  display: block;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.errors {
+  color: #f04f71;
+}
+
+.success {
+  color: #51bf9b;
+}
+
+/* text selection color */
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
+
+/* scrollbar color only for windows OS */
+.win-os ::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+  cursor: pointer;
+  @include breakpoint(768) {
+    width: 4px;
+  }
+}
+
+.win-os ::-webkit-scrollbar-track {
+  background-color: #ccc;
+}
+
+.win-os ::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #ececec;
+  @include breakpoint(768) {
+    width: 4px;
+  }
+}
+
+/* placeholder */
+input,
+textarea {
+  &::-webkit-input-placeholder {
+    color: #fff;
+  }
+  &:-moz-placeholder {
+    color: #fff;
+  }
+  &::-moz-placeholder {
+    color: #fff;
+  }
+  &:-ms-input-placeholder {
+    color: #fff;
+  }
+  /* hide placeholder on focus of input */
+  &:focus::-webkit-input-placeholder {
+    color: transparent !important;
+  }
+  &:focus:-moz-placeholder {
+    color: transparent !important;
+  }
+  /* FF 4-18 */
+  &:focus::-moz-placeholder {
+    color: transparent !important;
+  }
+  /* FF 19+ */
+  &:focus:-ms-input-placeholder {
+    color: transparent !important;
+  }
+  /* IE 10+ */
+}
+
+input[type='submit'] {
+  -webkit-appearance: none;
+}
+
+.ios-device * {
+  background-attachment: scroll;
+}
+
+/* wow default css to avoid flickering */
+.wow {
+  visibility: hidden;
+  @include breakpoint(1024) {
+    visibility: visible;
+  }
+}

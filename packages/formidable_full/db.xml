@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="FormidableForms">
+        <field name="formID" type="I" size="10">
+            <key />
+            <autoincrement />
+            <unsigned />
+        </field>
+        <field name="label" size="100" type="C" />				
+        <field name="submission_redirect" type="I" size="1" />
+        <field name="submission_redirect_page" type="I" size="10" />
+        <field name="submission_redirect_content" type="X2" />
+
+        <field name="limits" type="I" size="1" />
+        <field name="limits_value" type="I" size="10" /> 
+        <field name="limits_type" type="C" size="50" />
+        <field name="limits_redirect" type="I" size="1" />
+        <field name="limits_redirect_page" type="I" size="10" />
+        <field name="limits_redirect_content" type="X2" />  
+
+        <field name="schedule" type="I" size="1" />
+        <field name="schedule_start" type="T">
+            <notnull/>
+        </field>
+        <field name="schedule_end" type="T">
+            <notnull/>
+        </field>    
+        <field name="schedule_redirect" type="I" size="1" />
+        <field name="schedule_redirect_page" type="I" size="10" />
+        <field name="schedule_redirect_content" type="X2" />
+
+        <field name="css" type="I" size="1" />
+        <field name="css_value" type="C" size="255" />	
+        
+        <field name="sort" type="I" size="10" />
+
+        <index name="formID">
+            <unique/>
+            <col>formID</col>
+        </index>
+        <index name="sort">
+            <col>sort</col>
+        </index>    
+    </table>  
+
+    <table name="FormidableFormLayouts">
+        <field name="layoutID" type="I" size="10">
+            <key />
+            <autoincrement />
+            <unsigned />
+        </field>
+        <field name="formID" type="I" size="10">	
+            <unsigned />
+        </field>
+        <field name="rowID" type="I" size="10">	
+            <unsigned />
+        </field>
+        <field name="label" type="C" size="150" />
+        <field name="appearance" type="C" size="150" />
+        <field name="css" type="I" size="1" />
+        <field name="css_value" type="C" size="255" />
+        <field name="sort" type="I" size="10" />
+
+        <index name="layoutID">
+            <unique/>
+            <col>layoutID</col>
+        </index>
+        <index name="formID">
+            <col>formID</col>
+        </index>
+        <index name="rowID">
+            <col>rowID</col>
+        </index>
+    </table>
+
+    <table name="FormidableFormElements">
+        <field name="elementID" type="I" size="10">
+            <key />
+            <autoincrement />
+            <unsigned />
+        </field>
+        <field name="formID" type="I" size="10">	
+            <unsigned />
+        </field>
+        <field name="layoutID" type="I" size="10">	
+            <unsigned />
+        </field>
+        <field name="element_type" type="C" size="30" />
+        <field name="element_text" type="C" size="30" />
+        <field name="id" type="C" size="150" />
+        <field name="label" type="C" size="150" />
+        <field name="label_import" type="C" size="150" />
+        <field name="label_hide" type="I" size="1" />	
+        <field name="sort" type="I" size="10" />
+        <field name="params" type="X2" />
+        <field name="dependencies" type="X2" />
+
+        <index name="elementID">
+            <unique/>
+            <col>elementID</col>
+        </index>
+        <index name="formID">
+            <col>formID</col>
+        </index>
+        <index name="layoutID">
+            <col>layoutID</col>
+        </index>
+        <index name="sort">
+            <col>sort</col>
+        </index>
+    </table>
+
+    <table name="FormidableFormMailings">
+        <field name="mailingID" type="I" size="10">
+            <key />
+            <autoincrement />
+            <unsigned />
+        </field>
+        <field name="formID" type="I" size="10">	
+            <unsigned />
+        </field>
+        <field name="from_type" type="C" size="30" />
+        <field name="from_name" type="C" size="150" />
+        <field name="from_email" type="C" size="150" />
+
+        <field name="reply_type" type="C" size="30" />
+        <field name="reply_name" type="C" size="150" />
+        <field name="reply_email" type="C" size="150" />
+
+        <field name="send" type="X2" />	
+        <field name="send_custom" type="I" size="1" />
+        <field name="send_custom_value" type="X2" />
+        <field name="send_cc" type="I" size="1" />
+        <field name="subject" type="C" size="255" />
+        <field name="templateID" type="I" size="10">    
+            <unsigned />
+        </field>
+        <field name="message" type="X2" />
+        <field name="discard_empty" type="I" size="1" />
+        <field name="discard_layout" type="I" size="1" />
+        <field name="dependencies" type="X2" />
+        
+        <field name="attachment_elements" type="X2" />
+        <field name="attachment_files" type="X2" />
+        
+        <index name="mailingID">
+            <unique/>
+            <col>mailingID</col>
+        </index>
+        <index name="formID">
+            <col>formID</col>
+        </index>
+         <index name="templateID">
+            <col>templateID</col>
+        </index>
+    </table>
+
+    <table name="FormidableAnswerSets">
+        <field name="answerSetID" type="I" size="10">
+            <key />
+            <autoincrement />
+            <unsigned />
+        </field>
+        <field name="formID" type="I" size="10">	
+            <unsigned />
+        </field>
+        <field name="userID" type="I" size="10">	
+            <unsigned />
+        </field>
+        <field name="collectionID" type="I" size="10">	
+            <unsigned />
+        </field>				
+        <field name="ip" type="C" size="50" />
+        <field name="browser" type="C" size="50" />
+        <field name="platform" type="C" size="50" />
+        <field name="resolution" type="C" size="20" />
+        <field name="locale" type="C" size="10" />
+        <field name="temp" type="I" size="1" />
+        <field name="submitted" type="T">
+            <deftimestamp />
+        </field>
+
+        <index name="answerSetID">
+            <unique/>
+            <col>answerSetID</col>
+        </index>
+        <index name="formID">
+            <col>formID</col>
+        </index>
+        <index name="userID">
+            <col>userID</col>
+        </index>
+        <index name="collectionID">
+            <col>collectionID</col>
+        </index>
+        <index name="temp">
+            <col>temp</col>
+        </index>
+    </table>
+
+    <table name="FormidableAnswers">
+        <field name="answerSetID" type="I" size="10">
+            <unsigned />
+        </field>
+        <field name="formID" type="I" size="10">	
+            <unsigned />
+        </field>
+        <field name="elementID" type="I" size="10">	
+            <unsigned />
+        </field>
+        <field name="answer_formated" type="X2" />
+        <field name="answer_unformated" type="X2" />
+
+        <index name="answerSetID">
+            <col>answerSetID</col>
+        </index>
+        <index name="formID">
+            <col>formID</col>
+        </index>
+        <index name="elementID">
+            <col>elementID</col>
+        </index>        
+    </table>
+
+    <table name="FormidableTemplates">
+        <field name="templateID" type="I" size="10">
+            <key />
+            <autoincrement />
+            <unsigned />
+        </field>
+        <field name="label" type="C" size="50" />
+        <field name="content" type="X2" />
+        <index name="templateID">
+            <col>templateID</col>
+        </index>        
+    </table>
+
+</schema>

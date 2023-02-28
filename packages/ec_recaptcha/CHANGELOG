@@ -1,0 +1,12 @@
+1.1.1
+Include render script before recaptcha
+
+1.1.0
+Added error logging
+Use app.curl.verifyPeer setting
+
+1.0.1
+Support for multiple reCAPTCHA inputs on one page
+
+1.0
+Initial release
