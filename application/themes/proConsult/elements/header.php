@@ -6,9 +6,16 @@ $themePath = $this->getThemePath();
 ?>
 
 <?php $this->inc('elements/header_top.php'); ?>
-<div class="mobile-nav">
+
+<?php
+$stack = \Concrete\Core\Page\Stack\Stack::getByName('Header Navigation');
+$stack && $stack->display();
+?>
+
+//to be removed
+<!--<div class="mobile-nav">
     <div class="common-padding-side">
-    <img class="mobile-bg" src="<?php echo $themePath; ?>/dist/images/graph.png" alt="graph"/>
+    <img class="mobile-bg" src="<?php /*echo $themePath; */?>/dist/images/graph.png" alt="graph"/>
         <nav>
                 <ul>
                     <li>
@@ -43,8 +50,8 @@ $themePath = $this->getThemePath();
     <div class="common-padding-side">
         <div class="header-inner">
             <div class="logo">
-                <a href="<?php echo View::url('/'); ?>">
-                    <img src="<?php echo $themePath; ?>/dist/images/logo.svg" alt="<?php echo $site; ?>"/>
+                <a href="<?php /*echo View::url('/'); */?>">
+                    <img src="<?php /*echo $themePath; */?>/dist/images/logo.svg" alt="<?php /*echo $site; */?>"/>
                 </a>
             </div>
             <nav>
@@ -96,4 +103,4 @@ $themePath = $this->getThemePath();
                 </div>
             </nav>
     </div>
-</header>
+</header>-->
