@@ -51,7 +51,7 @@ if (count($navItems) > 0) {
             echo '<img src="https://i.ibb.co/hHs6h6r/15032148271582884281-1.png" alt="15032148271582884281-1" border="0">';
             echo '</div>';
             echo '<a href="' . $ni->url . '">' . h($ni->name) . '</a>';
-            echo '<a href="" class="absolute-a"></a>';
+            echo '<a href="' . $ni->url . '" class="absolute-a"></a>';
         }
 
         if ($ni->hasSubmenu) {
