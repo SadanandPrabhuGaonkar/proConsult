@@ -12,7 +12,7 @@ $stack = \Concrete\Core\Page\Stack\Stack::getByName('Header Navigation');
 $stack && $stack->display();
 ?>
 
-//to be removed
+<!--to be removed-->
 <!--<div class="mobile-nav">
     <div class="common-padding-side">
     <img class="mobile-bg" src="<?php /*echo $themePath; */?>/dist/images/graph.png" alt="graph"/>
