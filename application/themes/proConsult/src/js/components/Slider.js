@@ -25,19 +25,15 @@ export default class Sliders {
         var HomepageSlider = new Swiper ('.bannerSlider', {
             slidesPerView: 1,
             loop: true,
+            speed: 1000,
+            autoplay: {
+              delay: 4000,
+              disableOnInteraction: false,
+            },
+            effect: 'fade',
             pagination: {
                 el: '.left .swiper-pagination',
                 clickable: true
-            },
-            effect: "creative",
-            creativeEffect: {
-              prev: {
-                shadow: true,
-                translate: ["-20%", 0, -1],
-              },
-              next: {
-                translate: ["100%", 0, 0],
-              },
             },
         });
   

@@ -432,3 +432,7 @@
 .each-client{
     opacity: 0;
 }
+
+div#ccm-panel-add-block div.ccm-panel-add-block-set header{
+    z-index: -1;
+}

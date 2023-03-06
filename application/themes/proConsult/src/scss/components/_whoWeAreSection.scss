@@ -16,9 +16,9 @@
         @include breakpoint(1024){
             flex-direction: column-reverse;
         }
-        p{
-            padding-right: 11%;
+        div{
             width: 50%;
+            padding-right: 11%;
             @include breakpoint(1024){
                 padding-right: 0px;
                 width: 100%;

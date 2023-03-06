@@ -1,0 +1,4 @@
+This software is licensed under the terms described in the Concrete5.org Marketplace.
+Please find the Add-On there for the latest license copy.
+
+http://www.concrete5.org/marketplace/addons/block-designer-pro

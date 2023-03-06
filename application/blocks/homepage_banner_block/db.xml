@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btHomepageBannerBlock">
+        <field name="bID" type="I">
+            <key/>
+            <unsigned/>
+        </field>
+        <field name="title" type="C" size="255"></field>
+        <field name="tagline" type="C" size="255"></field>
+        <field name="desc_1" type="C" size="255"></field>
+        <field name="btnone" type="C" size="12"></field>
+        <field name="btnone_Title" type="C"></field>
+        <field name="btnone_Page" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="btnone_File" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="btnone_Image" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="btnone_URL" type="C"></field>
+        <field name="btnone_Relative_URL" type="C"></field>
+        <field name="btntwo" type="C" size="12"></field>
+        <field name="btntwo_Title" type="C"></field>
+        <field name="btntwo_Page" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="btntwo_File" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="btntwo_Image" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="btntwo_URL" type="C"></field>
+        <field name="btntwo_Relative_URL" type="C"></field>
+    </table>
+    <table name="btHomepageBannerBlockSlideimagesEntries">
+        <field name="id" type="I">
+            <key/>
+            <unsigned/>
+            <autoincrement/>
+        </field>
+        <field name="bID" type="I">
+            <unsigned/>
+        </field>
+        <field name="sortOrder" type="I"></field>
+        <field name="img" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+    </table>
+</schema>

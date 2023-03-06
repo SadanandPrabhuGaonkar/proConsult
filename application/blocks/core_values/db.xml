@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btCoreValues">
+        <field name="bID" type="I">
+            <key/>
+            <unsigned/>
+        </field>
+        <field name="title" type="C" size="255"></field>
+        <field name="desc_1" type="C" size="255"></field>
+    </table>
+    <table name="btCoreValuesSlidesEntries">
+        <field name="id" type="I">
+            <key/>
+            <unsigned/>
+            <autoincrement/>
+        </field>
+        <field name="bID" type="I">
+            <unsigned/>
+        </field>
+        <field name="sortOrder" type="I"></field>
+        <field name="logo" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="title" type="C" size="255"></field>
+        <field name="desc_1" type="C" size="255"></field>
+    </table>
+</schema>
