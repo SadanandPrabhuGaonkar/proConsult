@@ -2,7 +2,7 @@
 $themePath = $this->getThemePath();
 ?>
 
-<section class="goals common-padding <?php if ($selecttype == '1' || $selecttype == '3') {?>dark<?php } ?>">
+<section class="goals common-padding <?php if ($selecttype == 2 || $selecttype == 3) {?>dark<?php } ?>">
 <?php if (isset($title) && trim($title) != "") { ?>
   <h3 class="js-chars-reveal"><?php echo h($title); ?></h3>
   <?php } ?>
@@ -11,7 +11,7 @@ $themePath = $this->getThemePath();
   <?php echo $desc_1; ?>
   </div>
   <?php } ?>
-  <?php if($selecttype = "3") {?>
+  <?php if($selecttype == "3") {?>
     <?php if ($bgimage) { ?>
   <img src="<?php echo $bgimage->getURL(); ?>" alt="<?php echo h($title); ?>" class="bg"/>
   <?php } ?>
