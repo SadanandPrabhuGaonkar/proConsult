@@ -34,10 +34,11 @@ if (count($navItems) > 0) {
     echo '<ul>'; //opens the top-level menu
 
     foreach ($navItems as $ni) {
+        $url = $ni->hasSubmenu ? "#" : $ni->url;
 
         if ($ni->level == 1) {
             echo '<li class="' . $ni->classes . '">'; //opens a nav item
-            echo '<a href="' . $ni->url . '">' . h($ni->name) . '</a>';
+            echo '<a href="' . $url . '">' . h($ni->name) . '</a>';
         } else {
             echo '<li>';
             echo '<a href="' . $ni->url . '">' . h($ni->name) . '</a>';
@@ -54,7 +55,7 @@ if (count($navItems) > 0) {
 
     echo '</ul>'; //closes the top-level menu
     echo '</nav>';
-    echo '<a class="btn-main btn-blue-background">Contact Us</a>';
+    echo '<a href="' . \Concrete\Core\View\View::url("/contact-us") . '" class="btn-main btn-blue-background">Contact Us</a>';
     echo '</div>';
     echo '</div>';
     echo '</header>';

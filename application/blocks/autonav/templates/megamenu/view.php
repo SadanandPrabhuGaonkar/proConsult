@@ -1,7 +1,7 @@
 <?php defined('C5_EXECUTE') or die("Access Denied.");
 $site = Config::get('concrete.site');
 $themePath = $this->getThemePath();
-
+$ih = new \Application\Concrete\Helpers\ImageHelper();
 $navItems = $controller->getNavItems();
 $c = Page::getCurrentPage();
 
@@ -41,14 +41,15 @@ if (count($navItems) > 0) {
     echo '<ul>'; //opens the top-level menu
 
     foreach ($navItems as $ni) {
+        $url = $ni->hasSubmenu ? "#" : $ni->url;
 
         if($ni->level == 1){
             echo '<li class="' . $ni->classes . '">'; //opens a nav item
-            echo '<a href="' . $ni->url . '">' . h($ni->name) . '</a>';
+            echo '<a href="' . $url . '">' . h($ni->name) . '</a>';
         }else{
             echo '<li class="sub">';
             echo '<div class="inner">';
-            echo '<img src="https://i.ibb.co/hHs6h6r/15032148271582884281-1.png" alt="15032148271582884281-1" border="0">';
+            echo '<img src="' . $ih->getThumbnail($ni->cObj->getAttribute("logo_img")) . '" alt="' . $ni->name . '" border="0">';
             echo '</div>';
             echo '<a href="' . $ni->url . '">' . h($ni->name) . '</a>';
             echo '<a href="' . $ni->url . '" class="absolute-a"></a>';
@@ -67,7 +68,7 @@ if (count($navItems) > 0) {
     echo '</nav>';
     echo '</div>';
     echo '<div class="header-btn">';
-    echo '<a class="btn-main btn-blue-background">Contact Us</a>';
+    echo '<a href="' . \Concrete\Core\View\View::url("/contact-us") . '" class="btn-main btn-blue-background">Contact Us</a>';
     echo '</div>';
     echo '<nav class="mobile">';
     echo '<div class="mobile-menu">';
