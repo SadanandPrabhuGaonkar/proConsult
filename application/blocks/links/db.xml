@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btLinks">
+        <field name="bID" type="I">
+            <key/>
+            <unsigned/>
+        </field>
+    </table>
+    <table name="btLinksLinksEntries">
+        <field name="id" type="I">
+            <key/>
+            <unsigned/>
+            <autoincrement/>
+        </field>
+        <field name="bID" type="I">
+            <unsigned/>
+        </field>
+        <field name="sortOrder" type="I"></field>
+        <field name="linkdetail" type="C" size="12"></field>
+        <field name="linkdetail_Title" type="C"></field>
+        <field name="linkdetail_Page" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="linkdetail_File" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="linkdetail_Image" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="linkdetail_URL" type="C"></field>
+        <field name="linkdetail_Relative_URL" type="C"></field>
+    </table>
+</schema>

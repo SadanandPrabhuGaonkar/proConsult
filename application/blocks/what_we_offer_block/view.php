@@ -2,7 +2,7 @@
     
 
 
-    <section class="what_we_offer common-padding">
+    <section class="what_we_offer common-padding" id="what_we_offer">
   <div class="left_div">
   <?php if (isset($title) && trim($title) != "") { ?>
     <h3 class="js-chars-reveal"><?php echo h($title); ?></h3>

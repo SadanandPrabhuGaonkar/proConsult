@@ -209,7 +209,8 @@
                     align-items: center;
                     margin-top: 20px;
                     p{
-                        line-height: 18px;
+                        line-height: 21px;
+                        width: 80%;
                     }
                     svg{
                         margin-right: 10px;
@@ -354,6 +355,9 @@
     h3{
         margin-bottom: 20px;
     }
+    .overlay{
+        display: none;
+    }
     .pointers{
         display: flex;
         flex-wrap: wrap;
@@ -397,6 +401,11 @@
     }
     &.dark{
         background-color: #263790;
+        .fadeup-z{
+            color: #FFFFFF !important;
+            z-index: 3;
+            position: relative;
+        }
         p,h3{
             color: #FFFFFF !important;
             z-index: 3;
@@ -408,6 +417,7 @@
             position: relative;
         }
         .bg, .overlay{
+            display: block;
             position: absolute;
             width: 100%;
             height: 100%;

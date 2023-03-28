@@ -15,7 +15,12 @@ export default class Animation {
       this.CharsAnimationDelay = ".js-chars-reveal-late";
       this.HeaderAnim = "header";
       this.Tabs = ".tabs";
-      this.bindEvents();
+      const Timer = setInterval(()=>{
+        if($(".init-overlay").hasClass('loaded')){
+            this.bindEvents();
+            clearInterval(Timer);
+        }
+      }, 100)
     }
   
     bindEvents = () => {
@@ -173,7 +178,6 @@ export default class Animation {
     };
 
     ImageSlideAnimationDelayInit = () => {
-      setTimeout(() => {
 
         let revealContainers = document.querySelectorAll(".reveallate");
 
@@ -197,12 +201,9 @@ export default class Animation {
               ease: Power2.out
             });
           });
-
-      }, "700")
     };
 
-    TitleAnimationDelayInit = () => {
-      setTimeout(() => {   
+    TitleAnimationDelayInit = () => {  
 
       const h1s = document.querySelectorAll('.text-title');
 
@@ -213,19 +214,15 @@ export default class Animation {
       });
 
       const to = gsap.from(letters, {
-        y: 100,
-        rotation: 10,
+        y: 80,
         duration: 1,
-        stagger: 0.1,
+        stagger: 0.05,
         ease: "power3.inOut"
       });
-
-      }, "700")
     };
 
 
     FadeUpAnimationDelayInit = () =>{
-      setTimeout(() => {
         const boxes = gsap.utils.toArray('.fadeuplate');
 
         // Set things up
@@ -247,11 +244,9 @@ export default class Animation {
             }
           });
         });
-      }, "700");
     };
 
     CharsAnimationDelayInit = () => {
-      setTimeout(()=>{
         $(".js-chars-reveal-late").each((index, item) => {
           let childClass = "split-child";
           let childArr = $(item).find(`.${childClass}`);
@@ -285,7 +280,6 @@ export default class Animation {
             stagger: 0.02,
           });
         });
-      }, "700")
     };
 
 

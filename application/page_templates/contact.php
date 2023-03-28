@@ -6,4 +6,4 @@ $this->inc('includes/banner.php');
 
 ?>
 
-<?php $a = new Area("About Content Area"); $a->display($c); ?>
+<?php $a = new Area("Contact Content Area"); $a->display($c); ?>

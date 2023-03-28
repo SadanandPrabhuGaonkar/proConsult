@@ -1,4 +1,7 @@
-<?php defined("C5_EXECUTE") or die("Access Denied."); ?>
+<?php defined("C5_EXECUTE") or die("Access Denied."); 
+$site = Config::get('concrete.site');
+$themePath = $this->getThemePath();
+?>
 
 <section class="homepageBanner">
     <div class="left">
@@ -44,8 +47,9 @@
     	<?php foreach ($slideimages_items as $slideimages_item_key => $slideimages_item) { ?>
             <div class="swiper-slide">
 			<?php if ($slideimages_item["img"]) { ?>
-			<img src="<?php echo $slideimages_item["img"]->getURL(); ?>" alt="<?php echo $slideimages_item["img"]->getTitle(); ?>"/>
+			<img class="main-img" src="<?php echo $slideimages_item["img"]->getURL(); ?>" alt="<?php echo $slideimages_item["img"]->getTitle(); ?>"/>
 			<?php } ?>
+            <img src="<?php echo $themePath; ?>/dist/images/overlay-bottom.png" alt="overlay" class="overlay-b"/>
             </div>
 			<?php } ?>
 			<?php } ?>

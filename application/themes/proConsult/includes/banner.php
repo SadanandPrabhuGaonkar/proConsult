@@ -4,6 +4,7 @@
     $page = Page::getCurrentPage();
     $title = $page->getCollectionName();
     $thumbnail = $page->getAttribute('thumbnail_image');
+    $business_type = $page->getAttribute('business_type');
     $thumbnail = $thumbnail ?  $thumbnail->getUrl() : '';
 ?>
 
@@ -11,11 +12,13 @@
     <?php if($thumbnail) { ?>
     <img src="<?php echo $thumbnail; ?>" alt="<?php echo $title; ?>" class="banner-image">
     <?php } ?>
-    <div class="Typelabel fadeuplate">
-        <h3>Core Business</h3>
+    <?php if($business_type) { ?>
+    <div class="Typelabel">
+        <h3><?php echo $business_type; ?></h3>
     </div>
+    <?php } ?>
     <?php if($title) { ?>
-    <h1 class="text-title"><?php echo $title; ?></h1>
+    <h1><?php echo $title; ?></h1>
     <?php } ?>
     <?php $stack = Stack::getByName('Breadcrumb Trail'); $stack && $stack->display(); ?>
 </section>

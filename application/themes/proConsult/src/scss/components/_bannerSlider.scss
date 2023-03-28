@@ -51,9 +51,20 @@
             .banner-buttons{
                 display: flex;
                 width: fit-content;
+                @include breakpoint(1024){
+                    width: 100%;
+                    flex-direction: column;
+                }
                 a{
+                    @include breakpoint(1024){
+                        width: 100%;
+                    }
                     &:nth-child(1){
                         margin-right: 18px;
+                        @include breakpoint(1024){
+                            margin-right: 0px;
+                            margin-bottom: 20px;
+                        }
                     }
                 }
             }
@@ -62,13 +73,15 @@
             bottom: 64px !important;
             left: 9% !important;
             @include breakpoint(1024){
-                transform: rotate(90deg);
-                left: auto !important;
-                right: 0;
-                top: 51vh;
-            }
-            @include breakpoint(767){
-                top: 36vh;
+                left: 50% !important;
+                transform: translateX(-50%);
+                top: 26vh;
+                .swiper-pagination-bullet{
+                    background: rgba($color: #fff, $alpha: 0.5);
+                }
+                .swiper-pagination-bullet-active{
+                    background: rgba($color: #fff, $alpha: 1.0);
+                }
             }
         }
     }
@@ -83,17 +96,30 @@
             .swiper-wrapper{
                 .swiper-slide{
                     height: calc(100vh - 96px);
+                    position: relative;
                     @include breakpoint(1024){
                         height: 45vh;
                     }
                     @include breakpoint(767){
                         height: 30vh;
                     }
-                    img{
+                    .main-img{
                         width: 100%;
                         height: 100%;
                         object-fit: cover;
                         object-position: center;
+                    }
+                    .overlay-b{
+                        display: none;
+                        @include breakpoint(1024){
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            width: 100%;
+                            top: auto;
+                            bottom: 0px;
+                            z-index: 5;
+                        }
                     }
                 }
             }

@@ -11,11 +11,9 @@
         <div class="row-1">
             <img class="logo" src="<?php echo $themePath; ?>/dist/images/footerLogo.svg" alt="<?php echo $site; ?>"/>
             <div class="links">
-                <a href="#">About</a>
-                <a href="#">Industries</a>
-                <a href="#">Services</a>
+                <?php $stack = Stack::getByName('Footer Links'); $stack && $stack->display(); ?>
             </div>
-            <a href="#" class="linkedin">
+            <a href="<?php $stack = Stack::getByName('Footer Linkedin Link'); $stack && $stack->display(); ?>" class="linkedin" target="_blank">
             <img src="<?php echo $themePath; ?>/dist/images/linkedInFooter.svg" alt="<?php echo $site; ?>"/>
             </a>
         </div>

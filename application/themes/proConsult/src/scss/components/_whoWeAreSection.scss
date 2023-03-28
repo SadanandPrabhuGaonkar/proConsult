@@ -45,6 +45,9 @@
     p{
         font-size: 22px;
         line-height: 150%;
+        strong{
+            color: #263791;
+        }
         @include breakpoint(767){
             font-size: 16px;
         }

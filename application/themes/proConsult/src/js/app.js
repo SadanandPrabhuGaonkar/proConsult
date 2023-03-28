@@ -33,14 +33,18 @@ export default new (class App {
 
     this.window.on('load', () => {
       $('.init-overlay').fadeOut(500);
+      $('.init-overlay').addClass('loaded');
     });
+    this.captchaLoadMain = ".contact_us";
   }
 
   
 
   domReady = () => {
     this.initComponents();
-    this.captchaLoad();
+    if (document.querySelectorAll(this.captchaLoadMain).length) {
+      this.captchaLoad();
+    }
     this.handleUserAgent();
     this.windowResize();
     this.bindEvents();
