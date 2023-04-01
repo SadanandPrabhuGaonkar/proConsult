@@ -15,7 +15,7 @@
 		$btn_AttributesHtml = join(' ', array_map(function ($key) use ($btn_Attributes) {
 			return $key . '="' . $btn_Attributes[$key] . '"';
 		}, array_keys($btn_Attributes)));
-		echo sprintf('<a class="btn-main btn-trans-background-white fadeup" %s>%s</a>', $btn_AttributesHtml, $btn_Title); ?><?php
+		echo sprintf('<a class="btn-main btn-trans-background-white box" %s>%s</a>', $btn_AttributesHtml, $btn_Title); ?><?php
 	} ?>
 </section>
 

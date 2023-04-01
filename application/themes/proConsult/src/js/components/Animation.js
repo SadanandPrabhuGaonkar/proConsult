@@ -10,6 +10,7 @@ export default class Animation {
       this.FadeUpAnimation = ".fadeup";
       this.ImageSlideAnimation = ".reveal";
       this.ImageSlideAnimationDelay = ".reveallate";
+      this.fadeInSimple = ".box";
       this.TitleAnimationDelay = ".text-title";
       this.FadeUpAnimationDelay = ".fadeuplate";
       this.CharsAnimationDelay = ".js-chars-reveal-late";
@@ -26,6 +27,9 @@ export default class Animation {
     bindEvents = () => {
       if (document.querySelectorAll(this.MarqeeAnimation).length) {
         this.MarqeeAnimationInit();
+      }
+      if (document.querySelectorAll(this.fadeInSimple).length) {
+        this.fadeInSimpleInit();
       }
       if (document.querySelectorAll(this.CharsRevealAnimation).length) {
         this.CharsRevealAnimationInit();
@@ -146,6 +150,20 @@ export default class Animation {
         });
       });
 
+    };
+
+    fadeInSimpleInit = () => {
+      const boxes = gsap.utils.toArray('.box');
+
+      boxes.forEach((box, i) => {
+        const anim = gsap.fromTo(box, {autoAlpha: 0, y: 0}, {duration: 1, autoAlpha: 1, y: 0});
+        ScrollTrigger.create({
+          trigger: box,
+          animation: anim,
+          toggleActions: 'play none none none',
+          once: true,
+        });
+      });
     };
 
 
@@ -284,7 +302,7 @@ export default class Animation {
 
 
     HeaderAnimInit = () => {
-
+      if($(window).width() < 1025) {
       //mobile menu toggle
       $(".has-submenu").click(function(){
         $(".has-submenu ul").slideToggle();
@@ -293,6 +311,7 @@ export default class Animation {
       $('.mobile').on('click', function () {
         $('header').toggleClass('light');
       });
+      }
 
       //megamenu
       if($(window).width() > 1025) {
@@ -346,5 +365,3 @@ export default class Animation {
     }
      
   }
-
-

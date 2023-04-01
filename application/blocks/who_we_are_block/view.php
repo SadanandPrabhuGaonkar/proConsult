@@ -3,7 +3,7 @@
 <section class="whoWeAre common-padding">
     <div class="above-sec">
     <?php if (isset($title) && trim($title) != "") { ?>
-        <h2 class="js-chars-reveal"><?php echo h($title); ?></h2>
+        <h3 class="js-chars-reveal"><?php echo h($title); ?></h3>
     <?php } ?>
     <?php if (isset($desc_1) && trim($desc_1) != "") { ?>
         <p class="fadeup"><?php echo h($desc_1); ?></p>

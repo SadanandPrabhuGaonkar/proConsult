@@ -1,15 +1,18 @@
 .services{
     border-top: 1px solid #FFFFFF;
+    p{
+        text-align: center;
+    }
     .title{
         display: flex;
         flex-direction: column;
         align-items: center;
         h3{
             margin-bottom: 20px;
+            text-align: center;
         }
         .content-up{
             width: 58%;
-            margin-top: 20px;
             text-align: center;
             @include breakpoint(767){
                 width: 100%;
@@ -52,7 +55,7 @@
             }
             @include breakpoint(1200){
                 width: 47.5%;
-                &:nth-child(3n + 1){
+                &:nth-child(2n+2){
                     margin-right: 0px;
                 }
                 &:nth-child(3n + 2){

@@ -43,6 +43,11 @@ export default class Sliders {
 
       var Whatweoffer = new Swiper ('.whatWeDoSlider', {
         slidesPerView: 1,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
           pagination: {
               el: '.swiper-btns .swiper-pagination',
               clickable: true
