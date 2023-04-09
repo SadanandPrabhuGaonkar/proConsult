@@ -52,6 +52,12 @@
     opacity: 1;
     visibility: visible;
   }
+  svg{
+    filter: brightness(0) invert(1);
+    transform: rotate(270deg);
+    width: 20px;
+    height: 40px;
+  }
 }
 
 .landscape-alert {

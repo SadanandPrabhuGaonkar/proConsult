@@ -25,7 +25,11 @@
 
 <!-- Go to top button -->
 <div id="gotoTop">
-    <span class="fa fa-chevron-up" aria-hidden="true"></span>
+<svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5625 4H8.4375" stroke="#4D5053" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.625 1.1875L8.4375 4L5.625 6.8125" stroke="#4D5053" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
 </div>
 
 <!-- For Landscape Alert -->
