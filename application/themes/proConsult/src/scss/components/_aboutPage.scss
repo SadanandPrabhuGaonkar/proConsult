@@ -526,6 +526,19 @@ div#ccm-panel-add-block div.ccm-panel-add-block-set header{
             align-items: center;
             background-color: #263790;
             border-radius: 50%;
+            transition: 0.3s;
+            border: 1px solid #263790;
+            @include min-breakpoint(1025){
+                &:hover{
+                    background-color: transparent;
+                    svg{
+                        path{
+                            fill: #263790;
+                            stroke: #263790;
+                        }
+                    }
+                }
+            }
         }
         h3{
             margin-bottom: 10px;
@@ -547,10 +560,22 @@ div#ccm-panel-add-block div.ccm-panel-add-block-set header{
     width: 50px;
     height: 50px;
     border: 1px solid #263790;
+    background-color: #263790;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+    @include min-breakpoint(1025){
+    &:hover{
+        background-color: transparent;
+        svg{
+            path{
+                fill: #263790;
+            }
+        }
+    }
+}
 }
 .search-main{
     height: 350px;
@@ -588,6 +613,19 @@ div#ccm-panel-add-block div.ccm-panel-add-block-set header{
             right: 30px;
             top: 30px;
             background: #263790;
+            transition: 0.3s;
+            border: 1px solid #263790;
+            @include min-breakpoint(1025){
+                &:hover{
+                    background-color: transparent;
+                    svg{
+                        path{
+                            fill: #263790;
+                            stroke: #263790;
+                        }
+                    }
+                }
+            }
         }
     }
 }
