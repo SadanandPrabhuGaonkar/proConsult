@@ -15,9 +15,9 @@ export default class Sliders {
       if (document.querySelectorAll(this.whatWeOfferSlider).length) {
         this.whatWeOfferInit();
       }
-      if (document.querySelectorAll(this.coreValuesSlider).length) {
-        this.coreValuesInit();
-      }
+      // if (document.querySelectorAll(this.coreValuesSlider).length) {
+      //   this.coreValuesInit();
+      // }
     };
   
     heroSliderInit = () => {

@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Maps from './components/Maps';
 import Slider from './components/Slider';
 import Animation from './components/Animation';
+import Select2_dropdown from './components/Select2';
 
 export default new (class App {
   constructor() {
@@ -65,7 +66,7 @@ export default new (class App {
     }
 
     new Slider();
-
+    new Select2_dropdown();
     new Animation();
 
   };

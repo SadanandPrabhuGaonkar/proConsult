@@ -14,8 +14,10 @@
         <?php if (isset($content) && trim($content) != "") { ?>
         <?php echo $content; ?><?php } ?>
         </div>
-        <div class="whoWeAreImage reveal">
-        <?php if ($image) { ?><img src="<?php echo $image->getURL(); ?>" alt="<?php echo h($title); ?>"/><?php } ?>
+        <?php if ($image) { ?>
+        <div class="whoWeAreImage fadeup">
+        <img src="<?php echo $image->getURL(); ?>" alt="<?php echo h($title); ?>"/>
         </div>
+        <?php } ?>
     </div>
 </section>

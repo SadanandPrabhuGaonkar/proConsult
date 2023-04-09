@@ -12,12 +12,12 @@ $themePath = $this->getThemePath();?>
       <p class="fadeup"><?php echo h($subtitle); ?></p><?php } ?>
       <div class="navs fadeup">
       <?php if (isset($number) && trim($number) != "") { ?>
-      <a href=“tel:<?php echo h($number); ?>”>
+      <a href="tel:<?php echo h($number); ?>" target="_blank">
       <span><img src="<?php echo $themePath; ?>/dist/images/PhoneCall.svg" alt="call"></span>  
       <?php echo h($number); ?></a>
       <?php } ?>
       <?php if (isset($email) && trim($email) != "") { ?>
-      <a href="mailto:<?php echo h($email); ?>">
+      <a href="mailto:<?php echo h($email); ?>" target="_blank">
       <span><img src="<?php echo $themePath; ?>/dist/images/email.svg" alt="call"></span>  
       <?php echo h($email); ?></a>
       <?php } ?>

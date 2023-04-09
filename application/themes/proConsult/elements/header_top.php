@@ -92,15 +92,10 @@ $site = Config::get('concrete.site');
 <body class="<?php echo $bodyClass; ?>">
     <!-- Site Loader -->
     <div class="init-overlay"></div>
-    <div class="site-loader">
-        <div class="logo-middle">
-            <img src="<?php echo $this->getThemePath(); ?>/dist/images/logo.svg" alt="<?php echo $site; ?>"/>
-        </div>
-    </div>
     <script>
         if (document.cookie.indexOf("visited=") == -1) {
             setCookie("visited", "1");
-            $('.site-loader').show();
+            $('.init-overlay').show();
         }
         else{
             $('.init-overlay').show();

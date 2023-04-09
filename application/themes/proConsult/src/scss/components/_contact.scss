@@ -25,6 +25,10 @@
             flex-direction: column;
             a{
                 margin-bottom: 20px;
+                transition: 0.3s;
+                &:hover{
+                    color: #263790;
+                }
             }
         }
         h4{
@@ -44,63 +48,6 @@
         width: 40%;
         @include breakpoint(767){
             width: 100%;
-        }
-        .myContactForm{
-            .element{
-                margin-bottom: 10px;
-                .input{
-                    input, textarea{
-                        font-size: 16px;
-                        padding: 28px 0px 28px 20px;
-                        color: #2D2D2D;
-                        border-bottom: none;
-                    }
-                    textarea{
-                        padding: 15px 0px;
-                        padding-left: 20px;
-                    }
-                    input::placeholder {
-                        font-size: 16px !important;
-                    }
-                    textarea::placeholder {
-                        font-size: 16px !important;
-                    }
-                }
-            }
-            p{
-                font-size: 12px;
-                font-size: 12px;
-            }
-            a{
-                color: #263790;
-            }
-            .please_wait_loader{
-                display: none;
-            }
-            #ff_buttons{
-                width: 100%;
-                padding: 0px;
-                margin-top: 20px;
-                text-align: right;
-                input{
-                    border-radius: 0px;
-                    padding: 0px;
-                    text-transform: capitalize;
-                    height: 50px;
-                    background: #263790;
-                    border: 1px solid transparent;
-                    font-size: 14px;
-                    color: #ffffff;
-                    transition: 0.3s;
-                    @include min-breakpoint(1025){
-                        &:hover{
-                            background: transparent;
-                            border: 1px solid #263790;
-                            color: #263790;
-                        }
-                    }
-                }
-            }
         }
     }
 }
@@ -169,4 +116,94 @@
             margin-bottom: 20px;
         }
     }
+}
+
+
+.myContactForm{
+    .element{
+        margin-bottom: 10px;
+        .input{
+            input, textarea{
+                font-size: 16px;
+                padding: 28px 0px 28px 20px;
+                color: gray;
+                border-bottom: none;
+            }
+            textarea{
+                padding: 15px 0px;
+                padding-left: 20px;
+            }
+            input::placeholder {
+                font-size: 16px !important;
+            }
+            textarea::placeholder {
+                font-size: 16px !important;
+            }
+        }
+    }
+    p{
+        font-size: 12px;
+        font-size: 12px;
+    }
+    a{
+        color: #263790;
+    }
+    .please_wait_loader{
+        display: none;
+    }
+    #ff_buttons{
+        width: 100%;
+        padding: 0px;
+        margin-top: 20px;
+        text-align: right;
+        input{
+            border-radius: 0px;
+            padding: 0px;
+            text-transform: capitalize;
+            height: 50px;
+            background: #263790;
+            border: 1px solid transparent;
+            font-size: 14px;
+            color: #ffffff;
+            transition: 0.3s;
+            width: 100%;
+            @include min-breakpoint(1025){
+                &:hover{
+                    background: transparent;
+                    border: 1px solid #263790;
+                    color: #263790;
+                }
+            }
+        }
+    }
+}
+
+.select2-container--default .select2-selection--single{
+    height: 56px  !important;
+    display: flex !important;
+    border: none !important;
+    border-radius: 0px !important;
+    align-items: center !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    right: 20px !important;
+}
+
+.select2-selection__rendered{
+    padding-left: 20px !important;
+    color: gray !important;
+}
+
+.select2-search{
+    display: none !important;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable{
+    background-color: #263791 !important;
+}
+.select2-results__option{
+    padding-left: 20px !important; 
 }
