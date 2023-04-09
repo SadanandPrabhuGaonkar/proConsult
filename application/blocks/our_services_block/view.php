@@ -14,8 +14,8 @@ $themePath = $this->getThemePath();
     <?php } ?>
     </div>
     <div class="service-details">
-    <img src="<?php echo $themePath; ?>/dist/images/union.png" alt="union" class="uni1"/>
-    <img src="<?php echo $themePath; ?>/dist/images/union.png" alt="union" class="uni2"/>
+    <img src="<?php echo $themePath; ?>/dist/images/Union.png" alt="union" class="uni1"/>
+    <img src="<?php echo $themePath; ?>/dist/images/Union.png" alt="union" class="uni2"/>
     <?php if (!empty($services_items)) { ?>
     <?php foreach ($services_items as $services_item_key => $services_item) { ?>
         <div class="service-card fadeup">

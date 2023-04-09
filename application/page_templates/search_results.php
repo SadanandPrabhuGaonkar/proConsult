@@ -23,8 +23,8 @@ $this->inc('includes/banner.php');
     <h3>Results</h3>
     <section class="services common-padding">
    <div class="service-details">
-      <img src="/proConsult/application/themes/proConsult/dist/images/union.png" alt="union" class="uni1">
-      <img src="/proConsult/application/themes/proConsult/dist/images/union.png" alt="union" class="uni2">
+      <img src="/proConsult/application/themes/proConsult/dist/images/Union.png" alt="union" class="uni1">
+      <img src="/proConsult/application/themes/proConsult/dist/images/Union.png" alt="union" class="uni2">
       <div class="service-card fadeup" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
          <div class="image-card">
             <a class="absul" href="http://localhost/proConsult/index.php/services/procurement-sourcing">Continue Reading</a>                        <img src="http://localhost/proConsult/application/files/3116/7999/9954/Sourcing-and-Procurement-in-SAP_1.jpg" alt="Sourcing-and-Procurement-in-SAP (1).jpg">            

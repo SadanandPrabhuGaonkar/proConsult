@@ -21,8 +21,8 @@ $themePath = $this->getThemePath();
         </div>
     </div>
     <div class="service-details">
-      <img src="<?php echo $themePath; ?>/dist/images/union.png" alt="union" class="uni1"/>
-      <img src="<?php echo $themePath; ?>/dist/images/union.png" alt="union" class="uni2"/>
+      <img src="<?php echo $themePath; ?>/dist/images/Union.png" alt="union" class="uni1"/>
+      <img src="<?php echo $themePath; ?>/dist/images/Union.png" alt="union" class="uni2"/>
       <div class="swiper-container slider coreValuesSlider fadeup">
         <div class="swiper-wrappers">
         <?php if (!empty($slides_items)) { ?>
