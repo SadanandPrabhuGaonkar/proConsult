@@ -100,8 +100,8 @@ export default class SearchListing {
        
         this.grid.html(data);
         this.grid.prepend(`
-        <img src="/proConsult/application/themes/proConsult/dist/images/Union.png" alt="union" class="uni1">
-        <img src="/proConsult/application/themes/proConsult/dist/images/Union.png" alt="union" class="uni2">
+        <img src="${CCM_APPLICATION_URL}/application/themes/proConsult/dist/images/Union.png" alt="union" class="uni1">
+        <img src="${CCM_APPLICATION_URL}/application/themes/proConsult/dist/images/Union.png" alt="union" class="uni2">
           
         `);
         //  setTimeout(() => {
