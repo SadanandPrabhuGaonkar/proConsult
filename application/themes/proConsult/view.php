@@ -53,7 +53,7 @@ $pgtemplate = $page->getPageTemplateHandle();
         <path d="M1 1.29883L13.7007 13.9995" stroke="white" stroke-width="2" stroke-linecap="round"/>
         </svg></a>
             <div class="search-btn-input">
-            <form action="">
+            <form method="get" action="<?= View::url('/search-result'); ?>">
                             <input type="text" name="keywords" placeholder="Type in your keyword">
                             <button>
                                 Search
