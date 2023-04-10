@@ -14,7 +14,6 @@ export default class SearchListing {
     }
 
     bindEvents = () => {
-        if (this.keywords) url.searchParams.append(this.name,this.value);
         this.keywords.on('keyup', this.delayLoad);
         this.loadBtn.on('click', this.loadMore);
         // this.document.ready(this.checkKeyword);
