@@ -1,4 +1,6 @@
 <?php defined('C5_EXECUTE') or die("Access Denied.");
+$themePath = $this->getThemePath();
+
 use Concrete\Core\View\View;
 $th           = Loader::helper('text');
 
@@ -27,8 +29,8 @@ $keywords     = $th->entities($th->sanitize($_GET['keywords']));
     <section class="services common-padding">
    
     <div class="service-details search--list">
-    <img src="/proConsult/application/themes/proConsult/dist/images/Union.png" alt="union" class="uni1">
-    <img src="/proConsult/application/themes/proConsult/dist/images/Union.png" alt="union" class="uni2">
+    <img src="<?php echo $themePath; ?>/dist/images/Union.png" alt="union" class="uni1">
+    <img src="<?php echo $themePath; ?>/dist/images/Union.png" alt="union" class="uni2">
       
       <?php foreach ($searchResults as $searchResult) {
               View::element('search', ['searchResult' => $searchResult, 'ih' => $ih, 'themePath' => $themePath]);
