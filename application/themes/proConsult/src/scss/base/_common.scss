@@ -647,6 +647,8 @@ footer{
       padding-bottom: 40px;
     }
     .logo{
+      width: 64px;
+      height: 64px;
       @include breakpoint(767){
         margin-bottom: 40px;
         margin-left: -10px;
@@ -864,6 +866,7 @@ div.ccm-area-footer{
 
 
 .whatsapp{
+  border: 1px solid #ffffff;
   display: block;
   position: fixed;
   top: auto;
@@ -878,8 +881,19 @@ div.ccm-area-footer{
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  @include breakpoint(767){
-    left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  @include breakpoint(1024){
+    font-size: 12px;
+  }
+  &:hover{
+    color: #ffffff;
+  }
+  @include breakpoint(1024){
     width: 80px;
     height: 80px;
   }

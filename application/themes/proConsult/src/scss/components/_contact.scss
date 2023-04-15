@@ -120,13 +120,32 @@
 
 
 .myContactForm{
+    .description-4{
+        label{
+            transform: none !important;
+            top: 20px !important;
+        }
+    }
     .element{
         margin-bottom: 10px;
+        &.active{
+            label{
+                display: none;
+            }
+        }
+        label{
+            font-size: 16px;
+            color: gray;  
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: block;
+        }
         .input{
             input, textarea{
                 font-size: 16px;
                 padding: 28px 0px 28px 20px;
-                color: gray;
+                color: #000000;
                 border-bottom: none;
             }
             textarea{
@@ -194,7 +213,11 @@
 
 .select2-selection__rendered{
     padding-left: 20px !important;
-    color: gray !important;
+    color: #000000 !important;
+    font-size: 16px !important;
+    &.first{
+        color: gray !important;
+    }
 }
 
 .select2-search{
@@ -206,4 +229,13 @@
 }
 .select2-results__option{
     padding-left: 20px !important; 
+}
+
+.select2-results__options{
+    border-top: 0.5px solid #aaa;
+    li{
+        &:nth-child(1){
+            display: none !important;
+        }
+    }
 }

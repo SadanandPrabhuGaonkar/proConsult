@@ -164,7 +164,13 @@
 
 .what_we_offer{
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    p{
+        strong{
+            color: #263790 !important;
+        }
+    }
     ul{
         li{
             font-size: 18px;
@@ -190,10 +196,8 @@
         align-items: center;
     }
     .left_div{
-        width: 45%;
-        @include breakpoint(1024){
             width: 100%;
-        }
+            text-align: center;
         h3{
             margin-bottom: 20px;
         }
@@ -243,13 +247,7 @@
         }
     }
     .right_div{
-        width: 50%;
-        margin-left: 5%;
-        @include breakpoint(1024){
             width: 100%;
-            margin-left: 0px;
-            margin-bottom: 40px;
-        }
         img{
             width: 100%;
         }
@@ -260,23 +258,13 @@
 .service-quality{
     .service-details{
         .card{
-            width: 45%;
             padding: 50px;
             background-color: #263790;
             display: flex;
             flex-direction: column;
             justify-content: center;
             margin-top: 40px;
-            @include breakpoint(1024){
-                padding: 25px;
-                width: 100%;
-            }
-            &:nth-child(2n + 1){
-                margin-right: 10%;
-                @include breakpoint(1024){
-                    margin-right: 0px;
-                }
-            }
+            width: 100%;
             p{
                 color: #FFFFFF;
                 line-height: 150%;
@@ -343,25 +331,9 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
-                    margin-right: 75px;
-                    width: calc(33% - 50px);
                     margin-top: 35px;
-                    @include breakpoint(1200){
-                        width: calc(50% - 25px);
-                        margin-right: 50px;
-                        &:nth-child(even){
-                            margin-right: 0px;
-                        }
-                    }
-                    @include breakpoint(767){
                         width: 100%;
                         margin-right: 0px;
-                    }
-                    @include min-breakpoint(1201){
-                        &:nth-child(3n + 3){
-                            margin-right: 0px;
-                        }
-                    }
                     img{
                         width: 64px;
                         height: 64px;
@@ -494,6 +466,23 @@ div#ccm-panel-add-block div.ccm-panel-add-block-set header{
     z-index: -1;
 }
 
+.popup-bg{
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: -50%;
+    transition: 0.5s;
+    width: 50%;
+    z-index: 101;
+    background: transparent;
+    @include breakpoint(1024){
+        display: none;
+    }
+    &.active{
+        left: 0;
+    }
+}
+
 .popup{
     position: fixed;
     height: 100vh;
@@ -502,8 +491,8 @@ div#ccm-panel-add-block div.ccm-panel-add-block-set header{
     right: -50%;
     transition: 0.5s;
     width: 50%;
-    z-index: 100;
-    background: #E0E0E0;
+    z-index: 101;
+    background: #263790;
     @include breakpoint(1024){
         right: -100%;
         width: 100%;
@@ -516,6 +505,34 @@ div#ccm-panel-add-block div.ccm-panel-add-block-set header{
         overflow: auto;
         padding: 60px 30px;
         height: 100%;
+        h3 , p, a{
+            color: #FFFFFF;
+        }
+        #ff_buttons{
+            width: 100%;
+            padding: 0px;
+            margin-top: 20px;
+            text-align: right;
+            input{
+                border-radius: 0px;
+                padding: 0px;
+                text-transform: capitalize;
+                height: 50px;
+                background: #ffffff;
+                border: 1px solid transparent;
+                font-size: 14px;
+                color: #263790;
+                transition: 0.3s;
+                width: 100%;
+                @include min-breakpoint(1025){
+                    &:hover{
+                        background: transparent;
+                        border: 1px solid #ffffff;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
         .close-popup{
             position: absolute;
             top: 30px;
@@ -526,17 +543,23 @@ div#ccm-panel-add-block div.ccm-panel-add-block-set header{
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #263790;
+            background-color: #ffffff;
             border-radius: 50%;
             transition: 0.3s;
             border: 1px solid #263790;
+            svg{
+                path{
+                    stroke: #263790;
+                }
+            }
             @include min-breakpoint(1025){
                 &:hover{
                     background-color: transparent;
+                    border: 1px solid #FFFFFF;
                     svg{
                         path{
-                            fill: #263790;
-                            stroke: #263790;
+                            fill: #FFFFFF;
+                            stroke: #ffffff;
                         }
                     }
                 }

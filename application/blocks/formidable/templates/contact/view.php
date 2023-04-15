@@ -136,7 +136,7 @@
                             <div class="element">
                                 <div class="label-hidden"></div>
                                 <div id="ff_buttons" class="buttons col-sm-9">
-                                    <?php echo Core::make('helper/form')->submit('btnSubmit_'.$f->getFormID(), t('Send'), array(), 'submit btn btn-success button button-violet-dark captcha--buttons'); ?>
+                                    <?php echo Core::make('helper/form')->submit('btnSubmit_'.$f->getFormID(), t('CONTACT ME'), array(), 'submit btn btn-success button button-violet-dark captcha--buttons'); ?>
                                     <div class="please_wait_loader"><img src="<?php echo BASE_URL ?>/packages/formidable_full/images/loader.gif" alt="<?php echo t('Please wait...'); ?>"></div>
                                 </div>
                             </div>

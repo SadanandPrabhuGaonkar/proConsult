@@ -12,6 +12,7 @@
     <p><?php echo $desc_1; ?></p>
     </div>
     <?php } ?>
+    <?php if (!empty($points_items)) { ?>
     <div class="swiper-container slider whatWeDoSlider">
         <div class="swiper-btns fadeup">
           <div class="swiper-pagination"></div>
@@ -23,7 +24,6 @@
           </div>
         </div>
         <div class="swiper-wrapper fadeup">
-        <?php if (!empty($points_items)) { ?>
     <?php foreach ($points_items as $points_item_key => $points_item) { ?>
         <?php if (isset($points_item["txtpoint"]) && trim($points_item["txtpoint"]) != "") { ?>
             <div class="swiper-slide">
@@ -34,15 +34,16 @@
                 <p><?php echo h($points_item["txtpoint"]); ?></p>
             </div>
 
-            <?php } ?><?php } ?><?php } ?>
+            <?php } ?><?php } ?>
         </div>
     </div>
-  </div>
-  <div class="right_div reveal">
-  <?php if ($image) { ?>
-    <img src="<?php echo $image->getURL(); ?>" alt="<?php echo h($title); ?>"/>
     <?php } ?>
   </div>
+  <?php if ($image) { ?>
+  <div class="right_div reveal">
+    <img src="<?php echo $image->getURL(); ?>" alt="<?php echo h($title); ?>"/>
+  </div>
+  <?php } ?>
 </section>
 
 

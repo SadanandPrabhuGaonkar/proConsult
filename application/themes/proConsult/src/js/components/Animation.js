@@ -459,12 +459,12 @@ export default class Animation {
 
       //other
       $('.whatsapp').click(function() {
-        $('.popup, body, main, .whatsapp').addClass('active');
+        $('.popup, body, main, .whatsapp, .popup-bg').addClass('active');
         $('main').addClass('up');
       });
     
-      $('.close-popup').click(function() {
-        $('.popup, body, main, .whatsapp').removeClass('active');
+      $('.close-popup, .popup-bg').click(function() {
+        $('.popup, .popup-bg, body, main, .whatsapp').removeClass('active');
         $('header').removeClass('light');
         $('main').removeClass('up');
       });
@@ -472,7 +472,7 @@ export default class Animation {
     
       $('.search').click(function() {
         $('.search-main, body, main, .whatsapp').addClass('active');
-        $('.popup').removeClass('active');
+        $('.popup, .popup-bg').removeClass('active');
       });
     
       $('.close-search').click(function() {

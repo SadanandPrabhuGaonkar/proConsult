@@ -10,6 +10,7 @@ $pgtemplate = $page->getPageTemplateHandle();
 
 <main>
 <?php if($pgtemplate != "contact") { ?>
+    <div class="popup-bg"></div>
     <div class="popup">
         <div class="popup-under">
         <a class="close-popup"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,16 +26,13 @@ $pgtemplate = $page->getPageTemplateHandle();
         <path d="M1 1.29883L13.7007 13.9995" stroke="white" stroke-width="2" stroke-linecap="round"/>
         </svg></a>
         <h3>Get in touch!</h3>
-        <p>We’d love to hear from you. Do you want to receive a free quote or questions about our products?
+        <p>We’d love to hear from you. Do you have any questions about our serivces?
         E-mail :proconsult@co.in or call :+917218386120</p>
         <?php $stack = Stack::getByName('Contact Form'); $stack && $stack->display(); ?>
         </div>
     </div>
     <a class="whatsapp fade-up-anim" id="whatsappBtn">
-            <div>
-            <img src="<?php echo $themePath; ?>/dist/images/call-text.svg" class="w_text" alt="whatsapp">
-            <img src="<?php echo $themePath; ?>/dist/images/call.svg" class="w_logo" alt="whatsapp">
-            </div>
+        Contact me
     </a>
     <?php } ?>
     <div class="search-main">

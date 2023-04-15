@@ -28,6 +28,18 @@ export default new (class App {
       }
     }, {passive: true});
 
+    $(document).ready(function() {
+      setTimeout(() => {
+        if ($('#select2-type-of-service-8-container').attr('title') === 'Type of Service') {
+          $('#select2-type-of-service-8-container').addClass('first');
+        }
+      }, 1000);
+    
+      $('#type-of-service-8').on('change', function() {
+        $('#select2-type-of-service-8-container').removeClass('first');
+      });
+    });
+
     this.window.on('beforeunload', () => {
       $('.init-overlay').fadeIn(500);
     });
