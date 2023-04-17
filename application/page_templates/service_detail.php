@@ -2,8 +2,6 @@
 
 $site = Config::get('concrete.site');
 $themePath = $this->getThemePath();
-$this->inc('includes/banner.php'); 
-
 ?>
 
 <?php $a = new Area("Service Content Area"); $a->display($c); ?>

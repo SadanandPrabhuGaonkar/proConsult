@@ -4,7 +4,7 @@ export default class Sliders {
     constructor() {
       this.heroSlider = ".bannerSlider";
       this.whatWeOfferSlider = ".what_we_offer";
-      this.coreValuesSlider = ".corevalues";
+      this.BannerSlider = ".bannerSliderInner";
       this.bindEvents();
     }
   
@@ -15,9 +15,9 @@ export default class Sliders {
       if (document.querySelectorAll(this.whatWeOfferSlider).length) {
         this.whatWeOfferInit();
       }
-      // if (document.querySelectorAll(this.coreValuesSlider).length) {
-      //   this.coreValuesInit();
-      // }
+      if (document.querySelectorAll(this.BannerSlider).length) {
+        this.BannerSliderInit();
+      }
     };
   
     heroSliderInit = () => {
@@ -60,26 +60,18 @@ export default class Sliders {
 
   };
 
-  coreValuesInit = () => {
-
-    var coreValues = new Swiper ('.coreValuesSlider', {
+  BannerSliderInit = () => {
+    var bannerSliderMain = new Swiper ('.bannerSliderInner', {
       slidesPerView: 1,
-      navigation: {
-        nextEl: ".title .swiper-button-next",
-        prevEl: ".title .swiper-button-prev",
+      loop: true,
+      speed: 1000,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
       },
-      breakpoints: {
-       767: {
-        slidesPerView: 2,
-        spaceBetween: 40,
-        },
-        1200: {
-          slidesPerView: 3,
-          spaceBetween: 70,
-        },
-      },
+      effect: 'fade',
       });
-
   };
 
   }
+

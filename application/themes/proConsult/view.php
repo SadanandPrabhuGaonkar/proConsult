@@ -27,7 +27,7 @@ $pgtemplate = $page->getPageTemplateHandle();
         </svg></a>
         <h3>Get in touch!</h3>
         <p>We’d love to hear from you. Do you have any questions about our serivces?
-        E-mail :proconsult@co.in or call :+917218386120</p>
+        E-mail :info@proconsult.co.in or call :+917218386120</p>
         <?php $stack = Stack::getByName('Contact Form'); $stack && $stack->display(); ?>
         </div>
     </div>

@@ -18,6 +18,7 @@ export default class Animation {
       this.HeaderAnim = "header";
       this.whatsappRotation = ".whatsapp";
       this.Tabs = ".tabs";
+      this.ProConsultHightlight = ".services";
       const Timer = setInterval(()=>{
         if($(".init-overlay").hasClass('loaded')){
             this.bindEvents();
@@ -27,6 +28,9 @@ export default class Animation {
     }
   
     bindEvents = () => {
+      if (document.querySelectorAll(this.ProConsultHightlight).length) {
+        this.ProConsultHightlightInit();
+      }
       if (document.querySelectorAll(this.MarqeeAnimation).length) {
         this.MarqeeAnimationInit();
       }
@@ -156,6 +160,14 @@ export default class Animation {
         hoverMouse($(".whatsapp"));
       }
     }
+
+    ProConsultHightlightInit = () => {
+      $(document).ready(function() {
+        $('.services p').html(function() {
+          return $(this).html().replace(/(PROCONSULT|proConsult|ProConsults|proconsult|ProConsult|)/g, '<strong class="blue-color-text">$1</strong>');
+        });
+      });
+    };
   
     MarqeeAnimationInit = () => {
 
