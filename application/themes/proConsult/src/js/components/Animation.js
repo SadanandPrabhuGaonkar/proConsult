@@ -18,7 +18,7 @@ export default class Animation {
       this.HeaderAnim = "header";
       this.whatsappRotation = ".whatsapp";
       this.Tabs = ".tabs";
-      this.ProConsultHightlight = ".services";
+      this.ProConsultHightlight = ".services, .simple-text";
       const Timer = setInterval(()=>{
         if($(".init-overlay").hasClass('loaded')){
             this.bindEvents();
@@ -162,6 +162,14 @@ export default class Animation {
     }
 
     ProConsultHightlightInit = () => {
+
+      
+      $(document).ready(function() {
+        $('.simple-text p').html(function() {
+          return $(this).html().replace(/(PROCONSULT|proConsult|ProConsults|proconsult|ProConsult|)/g, '<strong>$1</strong>');
+        });
+      });
+
       $(document).ready(function() {
         $('.services p').html(function() {
           return $(this).html().replace(/(PROCONSULT|proConsult|ProConsults|proconsult|ProConsult|)/g, '<strong class="blue-color-text">$1</strong>');

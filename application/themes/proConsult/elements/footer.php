@@ -18,7 +18,7 @@
             </a>
         </div>
         <div class="row-2">
-            <p>Copyright © <?php echo date("Y"); ?> ProConsult</p>
+            <p>Copyright © <?php echo date("Y"); ?> <strong class="blue-color-text">ProConsult</strong></p>
         </div>
     </div>
 </footer>
