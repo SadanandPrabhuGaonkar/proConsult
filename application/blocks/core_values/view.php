@@ -36,7 +36,7 @@ $themePath = $this->getThemePath();
                 <h3><?php echo h($slides_item["title"]); ?></h3>
                 <?php } ?>
                 <?php if (isset($slides_item["desc_1"]) && trim($slides_item["desc_1"]) != "") { ?>
-                <p><?php echo h($slides_item["desc_1"]); ?></p>
+                <p><?php echo ($slides_item["desc_1"]); ?></p>
                 <?php } ?>
             </div>
             </div>

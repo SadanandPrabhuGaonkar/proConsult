@@ -95,10 +95,11 @@
                 .content{
                     position: absolute;
                     width: 100%;
-                    height: fit-content;
+                    height: auto;
                     padding: 30px;
                     background-color: #ffffff;
-                    transition: 0.5s;
+                    transition: 0.3s ease;
+                    // transition: transform 0.5s ease;
                     left: 0;
                     top: auto;
                     bottom: -100%;

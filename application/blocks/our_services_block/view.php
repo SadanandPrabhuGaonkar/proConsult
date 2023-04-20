@@ -34,7 +34,7 @@ $themePath = $this->getThemePath();
             <img src="<?php echo $services_item["img"]->getURL(); ?>" alt="<?php echo $services_item["img"]->getTitle(); ?>"/><?php } ?>
             <div class="content">
             <?php if (isset($services_item["descservice"]) && trim($services_item["descservice"]) != "") { ?>
-                <p><?php echo h($services_item["descservice"]); ?></p>
+                <p><?php echo ($services_item["descservice"]); ?></p>
                 <?php } ?>
             </div>
             </div>

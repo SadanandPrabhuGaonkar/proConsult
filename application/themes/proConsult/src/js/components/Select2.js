@@ -23,7 +23,7 @@ export default class Select2 {
       $('#type-of-service-8').select2({
         dropdownParent: $('#type-of-service-8').parent(),
         dropdownPosition: 'below',
-        placeholder: 'Select an option'
+        placeholder: 'Select an option *'
       });
   };
 }

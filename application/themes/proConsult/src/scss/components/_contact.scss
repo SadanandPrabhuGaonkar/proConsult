@@ -1,5 +1,7 @@
 .contact_us{
     display: flex;
+    background: #263790;
+    border-top: 1px solid #ffffff;
     @include breakpoint(767){
         flex-direction: column;
     }
@@ -13,6 +15,9 @@
             width: 100%;
             padding-right: 0px;
             margin-bottom: 40px;
+        }
+        h3,p,a,h4{
+            color: #ffffff;
         }
         h3{
             margin-bottom: 20px;
@@ -28,6 +33,9 @@
                 transition: 0.3s;
                 &:hover{
                     color: #263790;
+                }
+                span{
+                    filter: brightness(0) invert(1); 
                 }
             }
         }
@@ -180,17 +188,17 @@
             padding: 0px;
             text-transform: capitalize;
             height: 50px;
-            background: #263790;
-            border: 1px solid transparent;
             font-size: 14px;
+            border: 1px solid #ffffff;
             color: #ffffff;
+            background: #263790;
             transition: 0.3s;
             width: 100%;
             @include min-breakpoint(1025){
                 &:hover{
-                    background: transparent;
-                    border: 1px solid #263790;
+                    border: 1px solid #ffffff;
                     color: #263790;
+                    background: #ffffff;
                 }
             }
         }
@@ -220,8 +228,33 @@
     }
 }
 
-.select2-search{
-    display: none !important;
+.select2-selection{
+    border-radius: 0px !important;
+}
+
+.select2-search__field{
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    height: 42px !important;
+    border-radius: 0px !important;
+    min-height: unset !important;
+    padding: 9px 0px !important;
+    position: relative;
+    &::before{
+        content: '*';
+        color: #F50000;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    &::placeholder{
+        color: #2d2d2dc0;
+        font-size: 16px;
+    }
+}
+
+.required{
+    color: #2d2d2dc0 !important;
 }
 
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable{
@@ -238,4 +271,13 @@
             display: none !important;
         }
     }
+}
+
+
+.select2-selection--multiple{
+    padding-left: 20px !important;
+    border: none !important;
+}
+.select2-selection__rendered{
+    padding-left: 0px !important;
 }

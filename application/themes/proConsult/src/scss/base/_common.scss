@@ -31,7 +31,7 @@
 
 #gotoTop {
   position: fixed;
-  right: 10px;
+  left: 4.3%;
   bottom: 60px;
   width: 40px;
   height: 40px;
@@ -99,7 +99,7 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   @include transition(all 0.4s ease);
   &.light{
-    background-color: #ffffff;
+    background: #cfe0f1;
     .common-padding-side{
       .header-inner{
         .logo{
@@ -227,7 +227,7 @@ header {
               position: absolute;
               width: 100%;
               left: 0;
-              background: white;
+              background: #cfe0f1;
               height: 480px;
               z-index: -1;
               top: -480px;
@@ -414,7 +414,7 @@ header {
   right: 0;
   top: $header-height -1px;
   width: 100%;
-  background: #ffffff;
+  background: #cfe0f1;
   z-index: 90;
   @include transform(translateX(120%));
   @include transition(transform 500ms $transitionEffect);
@@ -627,7 +627,6 @@ main{
 
 
 footer{
-  background-color: #ffffff;
   position: relative;
   z-index: 3;
   .common-padding-side{
@@ -874,7 +873,8 @@ div.ccm-area-footer{
   position: fixed;
   top: auto;
   bottom: 50px;
-  left: 4.3%;
+  left: auto;
+  right: 4.3%;
   z-index: 55;
   transition: 0.3s ease;
   opacity: 1;
