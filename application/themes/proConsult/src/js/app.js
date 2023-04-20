@@ -110,6 +110,7 @@ export default new (class App {
   };
 
   bindEvents = () => {
+  
     // Window Events
     this.window.resize(this.windowResize).scroll(this.windowScroll);
 

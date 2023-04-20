@@ -47,7 +47,17 @@ class Invisiblecaptcha extends Element {
 								js.setAttribute("defer", "");
 								js.src = "https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit";
 								var initializedCaptcha = 0;
-															
+
+								$(document).on("click", "#whatsappBtn", function () {
+									setTimeout(function() {
+											if(!initializedCaptcha){
+													head.appendChild(js);
+													initializedCaptcha = 1;
+													console.log("clicked");
+											}
+									},100);
+								})
+
 								$(window).on("scroll load", function() {
 								    setTimeout(function() {
 								        if($(".formidable").hasClass("formInview")) {
