@@ -98,18 +98,21 @@ header {
   background: transparent;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   @include transition(all 0.4s ease);
+  @include breakpoint(1024){
+    height: 105px;
+  }
   &.light{
     background: #cfe0f1;
     .common-padding-side{
       .header-inner{
-        .logo{
-          height: $header-height - 1px;
-          width: 95px;
-          img{
-            height: 85px;
-            width: 90px;
-          }
-        }
+        // .logo{
+        //   height: $header-height - 1px;
+        //   width: 95px;
+        //   img{
+        //     height: 85px;
+        //     width: 90px;
+        //   }
+        // }
       }
     }
   }
@@ -152,7 +155,7 @@ header {
       }
     }
     .mobile{
-      height: $header-height;
+      height: 105px;
       display: flex;
       align-items: center;
       .search{
@@ -228,14 +231,14 @@ header {
               width: 100%;
               left: 0;
               background: #cfe0f1;
-              height: 480px;
+              height: 580px;
               z-index: -1;
-              top: -480px;
+              top: -580px;
               margin: 0px;
               transition: 0.5s;
               padding: 0px 7%;
               flex-wrap: wrap;
-              padding-top: 120px;
+              padding-top: 170px;
               padding-bottom: 100px;
               &.active{
                 top: 0;
@@ -296,7 +299,6 @@ header {
     .logo{
       width: 186px;
       height: 148px;
-      background: #ffffff;
       text-align: center;
       transition: 0.3s;
       @include breakpoint(1024){
@@ -312,19 +314,7 @@ header {
   }
   &.top {
     top: -$header-height - 10px;
-    background: #ffffff;
-    .common-padding-side{
-      .header-inner{
-        .logo{
-          height: $header-height - 1px;
-          width: 95px;
-          img{
-            height: 85px;
-            width: 100%;
-          }
-        }
-      }
-    }
+    background: #cfe0f1;
   }
   &.sticky {
     top: 0px !important;
@@ -428,7 +418,7 @@ header {
     height: 100%;
     display: flex;
     align-items: flex-start;
-    padding-top: 80px;
+    padding-top: 40px;
     .mobile-bg{
       position: absolute;
       opacity: 0.2;
@@ -503,6 +493,9 @@ main{
   transition: 0.3s;
   background-image: none;
   position: relative;
+  @include breakpoint(767){
+    margin-top: 105px;
+  }
   &.up{
     &::before{
       margin-top: -95px;
