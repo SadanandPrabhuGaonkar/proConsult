@@ -9,7 +9,9 @@
 <footer>
     <div class="common-padding-side">
         <div class="row-1">
+        <a href="<?php echo View::url('/'); ?>" >
             <img class="logo" src="<?php echo $themePath; ?>/dist/images/logo.svg" alt="<?php echo $site; ?>"/>
+        </a>
             <div class="links">
                 <?php $stack = Stack::getByName('Footer Links'); $stack && $stack->display(); ?>
             </div>
