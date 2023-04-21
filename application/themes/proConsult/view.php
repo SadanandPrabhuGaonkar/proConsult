@@ -26,7 +26,7 @@ $pgtemplate = $page->getPageTemplateHandle();
         <path d="M1 1.29883L13.7007 13.9995" stroke="white" stroke-width="2" stroke-linecap="round"/>
         </svg></a>
         <h3>Get in touch!</h3>
-        <p>We’d love to hear from you. Do you have any questions about our serivces?
+        <p>We’d love to hear from you. Do you have any questions about our serivces?<br>
         E-mail :info@proconsult.co.in or call :+917218386120</p>
         <?php $stack = Stack::getByName('Contact Form'); $stack && $stack->display(); ?>
         </div>
