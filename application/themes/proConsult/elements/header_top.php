@@ -64,7 +64,7 @@ $site = Config::get('concrete.site');
     // $this->addHeaderItem($htmlHelper->css('css/style.css'));
     // $this->addHeaderItem($htmlHelper->css('css/print.css'));
     ?>
-    <link rel="stylesheet" href="<?php echo $this->getThemePath() . '/dist/css/app.min.css'; ?>">    
+    <link rel="stylesheet" href="<?php echo $this->getThemePath() . '/dist/css/app.min.css?v=1'; ?>">    
     <!-- <link rel="stylesheet" href="<?php echo $this->getThemePath() . '/dist/css/vendors.min.css'; ?>">     -->
     <script>
         if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
