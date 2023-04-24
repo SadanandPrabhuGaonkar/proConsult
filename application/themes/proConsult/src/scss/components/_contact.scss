@@ -32,7 +32,7 @@
                 margin-bottom: 20px;
                 transition: 0.3s;
                 &:hover{
-                    color: #263790;
+                    color: #fff;
                 }
                 span{
                     filter: brightness(0) invert(1); 
@@ -128,6 +128,7 @@
 
 
 .myContactForm{
+    
     .description-4{
         label{
             transform: none !important;
@@ -170,10 +171,10 @@
     }
     p{
         font-size: 12px;
-        font-size: 12px;
+        color: #fff;
     }
     a{
-        color: #263790;
+        color: #fff;
     }
     .please_wait_loader{
         display: none;
