@@ -103,8 +103,10 @@
       .input {
         display: flex;
         align-items: flex-end;
+        flex-wrap: wrap;
         .checkbox {
           margin: 0 20px 0 0;
+          width: 100%;
           label {
             position: static;
             pointer-events: all;
