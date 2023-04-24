@@ -137,6 +137,11 @@
     }
     .element{
         margin-bottom: 10px;
+        h3 {
+            & + p {
+                font-size: 16px
+            }
+        }
         &.active{
             label{
                 display: none;

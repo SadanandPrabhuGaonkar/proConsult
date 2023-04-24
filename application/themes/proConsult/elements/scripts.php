@@ -5,7 +5,7 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
 $htmlHelper = Loader::helper('html');
 ?>
 <script src="<?php //echo $this->getThemePath() . '/dist/js/vendors.min.js'; ?>"></script>
-<script src="<?php echo $this->getThemePath() . '/dist/js/app.min.js?v=1'; ?>"></script>
+<script src="<?php echo $this->getThemePath() . '/dist/js/app.min.js?v=1.1'; ?>"></script>
 
 <!--comment below if you don't need maps-->
 <?php
