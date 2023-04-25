@@ -21,6 +21,7 @@ $themePath = $this->getThemePath();?>
       <span><img src="<?php echo $themePath; ?>/dist/images/email.svg" alt="call"></span>  
       <?php echo h($email); ?></a>
       <?php } ?>
+      <a>Address:<br><br>D1-102, Zion Square, Mapusa, Goa-403507</a>
       </div>
     </div>
     <?php if (isset($linkedin) && trim($linkedin) != "") { ?>
