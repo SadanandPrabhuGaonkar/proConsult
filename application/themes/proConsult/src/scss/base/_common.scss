@@ -642,9 +642,24 @@ footer{
       position: relative;
       padding-bottom: 40px;
     }
+    .left-section {
+      display: flex;
+      flex-direction: column;
+      p {
+        margin-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        & + a {
+          margin-left: 10px;
+          img {
+            width: 20px;
+          }
+        }
+      }
+    }
     .logo{
-      width: 64px;
-      height: 64px;
+      width: 120px;
+      height: 120px;
       @include breakpoint(767){
         margin-bottom: 40px;
         margin-left: -10px;
@@ -652,7 +667,7 @@ footer{
     }
     .links{
       a{
-        font-size: 16px;
+        font-size: 18px;
         position: relative;
         @include min-breakpoint(1025){
           &::before{
@@ -679,21 +694,21 @@ footer{
       }
     }
     .linkedin{
-      width: 64px;
-      text-align: end;
-      @include breakpoint(767){
-        position: absolute;
-        right: 0;
-        top: auto;
-        bottom: 43px;
-      }
+      // width: 64px;
+      // text-align: end;
+      // @include breakpoint(767){
+      //   position: absolute;
+      //   right: 0;
+      //   top: auto;
+      //   bottom: 43px;
+      // }
     }
     }
     .row-2{
       margin-top: 30px;
       text-align: center;
       p{
-        font-size: 11px;
+        font-size: 16px;
       }
     }
   }
@@ -866,7 +881,7 @@ div.ccm-area-footer{
   display: block;
   position: fixed;
   top: auto;
-  bottom: 50px;
+  bottom: 280px;
   left: auto;
   right: 4.3%;
   z-index: 55;

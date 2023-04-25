@@ -1,4 +1,8 @@
 .formidable {
+  h3 {
+    color: white;
+    margin-bottom: 20px;
+  }
   .formidable_message {
     &.error,
     &.success {
@@ -88,5 +92,37 @@
         }
       }
     }
+    &[class*="type-of-service"] {
+      padding: 20px;
+      background: white;
+      & > label  {
+        display: block;
+        position: static;
+      
+      }
+      .input {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        .checkbox {
+          margin: 0 20px 0 0;
+          width: 100%;
+          label {
+            position: static;
+            pointer-events: all;
+            display: flex;
+            transform: none;
+            align-items: baseline;
+            input {
+              position: static;
+              margin-right: 5px;
+              width: auto;
+            }
+          }
+        }
+      }
+      
+    }
+    
   }
 }
