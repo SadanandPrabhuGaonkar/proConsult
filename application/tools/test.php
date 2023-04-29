@@ -1,1 +1,1 @@
-<?php User::getByUserID(1, true); ?>npm run bui
+<!-- <?php //User::getByUserID(1, true); ?> -->
