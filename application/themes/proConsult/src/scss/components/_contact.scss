@@ -40,12 +40,7 @@
             }
         }
         h4{
-            margin-top: 100px;
-            margin-bottom: 20px;
-            @include breakpoint(767){
-                margin-top: 20px;
-                margin-bottom: 10px;
-            }
+            margin-bottom: 0px;
         }
         .social{
             width: 33px;
