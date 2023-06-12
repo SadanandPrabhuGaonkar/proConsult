@@ -47,7 +47,7 @@ $site = Config::get('concrete.site');
     <meta name="twitter:image" content="<?php echo BASE_URL . $this->getThemePath(); ?>/images/logo.jpg">
     <meta name="twitter:description" content="<?php echo $page->getCollectionDescription(); ?>">
     <meta name="twitter:card" content="summary_large_image"/>
-
+<meta name="keywords" content="proconsult, procurement services, sourcing solutions, project procurement, quality management systems, E-transformation, integrated procurement, business solutions, sustainable results, value for money, collaborative partnership, functional structure, ISBTian, Indian company, first-class services, Procurement and Sourcing expertise, Project Management services, QMS implementation, E-transformation projects, value creation">
     <?php
     //print core cms files
     $metaTitle = $c->getAttribute('meta_title');
